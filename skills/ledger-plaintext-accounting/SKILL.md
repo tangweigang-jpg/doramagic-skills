@@ -1,7 +1,7 @@
 ---
 name: ledger-plaintext-accounting
 description: |-
-  Crystal skill compiled from finance-bp-073 (accounting on global).
+  通过字节码驱动的复式记账引擎，支持多币种账户余额实时查询和资金来源的FIFO分配追踪。触发场景：(1) 用户要记录链上或交易所交易流水并做复式记账；(2) 用户要查询某个地址或账户的实时余额与资金来源；(3) 用户要精确追踪多笔入金的分配去向并防止双重支出。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

@@ -1,7 +1,9 @@
 ---
 name: alphalens-factor-analysis
 description: |-
-  Crystal skill compiled from finance-bp-120 (backtesting, factor-research on multi-market). Triggers: event, study, threshold, crossing, price, intraday, sector, classification.
+  分析alpha因子的预测能力与前向收益特征，生成分组收益、IC、换手率等报告，辅助量化策略的因子研究与事件分析。
+  
+  触发场景：(1) 用户要分析某个因子是否有效，想看IC序列、分组收益和换手率曲线；(2) 用户要做事件研究，想看特定事件（如价格突破）发生后的前向收益分布；(3) 用户要用 Alphalens 生成因子分析的可视化报告。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

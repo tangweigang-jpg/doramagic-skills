@@ -1,7 +1,7 @@
 ---
 name: vectorbt-vectorized
 description: |-
-  Crystal skill compiled from finance-bp-092 (backtesting, factor-research on multi-market). Triggers: api, generate, markdown, navigation, update, structure, bitcoin, BTC.
+  基于 VectorBT 框架的向量化回测与因子研究工具，支持多市场数据批量回测、策略参数优化和统计套利分析。触发场景：(1) 用户要回测 MACD 金叉死叉策略在加密货币上的表现；(2) 用户要对交易策略做多参数网格优化；(3) 用户要做多币种或跨市场的统计套利研究。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

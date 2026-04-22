@@ -1,7 +1,9 @@
 ---
 name: finrl-meta-envs
 description: |-
-  Crystal skill compiled from finance-bp-116 (backtesting, factor-research on multi-market). Triggers: paper trading, PPO agent, Alpaca, automated trading, live execution, portfolio optimization, Markowitz, mean-variance.
+  提供多市场金融强化学习环境，支持PPO/DQN等DRL算法回测、Markowitz组合优化与实时模拟交易，适配Alpaca等券商接口。
+  
+  触发场景：(1) 用户要训练PPO强化学习模型做量化交易并在历史数据上回测；(2) 用户要对多只股票或资产做组合优化、平衡收益与风险；(3) 用户要连接Alpaca等券商API做模拟实盘验证策略效果。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

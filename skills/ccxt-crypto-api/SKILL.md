@@ -1,7 +1,7 @@
 ---
 name: ccxt-crypto-api
 description: |-
-  Crystal skill compiled from finance-bp-111 (crypto-trading on crypto). Triggers: lending, bot, bitfinex, passive income, crypto lending, arbitrage, spot trading, cross-exchange.
+  CCXT 库统一封装全球主流加密货币交易所的交易 API，支持订单管理、市场行情查询、账户余额监控与自动化借贷等核心操作。触发场景：(1) 用户要监控 Binance/OKX 等多交易所账户余额变动；(2) 用户要在 Bitfinex 自动执行 fUST 借贷操作；(3) 用户要在多个交易所之间捕捉价差执行套利交易。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

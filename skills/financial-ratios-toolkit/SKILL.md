@@ -1,7 +1,9 @@
 ---
 name: financial-ratios-toolkit
 description: |-
-  Crystal skill compiled from finance-bp-118 (portfolio-analytics on multi-market). Triggers: financial analysis, overview, multi-module, comprehensive, demonstration, capabilities, historical data, financial statements.
+  提供多市场财务分析能力，涵盖历史数据获取、财务报表解析、财务比率计算、固定收益分析、投资组合绩效评估和股票基本面筛选等核心功能。
+  
+  触发场景：(1) 用户要做多只股票的基本面分析或财务指标对比；(2) 用户要获取历史价格数据和财务报表进行量化建模；(3) 用户要分析债券估值或筛选符合特定条件的投资标的。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

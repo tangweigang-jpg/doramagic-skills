@@ -1,6 +1,6 @@
 {
   "name": "climate-esg-investing",
-  "description": "Crystal skill compiled from finance-bp-105 (macro-data on global). Triggers: sector composition, significant regression, p-value screening, stock sectors, factor analysis, factor correlation, correlation matrix, factor relationships.",
+  "description": "使用Fama-French因子模型进行气候ESG投资分析，支持月度股价数据下载、因子相关性计算、OLS回归诊断及显著性筛选，帮助用户构建因子组合和风险评估。触发场景：(1) 用户要做Fama-French因子回归分析；(2) 用户要计算因子间相关性并检验多重共线性；(3) 用户要下载指数成分股月度数据并做显著性筛选。",
   "version": "0.1.0",
   "skills": [
     "../../skills/climate-esg-investing"

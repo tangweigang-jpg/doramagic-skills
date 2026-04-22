@@ -1,7 +1,7 @@
 ---
 name: stock-screener
 description: |-
-  Crystal skill compiled from finance-bp-082 (finance-analytics on unspecified). Triggers: api, start, bootstrap, application, cli, twitter, xui, authenticate.
+  使用7种技术形态检测器（杯柄、三周紧绑、高紧旗、VCP、NR7等）按确定性顺序扫描股票池，支持跨检测器评分校准与置信度聚合排序。触发场景：(1) 用户要找出现杯柄形态或VCP形态的股票；(2) 用户要对一批股票执行批量形态扫描；(3) 用户要发现突破关键形态的标的以辅助买入决策。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

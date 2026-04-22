@@ -1,7 +1,7 @@
 ---
 name: opensanctions-watchlist
 description: |-
-  Crystal skill compiled from finance-bp-071 (regtech-compliance on global). Triggers: crawl, extract, load, scrape, fetch data, wikidata, update, review.
+  自动化爬取、清洗、加载全球制裁名单与实体数据，支持 Wikidata 更新审查、实体交叉引用去重和归档版本管理。触发场景：(1) 用户要查询和分析制裁名单数据；(2) 用户要对目标实体进行去重和交叉匹配；(3) 用户要批量加载或更新外部制裁数据到本地数据库。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

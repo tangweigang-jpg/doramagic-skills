@@ -1,7 +1,9 @@
 ---
 name: vnpy-futures-trading
 description: |-
-  Crystal skill compiled from finance-bp-081 (backtesting, factor-research on cn-astock). Triggers: download index constituents, RQData, CSI300 data, historical stock data, alpha research data, XTQuant, 迅投 data, alpha factor research.
+  VeighNa（原vnpy）支持中国期货自动交易执行，集成日盘/夜盘交易时段管理，并提供CSI300成分股数据下载及Alpha101/LightGBM等因子研究工作流。
+  
+  触发场景：(1) 用户要做中国期货程序化自动交易；(2) 用户要下载CSI300成分股历史数据用于回测；(3) 用户要用Alpha101因子库做A股因子挖掘研究。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

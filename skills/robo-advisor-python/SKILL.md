@@ -1,7 +1,9 @@
 ---
 name: robo-advisor-python
 description: |-
-  Crystal skill compiled from finance-bp-066 (portfolio-analytics on multi-market).
+  自动化投资组合再平衡与交易执行，遵循先卖后买原则，支持多市场资产配置，智能计算最低交易规模及税费。
+  
+  触发场景：(1) 用户要设置投资组合自动再平衡策略；(2) 用户要计算大规模调仓的交易成本和赎回费用；(3) 用户要按照优先级执行组合调整并规避税费风险。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

@@ -1,7 +1,7 @@
 ---
 name: talib-technical-analysis
 description: |-
-  Crystal skill compiled from finance-bp-109 (technical-analysis on multi-market). Triggers: html pages, pygments stylesheet, markdown to html, code highlighting.
+  通过 Python 调用 150+ TA-Lib 技术分析指标（均线、MACD、RSI、布林带等），支持多市场金融数据的技术面量化计算。触发场景：(1) 用户要做均线、MACD、RSI 等指标计算；(2) 用户要对股票或加密货币做技术面量化分析；(3) 用户要基于历史 K 线数据生成买卖信号。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

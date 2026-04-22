@@ -1,7 +1,9 @@
 ---
 name: edgar-crawler
 description: |-
-  Crystal skill compiled from finance-bp-114 (data-sourcing on multi-market). Triggers: EDGAR, SEC filings, 10-K extraction, annual report parsing.
+  从 SEC EDGAR 批量抓取上市公司年报（10-K）和季报（10-Q）文件，支持按季度增量更新与本地缓存，适用于美股基本面分析和量化研究数据获取。
+  
+  触发场景：(1) 用户要下载特定公司的10-K年报或10-Q季报；(2) 用户要批量获取一批美股公司的SEC filings用于财务分析；(3) 用户要定期增量更新SEC filings数据库。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

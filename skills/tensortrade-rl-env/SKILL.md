@@ -1,7 +1,7 @@
 ---
 name: tensortrade-rl-env
 description: |-
-  Crystal skill compiled from finance-bp-130 (backtesting, factor-research on multi-market). Triggers: portfolio, wallet, ledger, exchange, multi-exchange, chart, plotly, visualization.
+  提供多市场回测与强化学习交易环境构建能力，支持多交易所钱包组合管理、Plotly交互式交易可视化及RL智能体训练评估。触发场景：(1) 用户要构建加密或金融市场的强化学习交易环境；(2) 用户要回测多交易所组合策略并可视化交易分析；(3) 用户要训练评估自己的RL交易智能体。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

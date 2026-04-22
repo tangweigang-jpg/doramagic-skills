@@ -1,6 +1,6 @@
 {
   "name": "quantlib-derivatives",
-  "description": "Crystal skill compiled from finance-bp-123 (derivatives-pricing on global). Triggers: market element, quote observability, SimpleQuote, reactive pricing, American option, quanto option, FDM pricing, American quanto.",
+  "description": "通过 SWIG 绑定调用 QuantLib 引擎，完成期权、互换、债券等金融衍生品的定价计算，支持美式期权有限差分法和篮子价差期权等多资产策略验证。",
   "version": "0.1.0",
   "skills": [
     "../../skills/quantlib-derivatives"

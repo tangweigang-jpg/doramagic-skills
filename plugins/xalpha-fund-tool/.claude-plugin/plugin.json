@@ -1,6 +1,6 @@
 {
   "name": "xalpha-fund-tool",
-  "description": "Crystal skill compiled from finance-bp-068 (portfolio-analytics on multi-market). Triggers: A份额, C份额, 基金比较, 持有期, 申赎费用, E大, 且慢, 发车记录.",
+  "description": "xalpha 支持多市场基金组合分析，实现 A/C 份额成本比较、可转债估值、组合业绩归因及基金相关性分析。触发场景：(1) 用户要判断买入基金选 A 份额还是 C 份额更划算；(2) 用户要分析且慢等平台上的指数投资组合历史收益和相关性；(3) 用户要查看可转债的纯债价值、期权价值和总价值。",
   "version": "0.1.0",
   "skills": [
     "../../skills/xalpha-fund-tool"

@@ -1,7 +1,7 @@
 ---
 name: aml-data-generator
 description: |-
-  Crystal skill compiled from finance-bp-060 (regtech-compliance on global). Triggers: convert logs, synthetic data, AML simulation, generate transaction logs, split accounts, bank ID, partition data, bank filtering.
+  生成符合AMLSim格式的合成交易数据，将交易日志转换为用于反洗钱检测系统测试的模拟数据集，支持按银行ID分割账户、合并多源输出并生成交易网络图。触发场景：(1) 用户要把CSV交易日志转换成AMLSim模拟数据；(2) 用户要按银行ID分割账户CSV文件；(3) 用户要合并多个AMLSim输出进行综合分析。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

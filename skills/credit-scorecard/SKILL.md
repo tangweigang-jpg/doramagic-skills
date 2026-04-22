@@ -1,7 +1,7 @@
 ---
 name: credit-scorecard
 description: |-
-  Crystal skill compiled from finance-bp-050 (credit-risk on global). Triggers: optimal, supervised, monotonic, constrained, optbinning, merge buckets, automatic binning, decision tree.
+  基于监督学习、决策树或聚类等多种算法，自动为评分卡变量生成最优分箱边界，同时支持单调性约束和缺失值处理。触发场景：(1) 用户要构建信用评分卡，对连续变量进行自动化分箱；(2) 用户要用决策树或聚类方法自动划分变量区间；(3) 用户要在分箱过程中处理缺失值和特殊值。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

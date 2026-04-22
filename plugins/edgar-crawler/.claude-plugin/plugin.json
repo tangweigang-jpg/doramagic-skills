@@ -1,6 +1,6 @@
 {
   "name": "edgar-crawler",
-  "description": "Crystal skill compiled from finance-bp-114 (data-sourcing on multi-market). Triggers: EDGAR, SEC filings, 10-K extraction, annual report parsing.",
+  "description": "从 SEC EDGAR 批量抓取上市公司年报（10-K）和季报（10-Q）文件，支持按季度增量更新与本地缓存，适用于美股基本面分析和量化研究数据获取。",
   "version": "0.1.0",
   "skills": [
     "../../skills/edgar-crawler"

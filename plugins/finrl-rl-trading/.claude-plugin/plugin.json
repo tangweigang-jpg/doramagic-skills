@@ -1,6 +1,6 @@
 {
   "name": "finrl-rl-trading",
-  "description": "Crystal skill compiled from finance-bp-061 (backtesting, factor-research on multi-market). Triggers: ensemble trading, multiple agents, stock trading, deep reinforcement learning, DOW 30, graph neural network, portfolio optimization, GPM.",
+  "description": "Use ensemble deep reinforcement learning (A2C, DDPG, PPO, TD3, SAC) to execute automated multi-market stock trading with backtesting, and optimize portfolios using GNN-based architecture for factor research.",
   "version": "0.1.0",
   "skills": [
     "../../skills/finrl-rl-trading"

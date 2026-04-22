@@ -1,6 +1,6 @@
 {
   "name": "economic-dashboard",
-  "description": "Crystal skill compiled from finance-bp-083 (macro-data on global). Triggers: backup, snapshot, parquet, database backup, compress data, vacuum, optimize, database cleanup.",
+  "description": "提供全球宏观经济数据仪表板视图，支持多源数据本地存储、冷热数据分离存储与自动化刷新调度。触发场景：(1) 用户要查看全球宏观经济指标仪表板，比如各国的GDP、利率和通胀数据；(2) 用户要定时刷新全球市场宏观数据，每天自动更新一次本地数据库；(3) 用户要安全存储多个经济数据源的API密钥，如Wind、Choice的接口凭证。",
   "version": "0.1.0",
   "skills": [
     "../../skills/economic-dashboard"

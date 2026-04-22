@@ -1,6 +1,6 @@
 {
   "name": "akshare-financial-data",
-  "description": "Crystal skill compiled from finance-bp-079 (data-sourcing on cn-astock).",
+  "description": "获取中国 A 股市场实时行情、历史 K 线、财务报表、基金期货等金融数据，支持股票、债券、期权等多品种数据查询。触发场景：(1) 用户要获取某只股票的日线、周线历史数据；(2) 用户要查询股票实时行情和报价；(3) 用户要批量下载多只A股的历史行情进行回测分析。",
   "version": "0.1.0",
   "skills": [
     "../../skills/akshare-financial-data"

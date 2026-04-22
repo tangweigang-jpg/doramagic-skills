@@ -1,7 +1,7 @@
 ---
 name: cryptofeed-ws-feeds
 description: |-
-  Crystal skill compiled from finance-bp-110 (crypto-trading on crypto). Triggers: callback handler, ticker callback, async handler, market data subscription, exchange data, ArcticDB, arctic storage, time series database.
+  实时获取多个加密货币交易所的市场数据流，支持异步回调处理并将交易、行情、订单簿等数据持久化到ArcticDB时序数据库。触发场景：(1) 用户要实时订阅交易所行情数据；(2) 用户要把加密货币交易数据存入时序数据库；(3) 用户要访问Binance等交易所的认证交易接口。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

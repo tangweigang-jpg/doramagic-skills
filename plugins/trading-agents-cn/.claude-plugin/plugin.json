@@ -1,6 +1,6 @@
 {
   "name": "trading-agents-cn",
-  "description": "Crystal skill compiled from finance-bp-099 (backtesting, factor-research on cn-astock). Triggers: llm adapter, openai compatible, custom provider, api integration, batch analysis, multiple stocks, comparison report, portfolio analysis.",
+  "description": "基于 LLM 的 A 股多智能体交易分析框架，支持批量选股对比、回测信号生成和因子研究，自带 OpenAI 兼容 API 适配器模板。触发场景：(1) 用户要批量分析多只 A 股并生成对比报告；(2) 用户要接入自己的模型 API 并控制调用成本；(3) 用户要将多个数据源（Tushare/AKShare/BaoStock）作为回退链获取行情数据。",
   "version": "0.1.0",
   "skills": [
     "../../skills/trading-agents-cn"

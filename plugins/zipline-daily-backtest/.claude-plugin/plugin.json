@@ -1,6 +1,6 @@
 {
   "name": "zipline-daily-backtest",
-  "description": "Crystal skill compiled from finance-bp-088 (backtesting, factor-research on multi-market). Triggers: publish, tutorial, getting started, learn, beginner, notebook, example, buy apple.",
+  "description": "使用 Zipline 框架执行日频股票策略回测，支持多市场数据接入、因子研究、可视化绩效分析，默认本金千万级。",
   "version": "0.1.0",
   "skills": [
     "../../skills/zipline-daily-backtest"

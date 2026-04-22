@@ -1,7 +1,9 @@
 ---
 name: finrl-rl-trading
 description: |-
-  Crystal skill compiled from finance-bp-061 (backtesting, factor-research on multi-market). Triggers: ensemble trading, multiple agents, stock trading, deep reinforcement learning, DOW 30, graph neural network, portfolio optimization, GPM.
+  Use ensemble deep reinforcement learning (A2C, DDPG, PPO, TD3, SAC) to execute automated multi-market stock trading with backtesting, and optimize portfolios using GNN-based architecture for factor research.
+  
+  触发场景：(1) 用户要做多智能体量化交易策略回测；(2) 用户要训练强化学习模型自动交易股票；(3) 用户要构建基于图神经网络的组合优化策略。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

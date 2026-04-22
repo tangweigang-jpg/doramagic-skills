@@ -1,7 +1,7 @@
 ---
 name: lifelines-survival-analysis
 description: |-
-  Crystal skill compiled from finance-bp-126 (insurance-actuarial on global). Triggers: cox residuals, martingale residual, deviance residual, influence diagnosis, model diagnostics, custom parametric model, parametric regression, custom hazard.
+  基于 lifelines 库提供生存分析与 Cox 比例风险建模能力，支持残差诊断、参数化回归模型自定义、时滞转化率分析及比例风险假设检验。触发场景：(1) 用户要做客户流失或贷款违约的时间预测建模；(2) 用户要检验 Cox 模型是否符合比例风险假设并可视化残差；(3) 用户要构建自定义hazard函数的保险精算或信用风险模型。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

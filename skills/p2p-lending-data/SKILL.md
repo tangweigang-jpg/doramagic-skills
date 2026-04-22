@@ -1,7 +1,7 @@
 ---
 name: p2p-lending-data
 description: |-
-  Crystal skill compiled from finance-bp-072 (credit-risk on global). Triggers: master init, loan refund, loan closure, excess amount refund, loan repayment, loan application, loan request, apply for loan.
+  验证 Frappe Lending 贷款模块核心流程，包括贷款申请创建、放款计划生成、还款处理及结清退款的自动化测试能力。触发场景：(1) 用户要测试贷款申请流程能否正确创建草稿贷款并配置利率；(2) 用户要验证放款后还款计划生成及宽限期利息计算；(3) 用户要测试共同贷款伙伴配置下的分成逻辑。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

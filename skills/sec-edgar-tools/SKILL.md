@@ -1,7 +1,9 @@
 ---
 name: sec-edgar-tools
 description: |-
-  Crystal skill compiled from finance-bp-070 (data-sourcing on multi-market). Triggers: sec filings, company lookup, edgar search, find company, ticker search, financials, income statement, balance sheet.
+  从 SEC EDGAR 系统获取和解析公司监管文件，支持 SEC 文件检索、财务报表（10-K/10-Q）提取、内部人交易（Form 4）追踪及机构持仓（13F）分析。
+  
+  触发场景：(1) 用户要查找某家中概股或美股公司在 SEC 的所有披露文件；(2) 用户要追踪某公司高管的买卖交易记录；(3) 用户要获取某机构投资者的最新季度持仓明细。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

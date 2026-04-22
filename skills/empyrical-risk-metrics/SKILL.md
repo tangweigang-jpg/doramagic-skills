@@ -1,7 +1,9 @@
 ---
 name: empyrical-risk-metrics
 description: |-
-  Crystal skill compiled from finance-bp-107 (backtesting, factor-research on multi-market). Triggers: API reference generation.
+  计算投资组合风险指标，包括年化收益率、夏普比率、索提诺比率、最大回撤和卡玛比率，支持滚动窗口统计和 NaN 数据处理，适用于多市场数据。
+  
+  触发场景：(1) 用户要计算自己策略的夏普比率和最大回撤；(2) 用户要做多因子模型的滚动收益和风险统计；(3) 用户要比对不同资产的年化收益和风险调整后收益。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

@@ -1,7 +1,7 @@
 ---
 name: hummingbot-market-maker
 description: |-
-  Crystal skill compiled from finance-bp-096 (crypto-trading on crypto). Triggers: funding rate, arbitrage, perpetual, leverage, funding payment, log prices, monitor, bid ask.
+  使用Hummingbot框架执行加密货币做市和套利策略，支持资金费率套利、流动性提供、价格监控等自动化交易场景。触发场景：(1) 用户要在交易所自动做市并设置买卖价差；(2) 用户要进行永续合约资金费率套利；(3) 用户要监控和记录订单簿与交易数据。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

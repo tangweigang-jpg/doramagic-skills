@@ -1,6 +1,6 @@
 {
   "name": "empyrical-risk-metrics",
-  "description": "Crystal skill compiled from finance-bp-107 (backtesting, factor-research on multi-market). Triggers: API reference generation.",
+  "description": "计算投资组合风险指标，包括年化收益率、夏普比率、索提诺比率、最大回撤和卡玛比率，支持滚动窗口统计和 NaN 数据处理，适用于多市场数据。",
   "version": "0.1.0",
   "skills": [
     "../../skills/empyrical-risk-metrics"

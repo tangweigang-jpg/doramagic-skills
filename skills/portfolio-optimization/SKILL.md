@@ -1,7 +1,7 @@
 ---
 name: portfolio-optimization
 description: |-
-  Crystal skill compiled from finance-bp-093 (portfolio-analytics on multi-market). Triggers: risk model comparison, covariance estimation methods, portfolio risk analysis, Ledoit-Wolf shrinkage, risk matrix computation, mean-variance optimization, minimum volatility portfolio, Efficient Frontier.
+  提供多策略投资组合优化框架，支持均值-方差、Black-Litterman 和分层风险平价（HRP）算法，内置多种协方差估计方法对比分析。触发场景：(1) 我要给股票组合找最优配置，同时考虑交易成本；(2) 想对比不同风险模型（普通协方差、Ledoit-Wolf收缩、半协方差）哪个预测更准；(3) 用 Black-Litterman 方法结合主观观点来构建组合。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

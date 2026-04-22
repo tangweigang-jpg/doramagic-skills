@@ -1,7 +1,7 @@
 ---
 name: yfinance-market-data
 description: |-
-  Crystal skill compiled from finance-bp-128 (data-sourcing on multi-market). Triggers: timezone, datetime, parse, utility, screen, filter, query, criteria.
+  通过 Yahoo Finance 获取全球多市场股票、指数、外汇及加密货币的历史行情、财务数据、实时报价和财务日历。触发场景：(1) 用户要查询某只股票过去一年的日K线走势；(2) 用户要输入公司名称模糊匹配查找对应的股票代码；(3) 用户要获取多个市场的行情数据进行横向对比。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

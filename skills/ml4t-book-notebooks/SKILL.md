@@ -1,7 +1,7 @@
 ---
 name: ml4t-book-notebooks
 description: |-
-  Crystal skill compiled from finance-bp-121 (time-series-ml on multi-market).
+  基于《Machine Learning for Trading》第二版配套 notebooks 实现量化交易策略开发与回测，涵盖多市场金融数据的时间序列机器学习分析。触发场景：(1) 用户要复现书中的机器学习交易策略代码；(2) 用户要将 ML 模型用于 A 股或美股市场预测；(3) 用户要获取金融数据并训练自己的量化模型。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

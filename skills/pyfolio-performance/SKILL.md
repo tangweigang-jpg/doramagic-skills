@@ -1,7 +1,7 @@
 ---
 name: pyfolio-performance
 description: |-
-  Crystal skill compiled from finance-bp-106 (backtesting, factor-research on multi-market). Triggers: publish, theme, round trip, trade analysis, tear sheet, sector mapping, transaction analysis, position tear sheet.
+  Pyfolio 提供多市场投资组合绩效分析与回测可视化，支持生成 tear sheet 报告、持仓收益和行业分类交易分析。触发场景：(1) 用户完成了策略回测，需要分析收益、风险和归因指标；(2) 用户要为投资组合生成标准化 tear sheet 绩效报告；(3) 用户要按行业分类分析持仓和 round trip 交易表现。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

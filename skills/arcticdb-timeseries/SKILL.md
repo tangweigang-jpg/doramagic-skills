@@ -1,7 +1,9 @@
 ---
 name: arcticdb-timeseries
 description: |-
-  Crystal skill compiled from finance-bp-103 (data-sourcing on multi-market). Triggers: aws, s3, credentials, blockchain, billion rows, large scale, performance, aggregation.
+  管理大规模时序数据存储与查询，支持十亿行级数据高效聚合，提供 DataFrame 懒加载与批量拼接，兼容 AWS S3 等多种存储后端。
+  
+  触发场景：(1) 用户要存储和快速查询海量历史行情数据；(2) 用户要在内存受限环境下处理亿级数据并希望避免全量加载；(3) 用户要把 S3 上的公开数据导入时序库进行分析。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

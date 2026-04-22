@@ -1,7 +1,7 @@
 ---
 name: czsc-chan-theory
 description: |-
-  Crystal skill compiled from finance-bp-091 (backtesting, factor-research on cn-astock). Triggers: benchmark, performance, speed, initialization, CZSC, visualization, chart, trading view.
+  CZSC 缠论技术分析工具，支持 K 线生成、笔线段识别、分型信号提取与 A 股回测可视化。触发场景：(1) 用户要分析 A 股 K 线数据；(2) 用户要计算缠中说禅的分型和买卖信号；(3) 用户要对历史行情进行回测和因子研究。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

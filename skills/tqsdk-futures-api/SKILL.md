@@ -1,7 +1,9 @@
 ---
 name: tqsdk-futures-api
 description: |-
-  Crystal skill compiled from finance-bp-069 (backtesting, factor-research on cn-astock). Triggers: demo, quote, price, basic, tqsdk, volatility, BS pricing, option.
+  TqSdk 是中国期货市场的实时行情获取与策略回测框架，支持期权定价模型构建和波动率因子分析，可用于网格交易、目标仓位管理等量化场景。
+  
+  触发场景：(1) 用户要获取期货实时行情数据并连接模拟账户；(2) 用户要用 CSI 300 时变波动率扩展 Black-Scholes 期权定价模型；(3) 用户要基于对手价和今昨开优先级管理目标仓位。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

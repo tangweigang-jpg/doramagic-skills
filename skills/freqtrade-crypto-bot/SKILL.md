@@ -1,7 +1,7 @@
 ---
 name: freqtrade-crypto-bot
 description: |-
-  Crystal skill compiled from finance-bp-085 (backtesting, factor-research on multi-market). Triggers: strategy analysis, historical data loading, trading strategy evaluation.
+  使用 Freqtrade 框架加载多交易所 OHLCV 历史数据并进行策略回测分析。触发场景：(1) 用户要回测加密货币交易策略；(2) 用户要分析历史K线数据验证策略效果；(3) 用户要在多交易所部署前模拟验证策略表现。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

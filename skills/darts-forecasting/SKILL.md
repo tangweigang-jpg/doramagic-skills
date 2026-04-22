@@ -1,7 +1,7 @@
 ---
 name: darts-forecasting
 description: |-
-  Crystal skill compiled from finance-bp-102 (time-series-ml on multi-market). Triggers: package titles, rst files, quickstart, getting started, basic tutorial, time series introduction, first steps, multivariate time series.
+  Darts 是轻量级时间序列预测库，支持多市场金融数据的确定性与概率性预测，提供协变量整合与层级聚合能力。触发场景：(1) 用户要同时对多个市场的金融数据做时间序列预测；(2) 用户要预测结果带置信区间，评估不确定性范围；(3) 用户要用外部变量（宏观指标、市场情绪）辅助提升预测精度。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

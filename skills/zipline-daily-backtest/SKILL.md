@@ -1,7 +1,9 @@
 ---
 name: zipline-daily-backtest
 description: |-
-  Crystal skill compiled from finance-bp-088 (backtesting, factor-research on multi-market). Triggers: publish, tutorial, getting started, learn, beginner, notebook, example, buy apple.
+  使用 Zipline 框架执行日频股票策略回测，支持多市场数据接入、因子研究、可视化绩效分析，默认本金千万级。
+  
+  触发场景：(1) 用户要回测股票买卖策略；(2) 用户要研究金融因子并做绩效分析；(3) 用户要运行 Zipline 最小化示例算法练手。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

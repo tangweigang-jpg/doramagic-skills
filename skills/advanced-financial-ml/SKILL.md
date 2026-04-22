@@ -1,7 +1,7 @@
 ---
 name: advanced-financial-ml
 description: |-
-  Crystal skill compiled from finance-bp-115 (backtesting, factor-research on multi-market).
+  MlFinLab 提供金融机器学习高级实现，包括信息驱动 bars（tick/volume/dollar/imbalance bars）、分数阶差分和回测工具，支持多市场因子研究与策略验证。触发场景：(1) 用户要从原始 Tick 数据提取稳健的价格特征构建因子；(2) 用户要将时间序列差分至平稳态同时保留记忆性；(3) 用户要对高频交易策略进行回测与样本外评估。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

@@ -13,421 +13,421 @@
     },
     {
       "name": "abs-cashflow-modeling",
-      "description": "Crystal skill compiled from finance-bp-076 (insurance-actuarial on global). Triggers: basic deal, ABS, mortgage pool, waterfall, bonds, ARM, adjustable rate, LIBOR.",
+      "description": "建模资产支持证券交易结构，模拟抵押贷款池现金流、债券分级偿还和瀑布分配，分析 tranche 收益与风险表现。",
       "version": "0.1.0",
       "source": "./plugins/abs-cashflow-modeling"
     },
     {
       "name": "advanced-financial-ml",
-      "description": "Crystal skill compiled from finance-bp-115 (backtesting, factor-research on multi-market).",
+      "description": "MlFinLab 提供金融机器学习高级实现，包括信息驱动 bars（tick/volume/dollar/imbalance bars）、分数阶差分和回测工具，支持多市场因子研究与策略验证。触发场景：(1) 用户要从原始 Tick 数据提取稳健的价格特征构建因子；(2) 用户要将时间序列差分至平稳态同时保留记忆性；(3) 用户要对高频交易策略进行回测与样本外评估。",
       "version": "0.1.0",
       "source": "./plugins/advanced-financial-ml"
     },
     {
       "name": "akshare-financial-data",
-      "description": "Crystal skill compiled from finance-bp-079 (data-sourcing on cn-astock).",
+      "description": "获取中国 A 股市场实时行情、历史 K 线、财务报表、基金期货等金融数据，支持股票、债券、期权等多品种数据查询。触发场景：(1) 用户要获取某只股票的日线、周线历史数据；(2) 用户要查询股票实时行情和报价；(3) 用户要批量下载多只A股的历史行情进行回测分析。",
       "version": "0.1.0",
       "source": "./plugins/akshare-financial-data"
     },
     {
       "name": "alphalens-factor-analysis",
-      "description": "Crystal skill compiled from finance-bp-120 (backtesting, factor-research on multi-market). Triggers: event, study, threshold, crossing, price, intraday, sector, classification.",
+      "description": "分析alpha因子的预测能力与前向收益特征，生成分组收益、IC、换手率等报告，辅助量化策略的因子研究与事件分析。",
       "version": "0.1.0",
       "source": "./plugins/alphalens-factor-analysis"
     },
     {
       "name": "aml-data-generator",
-      "description": "Crystal skill compiled from finance-bp-060 (regtech-compliance on global). Triggers: convert logs, synthetic data, AML simulation, generate transaction logs, split accounts, bank ID, partition data, bank filtering.",
+      "description": "生成符合AMLSim格式的合成交易数据，将交易日志转换为用于反洗钱检测系统测试的模拟数据集，支持按银行ID分割账户、合并多源输出并生成交易网络图。触发场景：(1) 用户要把CSV交易日志转换成AMLSim模拟数据；(2) 用户要按银行ID分割账户CSV文件；(3) 用户要合并多个AMLSim输出进行综合分析。",
       "version": "0.1.0",
       "source": "./plugins/aml-data-generator"
     },
     {
       "name": "arch-garch-volatility",
-      "description": "Crystal skill compiled from finance-bp-124 (derivatives-pricing on global). Triggers: bootstrap, sharpe ratio, statistical inference, confidence intervals, stationary bootstrap, model comparison, multiple models, benchmark comparison.",
+      "description": "用 GARCH 族模型进行波动率建模与预测，支持夏普比率统计推断和 SPA 模型比较测试，应用于全球市场风险管理。触发场景：(1) 用户要做波动率建模和预测；(2) 用户要对风险调整收益指标做统计推断；(3) 用户要比选预测模型并验证超额收益。",
       "version": "0.1.0",
       "source": "./plugins/arch-garch-volatility"
     },
     {
       "name": "arcticdb-timeseries",
-      "description": "Crystal skill compiled from finance-bp-103 (data-sourcing on multi-market). Triggers: aws, s3, credentials, blockchain, billion rows, large scale, performance, aggregation.",
+      "description": "管理大规模时序数据存储与查询，支持十亿行级数据高效聚合，提供 DataFrame 懒加载与批量拼接，兼容 AWS S3 等多种存储后端。",
       "version": "0.1.0",
       "source": "./plugins/arcticdb-timeseries"
     },
     {
       "name": "backtrader-event-driven",
-      "description": "Crystal skill compiled from finance-bp-086 (backtesting, factor-research on multi-market). Triggers: backtrader, SMA crossover, moving average, trading strategy, pyfolio analytics, data printing, OHLC logging, data verification.",
+      "description": "运行经典双均线交叉策略回测，事件驱动模拟信号生成与持仓，输出 PyFolio 绩效报告。触发场景：(1) 用户要做均线策略回测；(2) 用户要打印 OHLC 数据排查数据源；(3) 用户要获取夏普比率、最大回撤等组合分析指标。",
       "version": "0.1.0",
       "source": "./plugins/backtrader-event-driven"
     },
     {
       "name": "beancount-plaintext-ledger",
-      "description": "Crystal skill compiled from finance-bp-129 (accounting on global).",
+      "description": "Beancount 纯文本复式记账框架，支持导入银行对账单和交易数据，自动生成资产负债表和损益表等财务报表。触发场景：(1) 用户要用纯文本格式管理个人或企业财务账本；(2) 用户要导入银行对账单和交易数据到复式记账系统；(3) 用户要生成财务报表、财务分析和投资组合报告。",
       "version": "0.1.0",
       "source": "./plugins/beancount-plaintext-ledger"
     },
     {
       "name": "bt-portfolio-backtest",
-      "description": "Crystal skill compiled from finance-bp-125 (backtesting, factor-research on multi-market). Triggers: buy and hold, monthly rebalance, fixed weights, passive strategy, portfolio allocation, equal risk contribution, risk parity, covariance.",
+      "description": "使用 bt 框架构建和回测多策略投资组合，支持风险平价、等风险贡献、逆波动率加权等组合构建方法，以及政府债券滚动交易的模拟回测。触发场景：(1) 用户要做多策略组合的收益和风险回测；(2) 用户要做 ERC 风险平价组合的权重计算和回测；(3) 用户要回测政府债券的滚动交易和收益率转换策略。",
       "version": "0.1.0",
       "source": "./plugins/bt-portfolio-backtest"
     },
     {
       "name": "ccxt-crypto-api",
-      "description": "Crystal skill compiled from finance-bp-111 (crypto-trading on crypto). Triggers: lending, bot, bitfinex, passive income, crypto lending, arbitrage, spot trading, cross-exchange.",
+      "description": "CCXT 库统一封装全球主流加密货币交易所的交易 API，支持订单管理、市场行情查询、账户余额监控与自动化借贷等核心操作。触发场景：(1) 用户要监控 Binance/OKX 等多交易所账户余额变动；(2) 用户要在 Bitfinex 自动执行 fUST 借贷操作；(3) 用户要在多个交易所之间捕捉价差执行套利交易。",
       "version": "0.1.0",
       "source": "./plugins/ccxt-crypto-api"
     },
     {
       "name": "climate-esg-investing",
-      "description": "Crystal skill compiled from finance-bp-105 (macro-data on global). Triggers: sector composition, significant regression, p-value screening, stock sectors, factor analysis, factor correlation, correlation matrix, factor relationships.",
+      "description": "使用Fama-French因子模型进行气候ESG投资分析，支持月度股价数据下载、因子相关性计算、OLS回归诊断及显著性筛选，帮助用户构建因子组合和风险评估。触发场景：(1) 用户要做Fama-French因子回归分析；(2) 用户要计算因子间相关性并检验多重共线性；(3) 用户要下载指数成分股月度数据并做显著性筛选。",
       "version": "0.1.0",
       "source": "./plugins/climate-esg-investing"
     },
     {
       "name": "credit-lgd-model",
-      "description": "Crystal skill compiled from finance-bp-112 (credit-risk on global).",
+      "description": "构建并训练 LGD（违约损失率）机器学习模型，支持基于历史违约数据的信用风险量化评估与预测。触发场景：(1) 用户要训练LGD模型评估违约损失率；(2) 用户要用历史信贷数据预测信用风险；(3) 用户要建立违约概率与损失率量化模型。",
       "version": "0.1.0",
       "source": "./plugins/credit-lgd-model"
     },
     {
       "name": "credit-scorecard",
-      "description": "Crystal skill compiled from finance-bp-050 (credit-risk on global). Triggers: optimal, supervised, monotonic, constrained, optbinning, merge buckets, automatic binning, decision tree.",
+      "description": "基于监督学习、决策树或聚类等多种算法，自动为评分卡变量生成最优分箱边界，同时支持单调性约束和缺失值处理。触发场景：(1) 用户要构建信用评分卡，对连续变量进行自动化分箱；(2) 用户要用决策树或聚类方法自动划分变量区间；(3) 用户要在分箱过程中处理缺失值和特殊值。",
       "version": "0.1.0",
       "source": "./plugins/credit-scorecard"
     },
     {
       "name": "credit-transition-matrix",
-      "description": "Crystal skill compiled from finance-bp-119 (credit-risk on global). Triggers: not-rated, NR adjustment, credit migration, matrix cleanup, transition matrix, initialization, operations, matrix properties.",
+      "description": "处理信用评级转移矩阵，支持Not-Rated状态重分配、年度与月度矩阵转换、状态空间定义及数据集表征。触发场景：(1) 用户要清理或重分配转移矩阵中的NR状态用于下游风险计算；(2) 用户要将年度转移矩阵通过生成器转换为月度或季度矩阵用于期限匹配；(3) 用户要初始化、验证或汇总信用评级转移数据集进行监管报告。",
       "version": "0.1.0",
       "source": "./plugins/credit-transition-matrix"
     },
     {
       "name": "cryptofeed-ws-feeds",
-      "description": "Crystal skill compiled from finance-bp-110 (crypto-trading on crypto). Triggers: callback handler, ticker callback, async handler, market data subscription, exchange data, ArcticDB, arctic storage, time series database.",
+      "description": "实时获取多个加密货币交易所的市场数据流，支持异步回调处理并将交易、行情、订单簿等数据持久化到ArcticDB时序数据库。触发场景：(1) 用户要实时订阅交易所行情数据；(2) 用户要把加密货币交易数据存入时序数据库；(3) 用户要访问Binance等交易所的认证交易接口。",
       "version": "0.1.0",
       "source": "./plugins/cryptofeed-ws-feeds"
     },
     {
       "name": "cuemacro-finmarket",
-      "description": "Crystal skill compiled from finance-bp-108 (portfolio-analytics on multi-market). Triggers: arcticdb, tick data storage, time series database, lmdb, market data persistence, fx trading, g10 currency, technical indicators.",
+      "description": "金融市场回测框架，支持FX G10货币对技术指标策略回测、ArcticDB高频tick数据本地与S3云端存储、Quandl等数据源的市场数据获取与缓存。触发场景：(1) 用户要做FX G10货币对的交叉策略回测；(2) 用户要把高频tick数据存到S3云端；(3) 用户要从Quandl获取历史市场数据。",
       "version": "0.1.0",
       "source": "./plugins/cuemacro-finmarket"
     },
     {
       "name": "czsc-chan-theory",
-      "description": "Crystal skill compiled from finance-bp-091 (backtesting, factor-research on cn-astock). Triggers: benchmark, performance, speed, initialization, CZSC, visualization, chart, trading view.",
+      "description": "CZSC 缠论技术分析工具，支持 K 线生成、笔线段识别、分型信号提取与 A 股回测可视化。触发场景：(1) 用户要分析 A 股 K 线数据；(2) 用户要计算缠中说禅的分型和买卖信号；(3) 用户要对历史行情进行回测和因子研究。",
       "version": "0.1.0",
       "source": "./plugins/czsc-chan-theory"
     },
     {
       "name": "daily-stock-analysis",
-      "description": "Crystal skill compiled from finance-bp-004 (finance-analytics on unspecified). Triggers: 股票分析, 线程池, 自选股, 智能分析, 定时任务, FastAPI, 跨域, 静态文件托管.",
+      "description": "基于 Qlib 的 A 股自选股智能分析系统，集成 LLM Agent ReAct 推理引擎和技术指标择时模块（MA 多头排列、乖离率阈值严进策略），自动生成每日 buy/hold/sell 指令并推送至微信。触发场景：(1) 用户要查询自选股当天的 AI 交易信号和涨跌预测；(2) 用户要获取符合 MA 多头排列且乖离率低于 5% 的可买入股票列表；(3) 用户要在收盘后自动接收个股的买卖建议和持仓诊断报告。",
       "version": "0.1.0",
       "source": "./plugins/daily-stock-analysis"
     },
     {
       "name": "darts-forecasting",
-      "description": "Crystal skill compiled from finance-bp-102 (time-series-ml on multi-market). Triggers: package titles, rst files, quickstart, getting started, basic tutorial, time series introduction, first steps, multivariate time series.",
+      "description": "Darts 是轻量级时间序列预测库，支持多市场金融数据的确定性与概率性预测，提供协变量整合与层级聚合能力。触发场景：(1) 用户要同时对多个市场的金融数据做时间序列预测；(2) 用户要预测结果带置信区间，评估不确定性范围；(3) 用户要用外部变量（宏观指标、市场情绪）辅助提升预测精度。",
       "version": "0.1.0",
       "source": "./plugins/darts-forecasting"
     },
     {
       "name": "eastmoney-api",
-      "description": "Crystal skill compiled from finance-bp-084 (data-sourcing on cn-astock). Triggers: start, run, analysis, pre-market, post-market, application, fastapi, startup.",
+      "description": "为 VAlpha 量化终端用户提供 A 股市场数据获取、多数据源自动切换与熔断保护，支持 Tushare/Akshare 链路 fallback，并根据积分额度自动配置请求频率限制。触发场景：(1) 用户要获取 A 股实时行情或历史 K 线数据；(2) 用户要做盘前盘后量化分析或运行回测任务；(3) 用户要设置持仓预警或监控自选股异动。",
       "version": "0.1.0",
       "source": "./plugins/eastmoney-api"
     },
     {
       "name": "easytrader-cn-broker",
-      "description": "Crystal skill compiled from finance-bp-094 (backtesting, factor-research on cn-astock). Triggers: api, http, flask, broker login, balance endpoint, xueqiu, trader, account preparation.",
+      "description": "提供A股券商客户端自动化交易能力，支持雪球、芸享等多券商登录与交易操作封装，涵盖账户余额查询、持仓管理、委托下单及组合跟随等核心功能。触发场景：(1) 用户要自动登录券商账户并保持会话有效；(2) 用户要查询股票持仓和账户余额信息；(3) 用户要通过程序化方式执行下单、撤单及持仓调整。",
       "version": "0.1.0",
       "source": "./plugins/easytrader-cn-broker"
     },
     {
       "name": "economic-dashboard",
-      "description": "Crystal skill compiled from finance-bp-083 (macro-data on global). Triggers: backup, snapshot, parquet, database backup, compress data, vacuum, optimize, database cleanup.",
+      "description": "提供全球宏观经济数据仪表板视图，支持多源数据本地存储、冷热数据分离存储与自动化刷新调度。触发场景：(1) 用户要查看全球宏观经济指标仪表板，比如各国的GDP、利率和通胀数据；(2) 用户要定时刷新全球市场宏观数据，每天自动更新一次本地数据库；(3) 用户要安全存储多个经济数据源的API密钥，如Wind、Choice的接口凭证。",
       "version": "0.1.0",
       "source": "./plugins/economic-dashboard"
     },
     {
       "name": "edgar-crawler",
-      "description": "Crystal skill compiled from finance-bp-114 (data-sourcing on multi-market). Triggers: EDGAR, SEC filings, 10-K extraction, annual report parsing.",
+      "description": "从 SEC EDGAR 批量抓取上市公司年报（10-K）和季报（10-Q）文件，支持按季度增量更新与本地缓存，适用于美股基本面分析和量化研究数据获取。",
       "version": "0.1.0",
       "source": "./plugins/edgar-crawler"
     },
     {
       "name": "empyrical-risk-metrics",
-      "description": "Crystal skill compiled from finance-bp-107 (backtesting, factor-research on multi-market). Triggers: API reference generation.",
+      "description": "计算投资组合风险指标，包括年化收益率、夏普比率、索提诺比率、最大回撤和卡玛比率，支持滚动窗口统计和 NaN 数据处理，适用于多市场数据。",
       "version": "0.1.0",
       "source": "./plugins/empyrical-risk-metrics"
     },
     {
       "name": "fava-beancount-viewer",
-      "description": "Crystal skill compiled from finance-bp-078 (accounting on global). Triggers: portfolio management, CLI, command line, tax optimization, investment analysis, equivalent tickers, related securities, commodity grouping.",
+      "description": "提供基于Fava/Beancount的投资组合管理能力，支持税务亏损收割优化、资产配置分析与等价证券分组识别，辅助用户制定最优卖出策略。触发场景：(1) 用户要优化卖出顺序以减少资本利得税；(2) 用户要检查资产配置比例是否平衡；(3) 用户要识别账户中等价ETF（如VTI/VTSAX）以便管理税负。",
       "version": "0.1.0",
       "source": "./plugins/fava-beancount-viewer"
     },
     {
       "name": "finance-kg-embedding",
-      "description": "Crystal skill compiled from finance-bp-080 (macro-data on global). Triggers: training, knowledge graph, KGTransformer, machine learning, model training, dynamic graph, temporal modeling, entity embedding.",
+      "description": "训练动态知识图谱嵌入模型，学习时序实体关系表示，支持链接预测和时间预测任务。触发场景：(1) 用户要构建KG嵌入模型用于金融知识推理；(2) 用户要处理FinDKG的12类节点类型进行嵌入；(3) 用户要在训练中加入早停机制防止过拟合。",
       "version": "0.1.0",
       "source": "./plugins/finance-kg-embedding"
     },
     {
       "name": "financepy-derivatives",
-      "description": "Crystal skill compiled from finance-bp-101 (derivatives-pricing on global). Triggers: calendar, holiday, business days, settlement, trading calendar, date, excel, serial.",
+      "description": "基于 FinancePy 框架的金融工具日期处理与定价能力，支持多国节假日日历与天数计数约定处理，生成债券和互换现金流调度，计算收益率和价格。触发场景：(1) 用户要计算某笔交易在特定国家的下一个营业日或展期日期；(2) 用户要根据起息日和期限生成债券或互换的付息日程；(3) 用户要按天数计数约定计算债券应计利息或到期收益率。",
       "version": "0.1.0",
       "source": "./plugins/financepy-derivatives"
     },
     {
       "name": "financial-ratios-toolkit",
-      "description": "Crystal skill compiled from finance-bp-118 (portfolio-analytics on multi-market). Triggers: financial analysis, overview, multi-module, comprehensive, demonstration, capabilities, historical data, financial statements.",
+      "description": "提供多市场财务分析能力，涵盖历史数据获取、财务报表解析、财务比率计算、固定收益分析、投资组合绩效评估和股票基本面筛选等核心功能。",
       "version": "0.1.0",
       "source": "./plugins/financial-ratios-toolkit"
     },
     {
       "name": "finrl-meta-envs",
-      "description": "Crystal skill compiled from finance-bp-116 (backtesting, factor-research on multi-market). Triggers: paper trading, PPO agent, Alpaca, automated trading, live execution, portfolio optimization, Markowitz, mean-variance.",
+      "description": "提供多市场金融强化学习环境，支持PPO/DQN等DRL算法回测、Markowitz组合优化与实时模拟交易，适配Alpaca等券商接口。",
       "version": "0.1.0",
       "source": "./plugins/finrl-meta-envs"
     },
     {
       "name": "finrl-rl-trading",
-      "description": "Crystal skill compiled from finance-bp-061 (backtesting, factor-research on multi-market). Triggers: ensemble trading, multiple agents, stock trading, deep reinforcement learning, DOW 30, graph neural network, portfolio optimization, GPM.",
+      "description": "Use ensemble deep reinforcement learning (A2C, DDPG, PPO, TD3, SAC) to execute automated multi-market stock trading with backtesting, and optimize portfolios using GNN-based architecture for factor research.",
       "version": "0.1.0",
       "source": "./plugins/finrl-rl-trading"
     },
     {
       "name": "finrobot-multi-agent",
-      "description": "Crystal skill compiled from finance-bp-074 (macro-data on global). Triggers: equity research, financial analysis report, FMP API, peer comparison, company analysis, annual report, financial report generation, multi-agent.",
+      "description": "多智能体金融分析平台，支持股票研究、市场预测、财报解读与量化回测策略构建，覆盖全球市场数据分析。触发场景：(1) 用户要获取某只股票的研究报告；(2) 用户要用AI预测市场走势；(3) 用户要做股票的量化回测。",
       "version": "0.1.0",
       "source": "./plugins/finrobot-multi-agent"
     },
     {
       "name": "firesale-stress-test",
-      "description": "Crystal skill compiled from finance-bp-067 (regtech-compliance on global).",
+      "description": "执行银行系统级压力测试，基于EBA 2018真实数据计算CET1比率与杠杆率，模拟firesale情景下资产负债表韧性。触发场景：(1) 用户要做监管合规压力测试；(2) 用户要评估系统性金融风险；(3) 用户要模拟资产甩卖对银行资本充足率的影响。",
       "version": "0.1.0",
       "source": "./plugins/firesale-stress-test"
     },
     {
       "name": "freqtrade-crypto-bot",
-      "description": "Crystal skill compiled from finance-bp-085 (backtesting, factor-research on multi-market). Triggers: strategy analysis, historical data loading, trading strategy evaluation.",
+      "description": "使用 Freqtrade 框架加载多交易所 OHLCV 历史数据并进行策略回测分析。触发场景：(1) 用户要回测加密货币交易策略；(2) 用户要分析历史K线数据验证策略效果；(3) 用户要在多交易所部署前模拟验证策略表现。",
       "version": "0.1.0",
       "source": "./plugins/freqtrade-crypto-bot"
     },
     {
       "name": "gs-quant-pricing",
-      "description": "Crystal skill compiled from finance-bp-020 (finance-analytics on unspecified).",
+      "description": "提供年化波动率、指数加权移动平均（EMA）和指数加权标准差等量化金融指标的专业计算能力，支持维度枚举到字符串的灵活覆盖，适用于金融时间序列分析与资产定价建模。触发场景：(1) 用户要计算某资产的历史年化波动率并评估风险；(2) 用户要用 EMA 或指数加权方式平滑价格数据捕捉趋势；(3) 用户要对多维度金融数据执行标准化统计分析并生成报告。",
       "version": "0.1.0",
       "source": "./plugins/gs-quant-pricing"
     },
     {
       "name": "hummingbot-market-maker",
-      "description": "Crystal skill compiled from finance-bp-096 (crypto-trading on crypto). Triggers: funding rate, arbitrage, perpetual, leverage, funding payment, log prices, monitor, bid ask.",
+      "description": "使用Hummingbot框架执行加密货币做市和套利策略，支持资金费率套利、流动性提供、价格监控等自动化交易场景。触发场景：(1) 用户要在交易所自动做市并设置买卖价差；(2) 用户要进行永续合约资金费率套利；(3) 用户要监控和记录订单簿与交易数据。",
       "version": "0.1.0",
       "source": "./plugins/hummingbot-market-maker"
     },
     {
       "name": "ifrs9-loss-engine",
-      "description": "Crystal skill compiled from finance-bp-062 (regtech-compliance on global). Triggers: ECL, Expected Credit Loss, limit level, truncate, IFRS 9, impairment, amortization, loan.",
+      "description": "计算IFRS 9预期信用损失（ECL），支持Vasicek单因子前瞻性调整、Kaplan-Meier生存分析计算PD及贷款摊销计划生成，满足Basel III减值合规要求。触发场景：(1) 用户要计算贷款减值准备并生成IFRS 9合规报告；(2) 用户要生成贷款摊销时间表或分析还款结构；(3) 用户要进行前瞻性PD调整，校准Vasicek模型和Basel rho相关性参数。",
       "version": "0.1.0",
       "source": "./plugins/ifrs9-loss-engine"
     },
     {
       "name": "insurance-actuarial-python",
-      "description": "Crystal skill compiled from finance-bp-064 (insurance-actuarial on global). Triggers: SSA, singular spectrum analysis, time series decomposition, scree plot, trend extraction, stationary bootstrap, swap rates, resampling.",
+      "description": "使用奇异谱分析和平稳自助法对利率时间序列进行分解与统计推断，构建 NSS 曲线模型并校准利率衍生品参数。触发场景：(1) 用户要对互换利率数据进行趋势分解和季节性分析；(2) 用户要对利率曲线模型进行参数校准和置信区间估计；(3) 用户要对保险负债进行久期匹配和利率敏感性分析。",
       "version": "0.1.0",
       "source": "./plugins/insurance-actuarial-python"
     },
     {
       "name": "insurance-loss-reserving",
-      "description": "Crystal skill compiled from finance-bp-063 (insurance-actuarial on global).",
+      "description": "基于链梯法(Chain Ladder)计算保险损失准备金，输出流量三角形、LDF发展因子和IBNR估算结果。触发场景：(1) 用户要计算保险公司的未决赔款准备金；(2) 用户要使用链梯法评估理赔进展和准备金需求；(3) 用户要对历史赔案数据建立发展因子模型。",
       "version": "0.1.0",
       "source": "./plugins/insurance-loss-reserving"
     },
     {
       "name": "lean-cloud-backtest",
-      "description": "Crystal skill compiled from finance-bp-100 (backtesting, factor-research on multi-market). Triggers: C#, QuantBook, research environment, historical data, multi-asset, Python, Bollinger Bands, research.",
+      "description": "通过 LEAN 引擎搭建多市场量化研究与回测环境，支持 QuantBook 历史数据获取、技术指标计算和自定义因子建模。 触发场景：(1) 用户要搭建 C# 或 Python QuantBook 研究环境进行量化分析；(2) 用户要获取多资产类别历史数据进行回测；(3) 用户要计算技术指标或实现自定义因子模型。",
       "version": "0.1.0",
       "source": "./plugins/lean-cloud-backtest"
     },
     {
       "name": "ledger-plaintext-accounting",
-      "description": "Crystal skill compiled from finance-bp-073 (accounting on global).",
+      "description": "通过字节码驱动的复式记账引擎，支持多币种账户余额实时查询和资金来源的FIFO分配追踪。触发场景：(1) 用户要记录链上或交易所交易流水并做复式记账；(2) 用户要查询某个地址或账户的实时余额与资金来源；(3) 用户要精确追踪多笔入金的分配去向并防止双重支出。",
       "version": "0.1.0",
       "source": "./plugins/ledger-plaintext-accounting"
     },
     {
       "name": "lifelines-survival-analysis",
-      "description": "Crystal skill compiled from finance-bp-126 (insurance-actuarial on global). Triggers: cox residuals, martingale residual, deviance residual, influence diagnosis, model diagnostics, custom parametric model, parametric regression, custom hazard.",
+      "description": "基于 lifelines 库提供生存分析与 Cox 比例风险建模能力，支持残差诊断、参数化回归模型自定义、时滞转化率分析及比例风险假设检验。触发场景：(1) 用户要做客户流失或贷款违约的时间预测建模；(2) 用户要检验 Cox 模型是否符合比例风险假设并可视化残差；(3) 用户要构建自定义hazard函数的保险精算或信用风险模型。",
       "version": "0.1.0",
       "source": "./plugins/lifelines-survival-analysis"
     },
     {
       "name": "macro-economic-model",
-      "description": "Crystal skill compiled from finance-bp-077 (macro-data on global). Triggers: ALM simulation, portfolio summary, yield curve visualization, portfolio return, example run, EIOPA curve, forward rate projection, yield curve calibration.",
+      "description": "运行ALM资产负债管理模拟，生成组合收益、现金流报告，并通过Smith-Wilson方法校准EIOPA风险自由收益率曲线进行企业债券定价。",
       "version": "0.1.0",
       "source": "./plugins/macro-economic-model"
     },
     {
       "name": "ml4t-book-notebooks",
-      "description": "Crystal skill compiled from finance-bp-121 (time-series-ml on multi-market).",
+      "description": "基于《Machine Learning for Trading》第二版配套 notebooks 实现量化交易策略开发与回测，涵盖多市场金融数据的时间序列机器学习分析。触发场景：(1) 用户要复现书中的机器学习交易策略代码；(2) 用户要将 ML 模型用于 A 股或美股市场预测；(3) 用户要获取金融数据并训练自己的量化模型。",
       "version": "0.1.0",
       "source": "./plugins/ml4t-book-notebooks"
     },
     {
       "name": "nautilus-algo-trading",
-      "description": "Crystal skill compiled from finance-bp-098 (backtesting, factor-research on multi-market). Triggers: Parquet catalog, high-level API, TWAP, direct control, low-level, execution algorithm, quickstart, EMA crossover.",
+      "description": "使用 NautilusTrader 配置驱动的 BacktestNode 运行高性能多市场回测，支持 Parquet 数据目录和外部 CSV 数据导入，策略可直接过渡到实盘交易。",
       "version": "0.1.0",
       "source": "./plugins/nautilus-algo-trading"
     },
     {
       "name": "openbb-terminal",
-      "description": "Crystal skill compiled from finance-bp-097 (data-sourcing on multi-market). Triggers: momentum trading, moving average crossover, trading signals, Ethereum analysis, crypto trend, moving averages, volatility analysis, ETH price.",
+      "description": "获取全球股票、加密货币、外汇、大宗商品等多市场实时行情与历史数据，提供技术指标计算、宏观经济数据追踪与资产比率分析功能。",
       "version": "0.1.0",
       "source": "./plugins/openbb-terminal"
     },
     {
       "name": "opensanctions-watchlist",
-      "description": "Crystal skill compiled from finance-bp-071 (regtech-compliance on global). Triggers: crawl, extract, load, scrape, fetch data, wikidata, update, review.",
+      "description": "自动化爬取、清洗、加载全球制裁名单与实体数据，支持 Wikidata 更新审查、实体交叉引用去重和归档版本管理。触发场景：(1) 用户要查询和分析制裁名单数据；(2) 用户要对目标实体进行去重和交叉匹配；(3) 用户要批量加载或更新外部制裁数据到本地数据库。",
       "version": "0.1.0",
       "source": "./plugins/opensanctions-watchlist"
     },
     {
       "name": "p2p-lending-data",
-      "description": "Crystal skill compiled from finance-bp-072 (credit-risk on global). Triggers: master init, loan refund, loan closure, excess amount refund, loan repayment, loan application, loan request, apply for loan.",
+      "description": "验证 Frappe Lending 贷款模块核心流程，包括贷款申请创建、放款计划生成、还款处理及结清退款的自动化测试能力。触发场景：(1) 用户要测试贷款申请流程能否正确创建草稿贷款并配置利率；(2) 用户要验证放款后还款计划生成及宽限期利息计算；(3) 用户要测试共同贷款伙伴配置下的分成逻辑。",
       "version": "0.1.0",
       "source": "./plugins/p2p-lending-data"
     },
     {
       "name": "pandas-ta-indicators",
-      "description": "Crystal skill compiled from finance-bp-122 (technical-analysis on multi-market). Triggers: visualize, technical indicators, charting, feature exploration, research.",
+      "description": "基于 pandas-ta 库计算技术分析指标（RSI、MACD、布林带、KAMA 等），支持多市场数据可视化与自定义参数调整。 触发场景：(1) 用户要计算某只股票的 RSI、MACD 等指标数值；(2) 用户要绘制布林带或其他技术分析图表观察价格波动；(3) 用户要快速获取多指标结果或导出到其他平台使用。",
       "version": "0.1.0",
       "source": "./plugins/pandas-ta-indicators"
     },
     {
       "name": "portfolio-optimization",
-      "description": "Crystal skill compiled from finance-bp-093 (portfolio-analytics on multi-market). Triggers: risk model comparison, covariance estimation methods, portfolio risk analysis, Ledoit-Wolf shrinkage, risk matrix computation, mean-variance optimization, minimum volatility portfolio, Efficient Frontier.",
+      "description": "提供多策略投资组合优化框架，支持均值-方差、Black-Litterman 和分层风险平价（HRP）算法，内置多种协方差估计方法对比分析。触发场景：(1) 我要给股票组合找最优配置，同时考虑交易成本；(2) 想对比不同风险模型（普通协方差、Ledoit-Wolf收缩、半协方差）哪个预测更准；(3) 用 Black-Litterman 方法结合主观观点来构建组合。",
       "version": "0.1.0",
       "source": "./plugins/portfolio-optimization"
     },
     {
       "name": "py-vollib-options-pricing",
-      "description": "Crystal skill compiled from finance-bp-127 (derivatives-pricing on global).",
+      "description": "使用 BSM 和 Black 模型对欧式期权进行定价和 Greeks 计算，支持连续股息收益率调整。触发场景：(1) 用户要计算某期权的理论价格；(2) 用户要计算期权的希腊字母值（delta、gamma 等）；(3) 用户要回测基于期权定价的策略。",
       "version": "0.1.0",
       "source": "./plugins/py-vollib-options-pricing"
     },
     {
       "name": "pyfolio-performance",
-      "description": "Crystal skill compiled from finance-bp-106 (backtesting, factor-research on multi-market). Triggers: publish, theme, round trip, trade analysis, tear sheet, sector mapping, transaction analysis, position tear sheet.",
+      "description": "Pyfolio 提供多市场投资组合绩效分析与回测可视化，支持生成 tear sheet 报告、持仓收益和行业分类交易分析。触发场景：(1) 用户完成了策略回测，需要分析收益、风险和归因指标；(2) 用户要为投资组合生成标准化 tear sheet 绩效报告；(3) 用户要按行业分类分析持仓和 round trip 交易表现。",
       "version": "0.1.0",
       "source": "./plugins/pyfolio-performance"
     },
     {
       "name": "qlib-ai-quant",
-      "description": "Crystal skill compiled from finance-bp-087 (backtesting, factor-research on multi-market). Triggers: resample, frequency conversion, 1min, target frequency, instrument processor, specific minute, 1min to day, time selection.",
+      "description": "Qlib 是微软开源的 AI 量化研究框架，支持多市场数据的多频率重采样与特征工程，助力因子挖掘与模型训练。触发场景：(1) 用户要做分钟转日线的频率转换；(2) 用户要用 Alpha158 因子库构建特征；(3) 用户要同时用日频和分钟频数据训练 TFT 模型。",
       "version": "0.1.0",
       "source": "./plugins/qlib-ai-quant"
     },
     {
       "name": "quantaxis-data-platform",
-      "description": "Crystal skill compiled from finance-bp-090 (backtesting, factor-research on cn-astock). Triggers: factor, moving average, MA5, technical indicator, daily factor, tear sheet, factor analysis, visualization.",
+      "description": "提供 A 股市场的因子计算、存储与 tear sheet 分析能力，支持 Pandas/Polars 零拷贝数据转换和 QIFI 账户回测模拟，适用于多数据源量化研究。触发场景：(1) 用户要计算并存储 MA5 移动平均因子到 ClickHouse；(2) 用户要对预计算因子生成可视化 tear sheet 分析报告；(3) 用户要进行 QIFI 账户格式的期货或股票回测模拟。",
       "version": "0.1.0",
       "source": "./plugins/quantaxis-data-platform"
     },
     {
       "name": "quantlib-derivatives",
-      "description": "Crystal skill compiled from finance-bp-123 (derivatives-pricing on global). Triggers: market element, quote observability, SimpleQuote, reactive pricing, American option, quanto option, FDM pricing, American quanto.",
+      "description": "通过 SWIG 绑定调用 QuantLib 引擎，完成期权、互换、债券等金融衍生品的定价计算，支持美式期权有限差分法和篮子价差期权等多资产策略验证。",
       "version": "0.1.0",
       "source": "./plugins/quantlib-derivatives"
     },
     {
       "name": "reactive-pricing-engine",
-      "description": "Crystal skill compiled from finance-bp-104 (finance-analytics on unspecified). Triggers: initial margin, SIMM, collateral, exposure, variation margin, XVA, CVA, FVA.",
+      "description": "基于OTC衍生品组合的XVA估值与风险指标计算，支持CVA/DVA/FVA度量及敞口曲线生成；提供SIMM保证金敏感性分析，兼容多定价引擎配置。触发场景：(1) 用户要计算交易对手信用敞口并评估XVA成本；(2) 用户要对冲基金组合进行敏感性分析对比不同方法精度；(3) 用户要批量运行风险报告评估保证金要求。",
       "version": "0.1.0",
       "source": "./plugins/reactive-pricing-engine"
     },
     {
       "name": "robo-advisor-python",
-      "description": "Crystal skill compiled from finance-bp-066 (portfolio-analytics on multi-market).",
+      "description": "自动化投资组合再平衡与交易执行，遵循先卖后买原则，支持多市场资产配置，智能计算最低交易规模及税费。",
       "version": "0.1.0",
       "source": "./plugins/robo-advisor-python"
     },
     {
       "name": "rotki-crypto-tracker",
-      "description": "Crystal skill compiled from finance-bp-095 (crypto-trading on crypto).",
+      "description": "实现自托管式加密货币投资组合追踪，自动聚合多交易所和链上钱包资产，实时计算持仓损益并生成税务报告。触发场景：(1) 用户要追踪自己在多个交易所的加密货币持仓；(2) 用户要计算加密货币交易的资本利得税；(3) 用户要从交易所和钱包导入交易历史自动对账。",
       "version": "0.1.0",
       "source": "./plugins/rotki-crypto-tracker"
     },
     {
       "name": "rqalpha-cn-backtest",
-      "description": "Crystal skill compiled from finance-bp-089 (backtesting, factor-research on cn-astock). Triggers: momentum rotation, index futures, equity bond allocation, rebalancing strategy.",
+      "description": "基于20日价格动量在沪深300、沪深500与国债之间自动轮转配置，通过RQAlpha框架执行完整回测并评估组合绩效。触发场景：(1) 用户要做A股指数动量策略回测；(2) 用户要验证因子在A股市场的有效性；(3) 用户要比较不同资产类别的收益风险特征。",
       "version": "0.1.0",
       "source": "./plugins/rqalpha-cn-backtest"
     },
     {
       "name": "sec-edgar-tools",
-      "description": "Crystal skill compiled from finance-bp-070 (data-sourcing on multi-market). Triggers: sec filings, company lookup, edgar search, find company, ticker search, financials, income statement, balance sheet.",
+      "description": "从 SEC EDGAR 系统获取和解析公司监管文件，支持 SEC 文件检索、财务报表（10-K/10-Q）提取、内部人交易（Form 4）追踪及机构持仓（13F）分析。",
       "version": "0.1.0",
       "source": "./plugins/sec-edgar-tools"
     },
     {
       "name": "stock-screener",
-      "description": "Crystal skill compiled from finance-bp-082 (finance-analytics on unspecified). Triggers: api, start, bootstrap, application, cli, twitter, xui, authenticate.",
+      "description": "使用7种技术形态检测器（杯柄、三周紧绑、高紧旗、VCP、NR7等）按确定性顺序扫描股票池，支持跨检测器评分校准与置信度聚合排序。触发场景：(1) 用户要找出现杯柄形态或VCP形态的股票；(2) 用户要对一批股票执行批量形态扫描；(3) 用户要发现突破关键形态的标的以辅助买入决策。",
       "version": "0.1.0",
       "source": "./plugins/stock-screener"
     },
     {
       "name": "talib-technical-analysis",
-      "description": "Crystal skill compiled from finance-bp-109 (technical-analysis on multi-market). Triggers: html pages, pygments stylesheet, markdown to html, code highlighting.",
+      "description": "通过 Python 调用 150+ TA-Lib 技术分析指标（均线、MACD、RSI、布林带等），支持多市场金融数据的技术面量化计算。触发场景：(1) 用户要做均线、MACD、RSI 等指标计算；(2) 用户要对股票或加密货币做技术面量化分析；(3) 用户要基于历史 K 线数据生成买卖信号。",
       "version": "0.1.0",
       "source": "./plugins/talib-technical-analysis"
     },
     {
       "name": "tensortrade-rl-env",
-      "description": "Crystal skill compiled from finance-bp-130 (backtesting, factor-research on multi-market). Triggers: portfolio, wallet, ledger, exchange, multi-exchange, chart, plotly, visualization.",
+      "description": "提供多市场回测与强化学习交易环境构建能力，支持多交易所钱包组合管理、Plotly交互式交易可视化及RL智能体训练评估。触发场景：(1) 用户要构建加密或金融市场的强化学习交易环境；(2) 用户要回测多交易所组合策略并可视化交易分析；(3) 用户要训练评估自己的RL交易智能体。",
       "version": "0.1.0",
       "source": "./plugins/tensortrade-rl-env"
     },
     {
       "name": "tqsdk-futures-api",
-      "description": "Crystal skill compiled from finance-bp-069 (backtesting, factor-research on cn-astock). Triggers: demo, quote, price, basic, tqsdk, volatility, BS pricing, option.",
+      "description": "TqSdk 是中国期货市场的实时行情获取与策略回测框架，支持期权定价模型构建和波动率因子分析，可用于网格交易、目标仓位管理等量化场景。",
       "version": "0.1.0",
       "source": "./plugins/tqsdk-futures-api"
     },
     {
       "name": "trading-agents-cn",
-      "description": "Crystal skill compiled from finance-bp-099 (backtesting, factor-research on cn-astock). Triggers: llm adapter, openai compatible, custom provider, api integration, batch analysis, multiple stocks, comparison report, portfolio analysis.",
+      "description": "基于 LLM 的 A 股多智能体交易分析框架，支持批量选股对比、回测信号生成和因子研究，自带 OpenAI 兼容 API 适配器模板。触发场景：(1) 用户要批量分析多只 A 股并生成对比报告；(2) 用户要接入自己的模型 API 并控制调用成本；(3) 用户要将多个数据源（Tushare/AKShare/BaoStock）作为回退链获取行情数据。",
       "version": "0.1.0",
       "source": "./plugins/trading-agents-cn"
     },
     {
       "name": "vectorbt-vectorized",
-      "description": "Crystal skill compiled from finance-bp-092 (backtesting, factor-research on multi-market). Triggers: api, generate, markdown, navigation, update, structure, bitcoin, BTC.",
+      "description": "基于 VectorBT 框架的向量化回测与因子研究工具，支持多市场数据批量回测、策略参数优化和统计套利分析。触发场景：(1) 用户要回测 MACD 金叉死叉策略在加密货币上的表现；(2) 用户要对交易策略做多参数网格优化；(3) 用户要做多币种或跨市场的统计套利研究。",
       "version": "0.1.0",
       "source": "./plugins/vectorbt-vectorized"
     },
     {
       "name": "vnpy-futures-trading",
-      "description": "Crystal skill compiled from finance-bp-081 (backtesting, factor-research on cn-astock). Triggers: download index constituents, RQData, CSI300 data, historical stock data, alpha research data, XTQuant, 迅投 data, alpha factor research.",
+      "description": "VeighNa（原vnpy）支持中国期货自动交易执行，集成日盘/夜盘交易时段管理，并提供CSI300成分股数据下载及Alpha101/LightGBM等因子研究工作流。",
       "version": "0.1.0",
       "source": "./plugins/vnpy-futures-trading"
     },
     {
       "name": "xalpha-fund-tool",
-      "description": "Crystal skill compiled from finance-bp-068 (portfolio-analytics on multi-market). Triggers: A份额, C份额, 基金比较, 持有期, 申赎费用, E大, 且慢, 发车记录.",
+      "description": "xalpha 支持多市场基金组合分析，实现 A/C 份额成本比较、可转债估值、组合业绩归因及基金相关性分析。触发场景：(1) 用户要判断买入基金选 A 份额还是 C 份额更划算；(2) 用户要分析且慢等平台上的指数投资组合历史收益和相关性；(3) 用户要查看可转债的纯债价值、期权价值和总价值。",
       "version": "0.1.0",
       "source": "./plugins/xalpha-fund-tool"
     },
     {
       "name": "yfinance-market-data",
-      "description": "Crystal skill compiled from finance-bp-128 (data-sourcing on multi-market). Triggers: timezone, datetime, parse, utility, screen, filter, query, criteria.",
+      "description": "通过 Yahoo Finance 获取全球多市场股票、指数、外汇及加密货币的历史行情、财务数据、实时报价和财务日历。触发场景：(1) 用户要查询某只股票过去一年的日K线走势；(2) 用户要输入公司名称模糊匹配查找对应的股票代码；(3) 用户要获取多个市场的行情数据进行横向对比。",
       "version": "0.1.0",
       "source": "./plugins/yfinance-market-data"
     },
     {
       "name": "zipline-daily-backtest",
-      "description": "Crystal skill compiled from finance-bp-088 (backtesting, factor-research on multi-market). Triggers: publish, tutorial, getting started, learn, beginner, notebook, example, buy apple.",
+      "description": "使用 Zipline 框架执行日频股票策略回测，支持多市场数据接入、因子研究、可视化绩效分析，默认本金千万级。",
       "version": "0.1.0",
       "source": "./plugins/zipline-daily-backtest"
     }

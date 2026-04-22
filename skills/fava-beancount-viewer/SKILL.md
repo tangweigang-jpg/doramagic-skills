@@ -1,7 +1,7 @@
 ---
 name: fava-beancount-viewer
 description: |-
-  Crystal skill compiled from finance-bp-078 (accounting on global). Triggers: portfolio management, CLI, command line, tax optimization, investment analysis, equivalent tickers, related securities, commodity grouping.
+  提供基于Fava/Beancount的投资组合管理能力，支持税务亏损收割优化、资产配置分析与等价证券分组识别，辅助用户制定最优卖出策略。触发场景：(1) 用户要优化卖出顺序以减少资本利得税；(2) 用户要检查资产配置比例是否平衡；(3) 用户要识别账户中等价ETF（如VTI/VTSAX）以便管理税负。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

@@ -1,6 +1,6 @@
 {
   "name": "sec-edgar-tools",
-  "description": "Crystal skill compiled from finance-bp-070 (data-sourcing on multi-market). Triggers: sec filings, company lookup, edgar search, find company, ticker search, financials, income statement, balance sheet.",
+  "description": "从 SEC EDGAR 系统获取和解析公司监管文件，支持 SEC 文件检索、财务报表（10-K/10-Q）提取、内部人交易（Form 4）追踪及机构持仓（13F）分析。",
   "version": "0.1.0",
   "skills": [
     "../../skills/sec-edgar-tools"

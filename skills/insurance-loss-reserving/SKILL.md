@@ -1,7 +1,7 @@
 ---
 name: insurance-loss-reserving
 description: |-
-  Crystal skill compiled from finance-bp-063 (insurance-actuarial on global).
+  基于链梯法(Chain Ladder)计算保险损失准备金，输出流量三角形、LDF发展因子和IBNR估算结果。触发场景：(1) 用户要计算保险公司的未决赔款准备金；(2) 用户要使用链梯法评估理赔进展和准备金需求；(3) 用户要对历史赔案数据建立发展因子模型。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

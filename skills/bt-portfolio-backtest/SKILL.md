@@ -1,7 +1,7 @@
 ---
 name: bt-portfolio-backtest
 description: |-
-  Crystal skill compiled from finance-bp-125 (backtesting, factor-research on multi-market). Triggers: buy and hold, monthly rebalance, fixed weights, passive strategy, portfolio allocation, equal risk contribution, risk parity, covariance.
+  使用 bt 框架构建和回测多策略投资组合，支持风险平价、等风险贡献、逆波动率加权等组合构建方法，以及政府债券滚动交易的模拟回测。触发场景：(1) 用户要做多策略组合的收益和风险回测；(2) 用户要做 ERC 风险平价组合的权重计算和回测；(3) 用户要回测政府债券的滚动交易和收益率转换策略。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

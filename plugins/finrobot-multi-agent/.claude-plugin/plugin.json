@@ -1,6 +1,6 @@
 {
   "name": "finrobot-multi-agent",
-  "description": "Crystal skill compiled from finance-bp-074 (macro-data on global). Triggers: equity research, financial analysis report, FMP API, peer comparison, company analysis, annual report, financial report generation, multi-agent.",
+  "description": "多智能体金融分析平台，支持股票研究、市场预测、财报解读与量化回测策略构建，覆盖全球市场数据分析。触发场景：(1) 用户要获取某只股票的研究报告；(2) 用户要用AI预测市场走势；(3) 用户要做股票的量化回测。",
   "version": "0.1.0",
   "skills": [
     "../../skills/finrobot-multi-agent"

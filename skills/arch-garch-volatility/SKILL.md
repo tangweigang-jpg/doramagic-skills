@@ -1,7 +1,7 @@
 ---
 name: arch-garch-volatility
 description: |-
-  Crystal skill compiled from finance-bp-124 (derivatives-pricing on global). Triggers: bootstrap, sharpe ratio, statistical inference, confidence intervals, stationary bootstrap, model comparison, multiple models, benchmark comparison.
+  用 GARCH 族模型进行波动率建模与预测，支持夏普比率统计推断和 SPA 模型比较测试，应用于全球市场风险管理。触发场景：(1) 用户要做波动率建模和预测；(2) 用户要对风险调整收益指标做统计推断；(3) 用户要比选预测模型并验证超额收益。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

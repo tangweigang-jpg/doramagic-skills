@@ -1,6 +1,6 @@
 {
   "name": "alphalens-factor-analysis",
-  "description": "Crystal skill compiled from finance-bp-120 (backtesting, factor-research on multi-market). Triggers: event, study, threshold, crossing, price, intraday, sector, classification.",
+  "description": "分析alpha因子的预测能力与前向收益特征，生成分组收益、IC、换手率等报告，辅助量化策略的因子研究与事件分析。",
   "version": "0.1.0",
   "skills": [
     "../../skills/alphalens-factor-analysis"

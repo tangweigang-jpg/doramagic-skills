@@ -1,7 +1,7 @@
 ---
 name: financepy-derivatives
 description: |-
-  Crystal skill compiled from finance-bp-101 (derivatives-pricing on global). Triggers: calendar, holiday, business days, settlement, trading calendar, date, excel, serial.
+  基于 FinancePy 框架的金融工具日期处理与定价能力，支持多国节假日日历与天数计数约定处理，生成债券和互换现金流调度，计算收益率和价格。触发场景：(1) 用户要计算某笔交易在特定国家的下一个营业日或展期日期；(2) 用户要根据起息日和期限生成债券或互换的付息日程；(3) 用户要按天数计数约定计算债券应计利息或到期收益率。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

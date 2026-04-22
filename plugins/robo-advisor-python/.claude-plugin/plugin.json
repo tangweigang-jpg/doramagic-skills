@@ -1,6 +1,6 @@
 {
   "name": "robo-advisor-python",
-  "description": "Crystal skill compiled from finance-bp-066 (portfolio-analytics on multi-market).",
+  "description": "自动化投资组合再平衡与交易执行，遵循先卖后买原则，支持多市场资产配置，智能计算最低交易规模及税费。",
   "version": "0.1.0",
   "skills": [
     "../../skills/robo-advisor-python"

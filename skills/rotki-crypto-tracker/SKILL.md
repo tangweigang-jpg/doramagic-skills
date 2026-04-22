@@ -1,7 +1,7 @@
 ---
 name: rotki-crypto-tracker
 description: |-
-  Crystal skill compiled from finance-bp-095 (crypto-trading on crypto).
+  实现自托管式加密货币投资组合追踪，自动聚合多交易所和链上钱包资产，实时计算持仓损益并生成税务报告。触发场景：(1) 用户要追踪自己在多个交易所的加密货币持仓；(2) 用户要计算加密货币交易的资本利得税；(3) 用户要从交易所和钱包导入交易历史自动对账。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

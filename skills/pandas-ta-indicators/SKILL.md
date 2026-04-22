@@ -1,7 +1,7 @@
 ---
 name: pandas-ta-indicators
 description: |-
-  Crystal skill compiled from finance-bp-122 (technical-analysis on multi-market). Triggers: visualize, technical indicators, charting, feature exploration, research.
+  基于 pandas-ta 库计算技术分析指标（RSI、MACD、布林带、KAMA 等），支持多市场数据可视化与自定义参数调整。 触发场景：(1) 用户要计算某只股票的 RSI、MACD 等指标数值；(2) 用户要绘制布林带或其他技术分析图表观察价格波动；(3) 用户要快速获取多指标结果或导出到其他平台使用。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

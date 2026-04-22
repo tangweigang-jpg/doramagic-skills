@@ -1,7 +1,9 @@
 ---
 name: quantlib-derivatives
 description: |-
-  Crystal skill compiled from finance-bp-123 (derivatives-pricing on global). Triggers: market element, quote observability, SimpleQuote, reactive pricing, American option, quanto option, FDM pricing, American quanto.
+  通过 SWIG 绑定调用 QuantLib 引擎，完成期权、互换、债券等金融衍生品的定价计算，支持美式期权有限差分法和篮子价差期权等多资产策略验证。
+  
+  触发场景：(1) 用户要用 Python 快速计算美式期权和量子期权的公允价格；(2) 用户要对三资产篮子价差期权进行定价验证和相关性分析；(3) 用户要计算固定利率债券价格、久期并测试市场数据变动时的观察者通知机制。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

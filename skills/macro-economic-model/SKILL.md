@@ -1,7 +1,9 @@
 ---
 name: macro-economic-model
 description: |-
-  Crystal skill compiled from finance-bp-077 (macro-data on global). Triggers: ALM simulation, portfolio summary, yield curve visualization, portfolio return, example run, EIOPA curve, forward rate projection, yield curve calibration.
+  运行ALM资产负债管理模拟，生成组合收益、现金流报告，并通过Smith-Wilson方法校准EIOPA风险自由收益率曲线进行企业债券定价。
+  
+  触发场景：(1) 用户要做资产负债管理模拟并可视化组合收益和现金流；(2) 用户要用Smith-Wilson方法校准EIOPA收益率曲线用于保险负债折现；(3) 用户要根据行业利差批量定价企业债券组合。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

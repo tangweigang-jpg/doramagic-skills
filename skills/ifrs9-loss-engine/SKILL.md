@@ -1,7 +1,7 @@
 ---
 name: ifrs9-loss-engine
 description: |-
-  Crystal skill compiled from finance-bp-062 (regtech-compliance on global). Triggers: ECL, Expected Credit Loss, limit level, truncate, IFRS 9, impairment, amortization, loan.
+  计算IFRS 9预期信用损失（ECL），支持Vasicek单因子前瞻性调整、Kaplan-Meier生存分析计算PD及贷款摊销计划生成，满足Basel III减值合规要求。触发场景：(1) 用户要计算贷款减值准备并生成IFRS 9合规报告；(2) 用户要生成贷款摊销时间表或分析还款结构；(3) 用户要进行前瞻性PD调整，校准Vasicek模型和Basel rho相关性参数。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

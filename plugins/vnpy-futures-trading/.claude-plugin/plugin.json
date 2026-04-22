@@ -1,6 +1,6 @@
 {
   "name": "vnpy-futures-trading",
-  "description": "Crystal skill compiled from finance-bp-081 (backtesting, factor-research on cn-astock). Triggers: download index constituents, RQData, CSI300 data, historical stock data, alpha research data, XTQuant, 迅投 data, alpha factor research.",
+  "description": "VeighNa（原vnpy）支持中国期货自动交易执行，集成日盘/夜盘交易时段管理，并提供CSI300成分股数据下载及Alpha101/LightGBM等因子研究工作流。",
   "version": "0.1.0",
   "skills": [
     "../../skills/vnpy-futures-trading"

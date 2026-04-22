@@ -1,7 +1,7 @@
 ---
 name: finance-kg-embedding
 description: |-
-  Crystal skill compiled from finance-bp-080 (macro-data on global). Triggers: training, knowledge graph, KGTransformer, machine learning, model training, dynamic graph, temporal modeling, entity embedding.
+  训练动态知识图谱嵌入模型，学习时序实体关系表示，支持链接预测和时间预测任务。触发场景：(1) 用户要构建KG嵌入模型用于金融知识推理；(2) 用户要处理FinDKG的12类节点类型进行嵌入；(3) 用户要在训练中加入早停机制防止过拟合。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

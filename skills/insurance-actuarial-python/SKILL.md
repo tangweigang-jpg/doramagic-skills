@@ -1,7 +1,7 @@
 ---
 name: insurance-actuarial-python
 description: |-
-  Crystal skill compiled from finance-bp-064 (insurance-actuarial on global). Triggers: SSA, singular spectrum analysis, time series decomposition, scree plot, trend extraction, stationary bootstrap, swap rates, resampling.
+  使用奇异谱分析和平稳自助法对利率时间序列进行分解与统计推断，构建 NSS 曲线模型并校准利率衍生品参数。触发场景：(1) 用户要对互换利率数据进行趋势分解和季节性分析；(2) 用户要对利率曲线模型进行参数校准和置信区间估计；(3) 用户要对保险负债进行久期匹配和利率敏感性分析。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

@@ -1,6 +1,6 @@
 {
   "name": "gs-quant-pricing",
-  "description": "Crystal skill compiled from finance-bp-020 (finance-analytics on unspecified).",
+  "description": "提供年化波动率、指数加权移动平均（EMA）和指数加权标准差等量化金融指标的专业计算能力，支持维度枚举到字符串的灵活覆盖，适用于金融时间序列分析与资产定价建模。触发场景：(1) 用户要计算某资产的历史年化波动率并评估风险；(2) 用户要用 EMA 或指数加权方式平滑价格数据捕捉趋势；(3) 用户要对多维度金融数据执行标准化统计分析并生成报告。",
   "version": "0.1.0",
   "skills": [
     "../../skills/gs-quant-pricing"

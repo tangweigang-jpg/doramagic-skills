@@ -1,7 +1,7 @@
 ---
 name: rqalpha-cn-backtest
 description: |-
-  Crystal skill compiled from finance-bp-089 (backtesting, factor-research on cn-astock). Triggers: momentum rotation, index futures, equity bond allocation, rebalancing strategy.
+  基于20日价格动量在沪深300、沪深500与国债之间自动轮转配置，通过RQAlpha框架执行完整回测并评估组合绩效。触发场景：(1) 用户要做A股指数动量策略回测；(2) 用户要验证因子在A股市场的有效性；(3) 用户要比较不同资产类别的收益风险特征。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

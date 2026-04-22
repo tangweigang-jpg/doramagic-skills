@@ -1,6 +1,6 @@
 {
   "name": "abs-cashflow-modeling",
-  "description": "Crystal skill compiled from finance-bp-076 (insurance-actuarial on global). Triggers: basic deal, ABS, mortgage pool, waterfall, bonds, ARM, adjustable rate, LIBOR.",
+  "description": "建模资产支持证券交易结构，模拟抵押贷款池现金流、债券分级偿还和瀑布分配，分析 tranche 收益与风险表现。",
   "version": "0.1.0",
   "skills": [
     "../../skills/abs-cashflow-modeling"

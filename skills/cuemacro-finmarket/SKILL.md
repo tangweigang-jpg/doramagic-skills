@@ -1,7 +1,7 @@
 ---
 name: cuemacro-finmarket
 description: |-
-  Crystal skill compiled from finance-bp-108 (portfolio-analytics on multi-market). Triggers: arcticdb, tick data storage, time series database, lmdb, market data persistence, fx trading, g10 currency, technical indicators.
+  金融市场回测框架，支持FX G10货币对技术指标策略回测、ArcticDB高频tick数据本地与S3云端存储、Quandl等数据源的市场数据获取与缓存。触发场景：(1) 用户要做FX G10货币对的交叉策略回测；(2) 用户要把高频tick数据存到S3云端；(3) 用户要从Quandl获取历史市场数据。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

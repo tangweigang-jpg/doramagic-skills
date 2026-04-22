@@ -1,6 +1,6 @@
 {
   "name": "finrl-meta-envs",
-  "description": "Crystal skill compiled from finance-bp-116 (backtesting, factor-research on multi-market). Triggers: paper trading, PPO agent, Alpaca, automated trading, live execution, portfolio optimization, Markowitz, mean-variance.",
+  "description": "提供多市场金融强化学习环境，支持PPO/DQN等DRL算法回测、Markowitz组合优化与实时模拟交易，适配Alpaca等券商接口。",
   "version": "0.1.0",
   "skills": [
     "../../skills/finrl-meta-envs"

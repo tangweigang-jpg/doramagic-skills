@@ -1,6 +1,6 @@
 {
   "name": "lean-cloud-backtest",
-  "description": "Crystal skill compiled from finance-bp-100 (backtesting, factor-research on multi-market). Triggers: C#, QuantBook, research environment, historical data, multi-asset, Python, Bollinger Bands, research.",
+  "description": "通过 LEAN 引擎搭建多市场量化研究与回测环境，支持 QuantBook 历史数据获取、技术指标计算和自定义因子建模。 触发场景：(1) 用户要搭建 C# 或 Python QuantBook 研究环境进行量化分析；(2) 用户要获取多资产类别历史数据进行回测；(3) 用户要计算技术指标或实现自定义因子模型。",
   "version": "0.1.0",
   "skills": [
     "../../skills/lean-cloud-backtest"

@@ -1,6 +1,6 @@
 {
   "name": "arcticdb-timeseries",
-  "description": "Crystal skill compiled from finance-bp-103 (data-sourcing on multi-market). Triggers: aws, s3, credentials, blockchain, billion rows, large scale, performance, aggregation.",
+  "description": "管理大规模时序数据存储与查询，支持十亿行级数据高效聚合，提供 DataFrame 懒加载与批量拼接，兼容 AWS S3 等多种存储后端。",
   "version": "0.1.0",
   "skills": [
     "../../skills/arcticdb-timeseries"

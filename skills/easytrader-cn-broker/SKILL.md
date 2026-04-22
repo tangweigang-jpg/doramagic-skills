@@ -1,7 +1,7 @@
 ---
 name: easytrader-cn-broker
 description: |-
-  Crystal skill compiled from finance-bp-094 (backtesting, factor-research on cn-astock). Triggers: api, http, flask, broker login, balance endpoint, xueqiu, trader, account preparation.
+  提供A股券商客户端自动化交易能力，支持雪球、芸享等多券商登录与交易操作封装，涵盖账户余额查询、持仓管理、委托下单及组合跟随等核心功能。触发场景：(1) 用户要自动登录券商账户并保持会话有效；(2) 用户要查询股票持仓和账户余额信息；(3) 用户要通过程序化方式执行下单、撤单及持仓调整。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

@@ -1,7 +1,7 @@
 ---
 name: firesale-stress-test
 description: |-
-  Crystal skill compiled from finance-bp-067 (regtech-compliance on global).
+  执行银行系统级压力测试，基于EBA 2018真实数据计算CET1比率与杠杆率，模拟firesale情景下资产负债表韧性。触发场景：(1) 用户要做监管合规压力测试；(2) 用户要评估系统性金融风险；(3) 用户要模拟资产甩卖对银行资本充足率的影响。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

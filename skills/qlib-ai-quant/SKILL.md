@@ -1,7 +1,7 @@
 ---
 name: qlib-ai-quant
 description: |-
-  Crystal skill compiled from finance-bp-087 (backtesting, factor-research on multi-market). Triggers: resample, frequency conversion, 1min, target frequency, instrument processor, specific minute, 1min to day, time selection.
+  Qlib 是微软开源的 AI 量化研究框架，支持多市场数据的多频率重采样与特征工程，助力因子挖掘与模型训练。触发场景：(1) 用户要做分钟转日线的频率转换；(2) 用户要用 Alpha158 因子库构建特征；(3) 用户要同时用日频和分钟频数据训练 TFT 模型。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

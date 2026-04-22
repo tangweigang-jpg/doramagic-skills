@@ -1,7 +1,7 @@
 ---
 name: eastmoney-api
 description: |-
-  Crystal skill compiled from finance-bp-084 (data-sourcing on cn-astock). Triggers: start, run, analysis, pre-market, post-market, application, fastapi, startup.
+  为 VAlpha 量化终端用户提供 A 股市场数据获取、多数据源自动切换与熔断保护，支持 Tushare/Akshare 链路 fallback，并根据积分额度自动配置请求频率限制。触发场景：(1) 用户要获取 A 股实时行情或历史 K 线数据；(2) 用户要做盘前盘后量化分析或运行回测任务；(3) 用户要设置持仓预警或监控自选股异动。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

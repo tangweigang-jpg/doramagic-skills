@@ -1,6 +1,6 @@
 {
   "name": "financial-ratios-toolkit",
-  "description": "Crystal skill compiled from finance-bp-118 (portfolio-analytics on multi-market). Triggers: financial analysis, overview, multi-module, comprehensive, demonstration, capabilities, historical data, financial statements.",
+  "description": "提供多市场财务分析能力，涵盖历史数据获取、财务报表解析、财务比率计算、固定收益分析、投资组合绩效评估和股票基本面筛选等核心功能。",
   "version": "0.1.0",
   "skills": [
     "../../skills/financial-ratios-toolkit"
