@@ -1,7 +1,7 @@
 ---
 name: fava-beancount-viewer
 description: |-
-  Crystal skill compiled from finance-bp-078 (accounting on global). Triggers: portfolio management, CLI, equivalent tickers, related securities, minimize gains, tax-efficient selling, asset allocation, portfolio breakdown.
+  Crystal skill compiled from finance-bp-078 (accounting on global). Triggers: portfolio management, CLI, command line, tax optimization, investment analysis, equivalent tickers, related securities, commodity grouping.
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

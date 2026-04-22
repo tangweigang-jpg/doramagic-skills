@@ -1,7 +1,7 @@
 ---
 name: credit-transition-matrix
 description: |-
-  Crystal skill compiled from finance-bp-119 (credit-risk on global). Triggers: not-rated, NR adjustment, transition matrix, initialization, matrix exponent, generator, NR removal, summary statistics.
+  Crystal skill compiled from finance-bp-119 (credit-risk on global). Triggers: not-rated, NR adjustment, credit migration, matrix cleanup, transition matrix, initialization, operations, matrix properties.
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

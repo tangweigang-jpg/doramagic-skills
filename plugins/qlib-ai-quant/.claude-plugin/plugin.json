@@ -1,6 +1,6 @@
 {
   "name": "qlib-ai-quant",
-  "description": "Crystal skill compiled from finance-bp-087 (backtesting, factor-research on multi-market). Triggers: resample, frequency conversion, specific minute, multi-frequency, 15min, TFT, Temporal Fusion Transformer, Alpha158.",
+  "description": "Crystal skill compiled from finance-bp-087 (backtesting, factor-research on multi-market). Triggers: resample, frequency conversion, 1min, target frequency, instrument processor, specific minute, 1min to day, time selection.",
   "version": "0.1.0",
   "skills": [
     "../../skills/qlib-ai-quant"

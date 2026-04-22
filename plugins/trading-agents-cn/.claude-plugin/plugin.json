@@ -1,6 +1,6 @@
 {
   "name": "trading-agents-cn",
-  "description": "Crystal skill compiled from finance-bp-099 (backtesting, factor-research on cn-astock). Triggers: llm adapter, openai compatible, batch analysis, multiple stocks, cli, command line, configuration management, model settings.",
+  "description": "Crystal skill compiled from finance-bp-099 (backtesting, factor-research on cn-astock). Triggers: llm adapter, openai compatible, custom provider, api integration, batch analysis, multiple stocks, comparison report, portfolio analysis.",
   "version": "0.1.0",
   "skills": [
     "../../skills/trading-agents-cn"

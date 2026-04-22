@@ -1,6 +1,6 @@
 {
   "name": "pyfolio-performance",
-  "description": "Crystal skill compiled from finance-bp-106 (backtesting, factor-research on multi-market). Triggers: documentation, deploy, sphinx config, round trip, trade analysis, sector mapping, position tear sheet, single stock.",
+  "description": "Crystal skill compiled from finance-bp-106 (backtesting, factor-research on multi-market). Triggers: publish, theme, round trip, trade analysis, tear sheet, sector mapping, transaction analysis, position tear sheet.",
   "version": "0.1.0",
   "skills": [
     "../../skills/pyfolio-performance"

@@ -1,6 +1,6 @@
 {
   "name": "insurance-actuarial-python",
-  "description": "Crystal skill compiled from finance-bp-064 (insurance-actuarial on global). Triggers: SSA, singular spectrum analysis, stationary bootstrap, swap rates.",
+  "description": "Crystal skill compiled from finance-bp-064 (insurance-actuarial on global). Triggers: SSA, singular spectrum analysis, time series decomposition, scree plot, trend extraction, stationary bootstrap, swap rates, resampling.",
   "version": "0.1.0",
   "skills": [
     "../../skills/insurance-actuarial-python"

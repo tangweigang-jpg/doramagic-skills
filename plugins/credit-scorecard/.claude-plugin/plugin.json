@@ -1,6 +1,6 @@
 {
   "name": "credit-scorecard",
-  "description": "Crystal skill compiled from finance-bp-050 (credit-risk on global). Triggers: optimal, supervised, decision tree, equal width, unsupervised, equal frequency, quantile, agglomerative.",
+  "description": "Crystal skill compiled from finance-bp-050 (credit-risk on global). Triggers: optimal, supervised, monotonic, constrained, optbinning, merge buckets, automatic binning, decision tree.",
   "version": "0.1.0",
   "skills": [
     "../../skills/credit-scorecard"

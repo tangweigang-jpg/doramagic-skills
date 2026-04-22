@@ -1,6 +1,6 @@
 {
   "name": "ccxt-crypto-api",
-  "description": "Crystal skill compiled from finance-bp-111 (crypto-trading on crypto). Triggers: lending, bot, arbitrage, spot trading, create order, cancel order, balance, watch balance.",
+  "description": "Crystal skill compiled from finance-bp-111 (crypto-trading on crypto). Triggers: lending, bot, bitfinex, passive income, crypto lending, arbitrage, spot trading, cross-exchange.",
   "version": "0.1.0",
   "skills": [
     "../../skills/ccxt-crypto-api"

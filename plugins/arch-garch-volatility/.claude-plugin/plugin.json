@@ -1,6 +1,6 @@
 {
   "name": "arch-garch-volatility",
-  "description": "Crystal skill compiled from finance-bp-124 (derivatives-pricing on global). Triggers: bootstrap, sharpe ratio, model comparison, SPA test, cointegration, unit root, ADF test, ARX.",
+  "description": "Crystal skill compiled from finance-bp-124 (derivatives-pricing on global). Triggers: bootstrap, sharpe ratio, statistical inference, confidence intervals, stationary bootstrap, model comparison, multiple models, benchmark comparison.",
   "version": "0.1.0",
   "skills": [
     "../../skills/arch-garch-volatility"

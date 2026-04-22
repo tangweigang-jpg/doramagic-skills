@@ -1,7 +1,7 @@
 ---
 name: cryptofeed-ws-feeds
 description: |-
-  Crystal skill compiled from finance-bp-110 (crypto-trading on crypto). Triggers: callback handler, ticker callback, ArcticDB, arctic storage, Bequant, HitBTC, Binance authenticated, account balance.
+  Crystal skill compiled from finance-bp-110 (crypto-trading on crypto). Triggers: callback handler, ticker callback, async handler, market data subscription, exchange data, ArcticDB, arctic storage, time series database.
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

@@ -1,6 +1,6 @@
 {
   "name": "edgar-crawler",
-  "description": "Crystal skill compiled from finance-bp-114 (data-sourcing on multi-market). Triggers: EDGAR, SEC filings.",
+  "description": "Crystal skill compiled from finance-bp-114 (data-sourcing on multi-market). Triggers: EDGAR, SEC filings, 10-K extraction, annual report parsing.",
   "version": "0.1.0",
   "skills": [
     "../../skills/edgar-crawler"

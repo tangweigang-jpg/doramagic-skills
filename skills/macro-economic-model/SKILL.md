@@ -1,7 +1,7 @@
 ---
 name: macro-economic-model
 description: |-
-  Crystal skill compiled from finance-bp-077 (macro-data on global). Triggers: ALM simulation, portfolio summary, EIOPA curve, forward rate projection, corporate bond, bond pricing, equity pricing, dividend modeling.
+  Crystal skill compiled from finance-bp-077 (macro-data on global). Triggers: ALM simulation, portfolio summary, yield curve visualization, portfolio return, example run, EIOPA curve, forward rate projection, yield curve calibration.
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

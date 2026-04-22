@@ -1,6 +1,6 @@
 {
   "name": "yfinance-market-data",
-  "description": "Crystal skill compiled from finance-bp-128 (data-sourcing on multi-market). Triggers: timezone, datetime, screen, filter, search, find ticker, earnings calendar, IPO.",
+  "description": "Crystal skill compiled from finance-bp-128 (data-sourcing on multi-market). Triggers: timezone, datetime, parse, utility, screen, filter, query, criteria.",
   "version": "0.1.0",
   "skills": [
     "../../skills/yfinance-market-data"

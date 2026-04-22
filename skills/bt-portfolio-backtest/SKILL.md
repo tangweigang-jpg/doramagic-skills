@@ -1,7 +1,7 @@
 ---
 name: bt-portfolio-backtest
 description: |-
-  Crystal skill compiled from finance-bp-125 (backtesting, factor-research on multi-market). Triggers: buy and hold, monthly rebalance, equal risk contribution, risk parity, fixed income, government bonds, inverse volatility, volatility weighting.
+  Crystal skill compiled from finance-bp-125 (backtesting, factor-research on multi-market). Triggers: buy and hold, monthly rebalance, fixed weights, passive strategy, portfolio allocation, equal risk contribution, risk parity, covariance.
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

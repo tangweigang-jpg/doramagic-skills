@@ -1,7 +1,7 @@
 ---
 name: openbb-terminal
 description: |-
-  Crystal skill compiled from finance-bp-097 (data-sourcing on multi-market). Triggers: momentum trading, moving average crossover, Ethereum analysis, crypto trend, commodity ratio, copper gold ratio, forex forecasting, exchange rate prediction.
+  Crystal skill compiled from finance-bp-097 (data-sourcing on multi-market). Triggers: momentum trading, moving average crossover, trading signals, Ethereum analysis, crypto trend, moving averages, volatility analysis, ETH price.
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

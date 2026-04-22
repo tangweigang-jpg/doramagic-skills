@@ -1,6 +1,6 @@
 {
   "name": "vectorbt-vectorized",
-  "description": "Crystal skill compiled from finance-bp-092 (backtesting, factor-research on multi-market). Triggers: api, documentation, navigation, mkdocs, bitcoin, BTC, MACD, hyperparameter.",
+  "description": "Crystal skill compiled from finance-bp-092 (backtesting, factor-research on multi-market). Triggers: api, generate, markdown, navigation, update, structure, bitcoin, BTC.",
   "version": "0.1.0",
   "skills": [
     "../../skills/vectorbt-vectorized"

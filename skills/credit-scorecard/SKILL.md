@@ -1,7 +1,7 @@
 ---
 name: credit-scorecard
 description: |-
-  Crystal skill compiled from finance-bp-050 (credit-risk on global). Triggers: optimal, supervised, decision tree, equal width, unsupervised, equal frequency, quantile, agglomerative.
+  Crystal skill compiled from finance-bp-050 (credit-risk on global). Triggers: optimal, supervised, monotonic, constrained, optbinning, merge buckets, automatic binning, decision tree.
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

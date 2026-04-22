@@ -1,7 +1,7 @@
 ---
 name: finrl-meta-envs
 description: |-
-  Crystal skill compiled from finance-bp-116 (backtesting, factor-research on multi-market). Triggers: paper trading, PPO agent, portfolio optimization, Markowitz, ensemble, DRL, Alpaca demo, Brazilian stocks.
+  Crystal skill compiled from finance-bp-116 (backtesting, factor-research on multi-market). Triggers: paper trading, PPO agent, Alpaca, automated trading, live execution, portfolio optimization, Markowitz, mean-variance.
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

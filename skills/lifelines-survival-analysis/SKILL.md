@@ -1,7 +1,7 @@
 ---
 name: lifelines-survival-analysis
 description: |-
-  Crystal skill compiled from finance-bp-126 (insurance-actuarial on global). Triggers: cox residuals, martingale residual, custom parametric model, parametric regression, conversion rate, time-lagged, piecewise exponential, varying hazard.
+  Crystal skill compiled from finance-bp-126 (insurance-actuarial on global). Triggers: cox residuals, martingale residual, deviance residual, influence diagnosis, model diagnostics, custom parametric model, parametric regression, custom hazard.
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

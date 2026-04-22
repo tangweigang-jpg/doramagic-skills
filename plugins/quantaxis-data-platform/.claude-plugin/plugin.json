@@ -1,6 +1,6 @@
 {
   "name": "quantaxis-data-platform",
-  "description": "Crystal skill compiled from finance-bp-090 (backtesting, factor-research on cn-astock). Triggers: factor, moving average, tear sheet, factor analysis, pandas, polars, QARS, Rust backend.",
+  "description": "Crystal skill compiled from finance-bp-090 (backtesting, factor-research on cn-astock). Triggers: factor, moving average, MA5, technical indicator, daily factor, tear sheet, factor analysis, visualization.",
   "version": "0.1.0",
   "skills": [
     "../../skills/quantaxis-data-platform"

@@ -1,6 +1,6 @@
 {
   "name": "vnpy-futures-trading",
-  "description": "Crystal skill compiled from finance-bp-081 (backtesting, factor-research on cn-astock). Triggers: download index constituents, RQData, XTQuant, alpha factor research, Alpha101, lasso regression, alpha factor, LightGBM.",
+  "description": "Crystal skill compiled from finance-bp-081 (backtesting, factor-research on cn-astock). Triggers: download index constituents, RQData, CSI300 data, historical stock data, alpha research data, XTQuant, 迅投 data, alpha factor research.",
   "version": "0.1.0",
   "skills": [
     "../../skills/vnpy-futures-trading"

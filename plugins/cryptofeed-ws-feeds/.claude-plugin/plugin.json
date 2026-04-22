@@ -1,6 +1,6 @@
 {
   "name": "cryptofeed-ws-feeds",
-  "description": "Crystal skill compiled from finance-bp-110 (crypto-trading on crypto). Triggers: callback handler, ticker callback, ArcticDB, arctic storage, Bequant, HitBTC, Binance authenticated, account balance.",
+  "description": "Crystal skill compiled from finance-bp-110 (crypto-trading on crypto). Triggers: callback handler, ticker callback, async handler, market data subscription, exchange data, ArcticDB, arctic storage, time series database.",
   "version": "0.1.0",
   "skills": [
     "../../skills/cryptofeed-ws-feeds"

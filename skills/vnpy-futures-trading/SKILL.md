@@ -1,7 +1,7 @@
 ---
 name: vnpy-futures-trading
 description: |-
-  Crystal skill compiled from finance-bp-081 (backtesting, factor-research on cn-astock). Triggers: download index constituents, RQData, XTQuant, alpha factor research, Alpha101, lasso regression, alpha factor, LightGBM.
+  Crystal skill compiled from finance-bp-081 (backtesting, factor-research on cn-astock). Triggers: download index constituents, RQData, CSI300 data, historical stock data, alpha research data, XTQuant, 迅投 data, alpha factor research.
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

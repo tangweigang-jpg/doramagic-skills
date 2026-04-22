@@ -1,7 +1,7 @@
 ---
 name: darts-forecasting
 description: |-
-  Crystal skill compiled from finance-bp-102 (time-series-ml on multi-market). Triggers: sphinx documentation, package titles, sphinx config, documentation, quickstart, getting started, multivariate time series, multiple series.
+  Crystal skill compiled from finance-bp-102 (time-series-ml on multi-market). Triggers: package titles, rst files, quickstart, getting started, basic tutorial, time series introduction, first steps, multivariate time series.
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

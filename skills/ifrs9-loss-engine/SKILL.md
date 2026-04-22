@@ -1,7 +1,7 @@
 ---
 name: ifrs9-loss-engine
 description: |-
-  Crystal skill compiled from finance-bp-062 (regtech-compliance on global). Triggers: ECL, Expected Credit Loss, amortization, loan, numpy-financial, LGD, Loss Given Default, API.
+  Crystal skill compiled from finance-bp-062 (regtech-compliance on global). Triggers: ECL, Expected Credit Loss, limit level, truncate, IFRS 9, impairment, amortization, loan.
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

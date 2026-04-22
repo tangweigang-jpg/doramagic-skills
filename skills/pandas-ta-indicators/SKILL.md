@@ -1,7 +1,7 @@
 ---
 name: pandas-ta-indicators
 description: |-
-  Crystal skill compiled from finance-bp-122 (technical-analysis on multi-market). Triggers: documentation, sphinx, visualize, technical indicators.
+  Crystal skill compiled from finance-bp-122 (technical-analysis on multi-market). Triggers: visualize, technical indicators, charting, feature exploration, research.
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

@@ -1,7 +1,7 @@
 ---
 name: rqalpha-cn-backtest
 description: |-
-  Crystal skill compiled from finance-bp-089 (backtesting, factor-research on cn-astock). Triggers: momentum rotation, index futures, documentation, sphinx.
+  Crystal skill compiled from finance-bp-089 (backtesting, factor-research on cn-astock). Triggers: momentum rotation, index futures, equity bond allocation, rebalancing strategy.
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

@@ -1,7 +1,7 @@
 ---
 name: nautilus-algo-trading
 description: |-
-  Crystal skill compiled from finance-bp-098 (backtesting, factor-research on multi-market). Triggers: backtest, BacktestNode, BacktestEngine, TWAP, quickstart, first backtest, Databento, data catalog.
+  Crystal skill compiled from finance-bp-098 (backtesting, factor-research on multi-market). Triggers: Parquet catalog, high-level API, TWAP, direct control, low-level, execution algorithm, quickstart, EMA crossover.
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

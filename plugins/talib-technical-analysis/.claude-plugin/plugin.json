@@ -1,6 +1,6 @@
 {
   "name": "talib-technical-analysis",
-  "description": "Crystal skill compiled from finance-bp-109 (technical-analysis on multi-market). Triggers: documentation generation, html pages.",
+  "description": "Crystal skill compiled from finance-bp-109 (technical-analysis on multi-market). Triggers: html pages, pygments stylesheet, markdown to html, code highlighting.",
   "version": "0.1.0",
   "skills": [
     "../../skills/talib-technical-analysis"

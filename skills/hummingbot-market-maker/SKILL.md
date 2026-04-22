@@ -1,7 +1,7 @@
 ---
 name: hummingbot-market-maker
 description: |-
-  Crystal skill compiled from finance-bp-096 (crypto-trading on crypto). Triggers: funding rate, arbitrage, log prices, monitor, xrpl, ripple, download, order book.
+  Crystal skill compiled from finance-bp-096 (crypto-trading on crypto). Triggers: funding rate, arbitrage, perpetual, leverage, funding payment, log prices, monitor, bid ask.
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

@@ -1,6 +1,6 @@
 {
   "name": "rqalpha-cn-backtest",
-  "description": "Crystal skill compiled from finance-bp-089 (backtesting, factor-research on cn-astock). Triggers: momentum rotation, index futures, documentation, sphinx.",
+  "description": "Crystal skill compiled from finance-bp-089 (backtesting, factor-research on cn-astock). Triggers: momentum rotation, index futures, equity bond allocation, rebalancing strategy.",
   "version": "0.1.0",
   "skills": [
     "../../skills/rqalpha-cn-backtest"

@@ -1,7 +1,7 @@
 ---
 name: insurance-actuarial-python
 description: |-
-  Crystal skill compiled from finance-bp-064 (insurance-actuarial on global). Triggers: SSA, singular spectrum analysis, stationary bootstrap, swap rates.
+  Crystal skill compiled from finance-bp-064 (insurance-actuarial on global). Triggers: SSA, singular spectrum analysis, time series decomposition, scree plot, trend extraction, stationary bootstrap, swap rates, resampling.
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

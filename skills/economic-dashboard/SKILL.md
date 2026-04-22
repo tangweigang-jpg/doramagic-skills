@@ -1,7 +1,7 @@
 ---
 name: economic-dashboard
 description: |-
-  Crystal skill compiled from finance-bp-083 (macro-data on global). Triggers: backup, snapshot, vacuum, optimize, verify API keys, test credentials, refresh data, daily update.
+  Crystal skill compiled from finance-bp-083 (macro-data on global). Triggers: backup, snapshot, parquet, database backup, compress data, vacuum, optimize, database cleanup.
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

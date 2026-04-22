@@ -1,6 +1,6 @@
 {
   "name": "sec-edgar-tools",
-  "description": "Crystal skill compiled from finance-bp-070 (data-sourcing on multi-market). Triggers: sec filings, company lookup, financials, income statement, insider trading, form 4, 13f holdings, institutional investors.",
+  "description": "Crystal skill compiled from finance-bp-070 (data-sourcing on multi-market). Triggers: sec filings, company lookup, edgar search, find company, ticker search, financials, income statement, balance sheet.",
   "version": "0.1.0",
   "skills": [
     "../../skills/sec-edgar-tools"

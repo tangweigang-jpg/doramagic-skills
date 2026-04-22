@@ -1,7 +1,7 @@
 ---
 name: talib-technical-analysis
 description: |-
-  Crystal skill compiled from finance-bp-109 (technical-analysis on multi-market). Triggers: documentation generation, html pages.
+  Crystal skill compiled from finance-bp-109 (technical-analysis on multi-market). Triggers: html pages, pygments stylesheet, markdown to html, code highlighting.
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

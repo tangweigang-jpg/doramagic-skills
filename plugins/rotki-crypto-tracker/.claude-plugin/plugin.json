@@ -1,6 +1,6 @@
 {
   "name": "rotki-crypto-tracker",
-  "description": "Crystal skill compiled from finance-bp-095 (crypto-trading on crypto). Triggers: documentation, sphinx.",
+  "description": "Crystal skill compiled from finance-bp-095 (crypto-trading on crypto).",
   "version": "0.1.0",
   "skills": [
     "../../skills/rotki-crypto-tracker"

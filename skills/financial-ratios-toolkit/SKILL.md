@@ -1,7 +1,7 @@
 ---
 name: financial-ratios-toolkit
 description: |-
-  Crystal skill compiled from finance-bp-118 (portfolio-analytics on multi-market). Triggers: financial analysis, overview, historical data, financial statements, bond, fixed income, portfolio, performance.
+  Crystal skill compiled from finance-bp-118 (portfolio-analytics on multi-market). Triggers: financial analysis, overview, multi-module, comprehensive, demonstration, capabilities, historical data, financial statements.
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

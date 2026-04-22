@@ -1,6 +1,6 @@
 {
   "name": "alphalens-factor-analysis",
-  "description": "Crystal skill compiled from finance-bp-120 (backtesting, factor-research on multi-market). Triggers: docs, deploy, sphinx, config, event, study, intraday, sector.",
+  "description": "Crystal skill compiled from finance-bp-120 (backtesting, factor-research on multi-market). Triggers: event, study, threshold, crossing, price, intraday, sector, classification.",
   "version": "0.1.0",
   "skills": [
     "../../skills/alphalens-factor-analysis"

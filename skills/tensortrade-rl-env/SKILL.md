@@ -1,7 +1,7 @@
 ---
 name: tensortrade-rl-env
 description: |-
-  Crystal skill compiled from finance-bp-130 (backtesting, factor-research on multi-market). Triggers: documentation, sphinx, portfolio, wallet, chart, plotly, environment, setup.
+  Crystal skill compiled from finance-bp-130 (backtesting, factor-research on multi-market). Triggers: portfolio, wallet, ledger, exchange, multi-exchange, chart, plotly, visualization.
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

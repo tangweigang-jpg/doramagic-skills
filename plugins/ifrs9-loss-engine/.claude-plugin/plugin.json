@@ -1,6 +1,6 @@
 {
   "name": "ifrs9-loss-engine",
-  "description": "Crystal skill compiled from finance-bp-062 (regtech-compliance on global). Triggers: ECL, Expected Credit Loss, amortization, loan, numpy-financial, LGD, Loss Given Default, API.",
+  "description": "Crystal skill compiled from finance-bp-062 (regtech-compliance on global). Triggers: ECL, Expected Credit Loss, limit level, truncate, IFRS 9, impairment, amortization, loan.",
   "version": "0.1.0",
   "skills": [
     "../../skills/ifrs9-loss-engine"

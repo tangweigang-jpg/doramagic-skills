@@ -1,7 +1,7 @@
 ---
 name: credit-lgd-model
 description: |-
-  Crystal skill compiled from finance-bp-112 (credit-risk on global). Triggers: documentation, sphinx.
+  Crystal skill compiled from finance-bp-112 (credit-risk on global).
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

@@ -1,7 +1,7 @@
 ---
 name: yfinance-market-data
 description: |-
-  Crystal skill compiled from finance-bp-128 (data-sourcing on multi-market). Triggers: timezone, datetime, screen, filter, search, find ticker, earnings calendar, IPO.
+  Crystal skill compiled from finance-bp-128 (data-sourcing on multi-market). Triggers: timezone, datetime, parse, utility, screen, filter, query, criteria.
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

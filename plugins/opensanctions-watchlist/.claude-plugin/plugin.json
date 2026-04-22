@@ -1,6 +1,6 @@
 {
   "name": "opensanctions-watchlist",
-  "description": "Crystal skill compiled from finance-bp-071 (regtech-compliance on global). Triggers: crawl, extract, wikidata, update, load, database, dedupe, xref.",
+  "description": "Crystal skill compiled from finance-bp-071 (regtech-compliance on global). Triggers: crawl, extract, load, scrape, fetch data, wikidata, update, review.",
   "version": "0.1.0",
   "skills": [
     "../../skills/opensanctions-watchlist"

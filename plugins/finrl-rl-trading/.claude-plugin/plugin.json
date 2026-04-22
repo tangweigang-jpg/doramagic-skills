@@ -1,6 +1,6 @@
 {
   "name": "finrl-rl-trading",
-  "description": "Crystal skill compiled from finance-bp-061 (backtesting, factor-research on multi-market). Triggers: ensemble trading, multiple agents, graph neural network, portfolio optimization, paper trading, Alpaca API, Alpaca, EIIE.",
+  "description": "Crystal skill compiled from finance-bp-061 (backtesting, factor-research on multi-market). Triggers: ensemble trading, multiple agents, stock trading, deep reinforcement learning, DOW 30, graph neural network, portfolio optimization, GPM.",
   "version": "0.1.0",
   "skills": [
     "../../skills/finrl-rl-trading"

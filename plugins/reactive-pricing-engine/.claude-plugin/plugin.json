@@ -1,6 +1,6 @@
 {
   "name": "reactive-pricing-engine",
-  "description": "Crystal skill compiled from finance-bp-104 (finance-analytics on unspecified). Triggers: initial margin, SIMM, XVA, CVA, sensitivity, AD, market data, curves.",
+  "description": "Crystal skill compiled from finance-bp-104 (finance-analytics on unspecified). Triggers: initial margin, SIMM, collateral, exposure, variation margin, XVA, CVA, FVA.",
   "version": "0.1.0",
   "skills": [
     "../../skills/reactive-pricing-engine"

@@ -1,7 +1,7 @@
 ---
 name: abs-cashflow-modeling
 description: |-
-  Crystal skill compiled from finance-bp-076 (insurance-actuarial on global). Triggers: basic deal, ABS, ARM, adjustable rate, step-up, bond rate, swap, interest rate.
+  Crystal skill compiled from finance-bp-076 (insurance-actuarial on global). Triggers: basic deal, ABS, mortgage pool, waterfall, bonds, ARM, adjustable rate, LIBOR.
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

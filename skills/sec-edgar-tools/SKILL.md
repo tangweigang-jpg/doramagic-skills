@@ -1,7 +1,7 @@
 ---
 name: sec-edgar-tools
 description: |-
-  Crystal skill compiled from finance-bp-070 (data-sourcing on multi-market). Triggers: sec filings, company lookup, financials, income statement, insider trading, form 4, 13f holdings, institutional investors.
+  Crystal skill compiled from finance-bp-070 (data-sourcing on multi-market). Triggers: sec filings, company lookup, edgar search, find company, ticker search, financials, income statement, balance sheet.
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

@@ -1,6 +1,6 @@
 {
   "name": "empyrical-risk-metrics",
-  "description": "Crystal skill compiled from finance-bp-107 (backtesting, factor-research on multi-market). Triggers: sphinx configuration, documentation build, documentation deployment, automated deployment, sphinx extensions, numpydoc.",
+  "description": "Crystal skill compiled from finance-bp-107 (backtesting, factor-research on multi-market). Triggers: API reference generation.",
   "version": "0.1.0",
   "skills": [
     "../../skills/empyrical-risk-metrics"

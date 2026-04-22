@@ -1,7 +1,7 @@
 ---
 name: daily-stock-analysis
 description: |-
-  Crystal skill compiled from finance-bp-004 (finance-analytics on unspecified). Triggers: 股票分析, 调度, API服务, 后端, LLM Agent, ReAct, 消息推送, Server酱3.
+  Crystal skill compiled from finance-bp-004 (finance-analytics on unspecified). Triggers: 股票分析, 线程池, 自选股, 智能分析, 定时任务, FastAPI, 跨域, 静态文件托管.
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

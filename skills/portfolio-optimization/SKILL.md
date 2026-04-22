@@ -1,7 +1,7 @@
 ---
 name: portfolio-optimization
 description: |-
-  Crystal skill compiled from finance-bp-093 (portfolio-analytics on multi-market). Triggers: risk model comparison, covariance estimation methods, mean-variance optimization, minimum volatility portfolio, transaction cost optimization, portfolio rebalancing, Black-Litterman model, investor views integration.
+  Crystal skill compiled from finance-bp-093 (portfolio-analytics on multi-market). Triggers: risk model comparison, covariance estimation methods, portfolio risk analysis, Ledoit-Wolf shrinkage, risk matrix computation, mean-variance optimization, minimum volatility portfolio, Efficient Frontier.
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

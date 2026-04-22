@@ -1,7 +1,7 @@
 ---
 name: vectorbt-vectorized
 description: |-
-  Crystal skill compiled from finance-bp-092 (backtesting, factor-research on multi-market). Triggers: api, documentation, navigation, mkdocs, bitcoin, BTC, MACD, hyperparameter.
+  Crystal skill compiled from finance-bp-092 (backtesting, factor-research on multi-market). Triggers: api, generate, markdown, navigation, update, structure, bitcoin, BTC.
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

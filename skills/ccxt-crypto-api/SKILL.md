@@ -1,7 +1,7 @@
 ---
 name: ccxt-crypto-api
 description: |-
-  Crystal skill compiled from finance-bp-111 (crypto-trading on crypto). Triggers: lending, bot, arbitrage, spot trading, create order, cancel order, balance, watch balance.
+  Crystal skill compiled from finance-bp-111 (crypto-trading on crypto). Triggers: lending, bot, bitfinex, passive income, crypto lending, arbitrage, spot trading, cross-exchange.
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

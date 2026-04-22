@@ -1,7 +1,7 @@
 ---
 name: reactive-pricing-engine
 description: |-
-  Crystal skill compiled from finance-bp-104 (finance-analytics on unspecified). Triggers: initial margin, SIMM, XVA, CVA, sensitivity, AD, market data, curves.
+  Crystal skill compiled from finance-bp-104 (finance-analytics on unspecified). Triggers: initial margin, SIMM, collateral, exposure, variation margin, XVA, CVA, FVA.
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

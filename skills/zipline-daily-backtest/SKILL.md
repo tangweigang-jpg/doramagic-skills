@@ -1,7 +1,7 @@
 ---
 name: zipline-daily-backtest
 description: |-
-  Crystal skill compiled from finance-bp-088 (backtesting, factor-research on multi-market). Triggers: deploy, documentation, tutorial, getting started, example, buy apple.
+  Crystal skill compiled from finance-bp-088 (backtesting, factor-research on multi-market). Triggers: publish, tutorial, getting started, learn, beginner, notebook, example, buy apple.
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

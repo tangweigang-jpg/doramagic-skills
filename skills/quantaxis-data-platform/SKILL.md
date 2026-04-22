@@ -1,7 +1,7 @@
 ---
 name: quantaxis-data-platform
 description: |-
-  Crystal skill compiled from finance-bp-090 (backtesting, factor-research on cn-astock). Triggers: factor, moving average, tear sheet, factor analysis, pandas, polars, QARS, Rust backend.
+  Crystal skill compiled from finance-bp-090 (backtesting, factor-research on cn-astock). Triggers: factor, moving average, MA5, technical indicator, daily factor, tear sheet, factor analysis, visualization.
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

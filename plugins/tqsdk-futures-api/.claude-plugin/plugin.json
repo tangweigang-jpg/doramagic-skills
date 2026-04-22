@@ -1,6 +1,6 @@
 {
   "name": "tqsdk-futures-api",
-  "description": "Crystal skill compiled from finance-bp-069 (backtesting, factor-research on cn-astock). Triggers: demo, quote, volatility, BS pricing.",
+  "description": "Crystal skill compiled from finance-bp-069 (backtesting, factor-research on cn-astock). Triggers: demo, quote, price, basic, tqsdk, volatility, BS pricing, option.",
   "version": "0.1.0",
   "skills": [
     "../../skills/tqsdk-futures-api"

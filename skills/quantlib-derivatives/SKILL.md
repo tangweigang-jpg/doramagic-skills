@@ -1,7 +1,7 @@
 ---
 name: quantlib-derivatives
 description: |-
-  Crystal skill compiled from finance-bp-123 (derivatives-pricing on global). Triggers: market element, observer pattern, American option, quanto option, basket option, spread option, CMS, constant maturity swap.
+  Crystal skill compiled from finance-bp-123 (derivatives-pricing on global). Triggers: market element, quote observability, SimpleQuote, reactive pricing, American option, quanto option, FDM pricing, American quanto.
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

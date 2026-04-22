@@ -1,7 +1,7 @@
 ---
 name: advanced-financial-ml
 description: |-
-  Crystal skill compiled from finance-bp-115 (backtesting, factor-research on multi-market). Triggers: documentation, sphinx.
+  Crystal skill compiled from finance-bp-115 (backtesting, factor-research on multi-market).
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

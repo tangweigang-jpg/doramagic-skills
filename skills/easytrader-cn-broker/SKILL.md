@@ -1,7 +1,7 @@
 ---
 name: easytrader-cn-broker
 description: |-
-  Crystal skill compiled from finance-bp-094 (backtesting, factor-research on cn-astock). Triggers: server, api, xueqiu, trader, yh_client, balance, follower.
+  Crystal skill compiled from finance-bp-094 (backtesting, factor-research on cn-astock). Triggers: api, http, flask, broker login, balance endpoint, xueqiu, trader, account preparation.
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

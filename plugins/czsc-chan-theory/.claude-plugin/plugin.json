@@ -1,6 +1,6 @@
 {
   "name": "czsc-chan-theory",
-  "description": "Crystal skill compiled from finance-bp-091 (backtesting, factor-research on cn-astock). Triggers: documentation, sphinx, benchmark, performance, visualization, chart, volatility, classification.",
+  "description": "Crystal skill compiled from finance-bp-091 (backtesting, factor-research on cn-astock). Triggers: benchmark, performance, speed, initialization, CZSC, visualization, chart, trading view.",
   "version": "0.1.0",
   "skills": [
     "../../skills/czsc-chan-theory"

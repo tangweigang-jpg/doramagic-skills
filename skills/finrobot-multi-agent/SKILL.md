@@ -1,7 +1,7 @@
 ---
 name: finrobot-multi-agent
 description: |-
-  Crystal skill compiled from finance-bp-074 (macro-data on global). Triggers: equity research, financial analysis report, annual report, financial report generation, market forecast, stock prediction, openbb, financial data agent.
+  Crystal skill compiled from finance-bp-074 (macro-data on global). Triggers: equity research, financial analysis report, FMP API, peer comparison, company analysis, annual report, financial report generation, multi-agent.
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

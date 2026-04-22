@@ -1,7 +1,7 @@
 ---
 name: aml-data-generator
 description: |-
-  Crystal skill compiled from finance-bp-060 (regtech-compliance on global). Triggers: convert logs, synthetic data, split accounts, bank ID, combine outputs, merge data, transaction graph, network generation.
+  Crystal skill compiled from finance-bp-060 (regtech-compliance on global). Triggers: convert logs, synthetic data, AML simulation, generate transaction logs, split accounts, bank ID, partition data, bank filtering.
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

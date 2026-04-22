@@ -1,7 +1,7 @@
 ---
 name: eastmoney-api
 description: |-
-  Crystal skill compiled from finance-bp-084 (data-sourcing on cn-astock). Triggers: start, server, application, fastapi, static, frontend, alert, notification.
+  Crystal skill compiled from finance-bp-084 (data-sourcing on cn-astock). Triggers: start, run, analysis, pre-market, post-market, application, fastapi, startup.
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

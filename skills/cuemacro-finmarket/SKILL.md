@@ -1,7 +1,7 @@
 ---
 name: cuemacro-finmarket
 description: |-
-  Crystal skill compiled from finance-bp-108 (portfolio-analytics on multi-market). Triggers: arcticdb, tick data storage, backtest, fx trading, market data, quandl, s3 storage, aws.
+  Crystal skill compiled from finance-bp-108 (portfolio-analytics on multi-market). Triggers: arcticdb, tick data storage, time series database, lmdb, market data persistence, fx trading, g10 currency, technical indicators.
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

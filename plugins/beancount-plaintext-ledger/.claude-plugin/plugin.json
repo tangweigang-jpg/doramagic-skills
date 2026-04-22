@@ -1,6 +1,6 @@
 {
   "name": "beancount-plaintext-ledger",
-  "description": "Crystal skill compiled from finance-bp-129 (accounting on global). Triggers: testing utilities, tempdir, unit test, validation.",
+  "description": "Crystal skill compiled from finance-bp-129 (accounting on global).",
   "version": "0.1.0",
   "skills": [
     "../../skills/beancount-plaintext-ledger"

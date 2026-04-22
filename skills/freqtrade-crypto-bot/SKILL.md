@@ -1,7 +1,7 @@
 ---
 name: freqtrade-crypto-bot
 description: |-
-  Crystal skill compiled from finance-bp-085 (backtesting, factor-research on multi-market). Triggers: strategy analysis, backtesting template.
+  Crystal skill compiled from finance-bp-085 (backtesting, factor-research on multi-market). Triggers: strategy analysis, historical data loading, trading strategy evaluation.
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

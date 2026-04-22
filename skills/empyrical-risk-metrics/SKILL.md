@@ -1,7 +1,7 @@
 ---
 name: empyrical-risk-metrics
 description: |-
-  Crystal skill compiled from finance-bp-107 (backtesting, factor-research on multi-market). Triggers: sphinx configuration, documentation build, documentation deployment, automated deployment, sphinx extensions, numpydoc.
+  Crystal skill compiled from finance-bp-107 (backtesting, factor-research on multi-market). Triggers: API reference generation.
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

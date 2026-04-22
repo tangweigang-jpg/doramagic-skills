@@ -1,7 +1,7 @@
 ---
 name: tqsdk-futures-api
 description: |-
-  Crystal skill compiled from finance-bp-069 (backtesting, factor-research on cn-astock). Triggers: demo, quote, volatility, BS pricing.
+  Crystal skill compiled from finance-bp-069 (backtesting, factor-research on cn-astock). Triggers: demo, quote, price, basic, tqsdk, volatility, BS pricing, option.
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

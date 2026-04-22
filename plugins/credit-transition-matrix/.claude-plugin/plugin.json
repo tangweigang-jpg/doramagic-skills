@@ -1,6 +1,6 @@
 {
   "name": "credit-transition-matrix",
-  "description": "Crystal skill compiled from finance-bp-119 (credit-risk on global). Triggers: not-rated, NR adjustment, transition matrix, initialization, matrix exponent, generator, NR removal, summary statistics.",
+  "description": "Crystal skill compiled from finance-bp-119 (credit-risk on global). Triggers: not-rated, NR adjustment, credit migration, matrix cleanup, transition matrix, initialization, operations, matrix properties.",
   "version": "0.1.0",
   "skills": [
     "../../skills/credit-transition-matrix"

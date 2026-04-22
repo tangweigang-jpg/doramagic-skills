@@ -1,7 +1,7 @@
 ---
 name: alphalens-factor-analysis
 description: |-
-  Crystal skill compiled from finance-bp-120 (backtesting, factor-research on multi-market). Triggers: docs, deploy, sphinx, config, event, study, intraday, sector.
+  Crystal skill compiled from finance-bp-120 (backtesting, factor-research on multi-market). Triggers: event, study, threshold, crossing, price, intraday, sector, classification.
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

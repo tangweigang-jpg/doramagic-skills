@@ -1,7 +1,7 @@
 ---
 name: xalpha-fund-tool
 description: |-
-  Crystal skill compiled from finance-bp-068 (portfolio-analytics on multi-market). Triggers: A份额, C份额, E大, 且慢, 可转债, 期权定价, 长赢, 相关性.
+  Crystal skill compiled from finance-bp-068 (portfolio-analytics on multi-market). Triggers: A份额, C份额, 基金比较, 持有期, 申赎费用, E大, 且慢, 发车记录.
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

@@ -1,7 +1,7 @@
 ---
 name: finrl-rl-trading
 description: |-
-  Crystal skill compiled from finance-bp-061 (backtesting, factor-research on multi-market). Triggers: ensemble trading, multiple agents, graph neural network, portfolio optimization, paper trading, Alpaca API, Alpaca, EIIE.
+  Crystal skill compiled from finance-bp-061 (backtesting, factor-research on multi-market). Triggers: ensemble trading, multiple agents, stock trading, deep reinforcement learning, DOW 30, graph neural network, portfolio optimization, GPM.
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

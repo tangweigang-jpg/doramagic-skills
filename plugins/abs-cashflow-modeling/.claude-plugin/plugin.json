@@ -1,6 +1,6 @@
 {
   "name": "abs-cashflow-modeling",
-  "description": "Crystal skill compiled from finance-bp-076 (insurance-actuarial on global). Triggers: basic deal, ABS, ARM, adjustable rate, step-up, bond rate, swap, interest rate.",
+  "description": "Crystal skill compiled from finance-bp-076 (insurance-actuarial on global). Triggers: basic deal, ABS, mortgage pool, waterfall, bonds, ARM, adjustable rate, LIBOR.",
   "version": "0.1.0",
   "skills": [
     "../../skills/abs-cashflow-modeling"

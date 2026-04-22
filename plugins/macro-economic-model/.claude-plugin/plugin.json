@@ -1,6 +1,6 @@
 {
   "name": "macro-economic-model",
-  "description": "Crystal skill compiled from finance-bp-077 (macro-data on global). Triggers: ALM simulation, portfolio summary, EIOPA curve, forward rate projection, corporate bond, bond pricing, equity pricing, dividend modeling.",
+  "description": "Crystal skill compiled from finance-bp-077 (macro-data on global). Triggers: ALM simulation, portfolio summary, yield curve visualization, portfolio return, example run, EIOPA curve, forward rate projection, yield curve calibration.",
   "version": "0.1.0",
   "skills": [
     "../../skills/macro-economic-model"

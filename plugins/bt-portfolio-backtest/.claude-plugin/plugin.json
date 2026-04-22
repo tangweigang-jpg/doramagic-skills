@@ -1,6 +1,6 @@
 {
   "name": "bt-portfolio-backtest",
-  "description": "Crystal skill compiled from finance-bp-125 (backtesting, factor-research on multi-market). Triggers: buy and hold, monthly rebalance, equal risk contribution, risk parity, fixed income, government bonds, inverse volatility, volatility weighting.",
+  "description": "Crystal skill compiled from finance-bp-125 (backtesting, factor-research on multi-market). Triggers: buy and hold, monthly rebalance, fixed weights, passive strategy, portfolio allocation, equal risk contribution, risk parity, covariance.",
   "version": "0.1.0",
   "skills": [
     "../../skills/bt-portfolio-backtest"

@@ -1,7 +1,7 @@
 ---
 name: arch-garch-volatility
 description: |-
-  Crystal skill compiled from finance-bp-124 (derivatives-pricing on global). Triggers: bootstrap, sharpe ratio, model comparison, SPA test, cointegration, unit root, ADF test, ARX.
+  Crystal skill compiled from finance-bp-124 (derivatives-pricing on global). Triggers: bootstrap, sharpe ratio, statistical inference, confidence intervals, stationary bootstrap, model comparison, multiple models, benchmark comparison.
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

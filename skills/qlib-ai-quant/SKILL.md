@@ -1,7 +1,7 @@
 ---
 name: qlib-ai-quant
 description: |-
-  Crystal skill compiled from finance-bp-087 (backtesting, factor-research on multi-market). Triggers: resample, frequency conversion, specific minute, multi-frequency, 15min, TFT, Temporal Fusion Transformer, Alpha158.
+  Crystal skill compiled from finance-bp-087 (backtesting, factor-research on multi-market). Triggers: resample, frequency conversion, 1min, target frequency, instrument processor, specific minute, 1min to day, time selection.
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

@@ -1,7 +1,7 @@
 ---
 name: trading-agents-cn
 description: |-
-  Crystal skill compiled from finance-bp-099 (backtesting, factor-research on cn-astock). Triggers: llm adapter, openai compatible, batch analysis, multiple stocks, cli, command line, configuration management, model settings.
+  Crystal skill compiled from finance-bp-099 (backtesting, factor-research on cn-astock). Triggers: llm adapter, openai compatible, custom provider, api integration, batch analysis, multiple stocks, comparison report, portfolio analysis.
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

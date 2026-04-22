@@ -1,6 +1,6 @@
 {
   "name": "credit-lgd-model",
-  "description": "Crystal skill compiled from finance-bp-112 (credit-risk on global). Triggers: documentation, sphinx.",
+  "description": "Crystal skill compiled from finance-bp-112 (credit-risk on global).",
   "version": "0.1.0",
   "skills": [
     "../../skills/credit-lgd-model"

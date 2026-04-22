@@ -1,7 +1,7 @@
 ---
 name: climate-esg-investing
 description: |-
-  Crystal skill compiled from finance-bp-105 (macro-data on global). Triggers: sector composition, significant regression, factor correlation, correlation matrix, OLS regression, diagnostic tests, Fama-French model, factor model.
+  Crystal skill compiled from finance-bp-105 (macro-data on global). Triggers: sector composition, significant regression, p-value screening, stock sectors, factor analysis, factor correlation, correlation matrix, factor relationships.
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

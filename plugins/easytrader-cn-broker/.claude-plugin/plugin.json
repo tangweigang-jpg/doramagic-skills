@@ -1,6 +1,6 @@
 {
   "name": "easytrader-cn-broker",
-  "description": "Crystal skill compiled from finance-bp-094 (backtesting, factor-research on cn-astock). Triggers: server, api, xueqiu, trader, yh_client, balance, follower.",
+  "description": "Crystal skill compiled from finance-bp-094 (backtesting, factor-research on cn-astock). Triggers: api, http, flask, broker login, balance endpoint, xueqiu, trader, account preparation.",
   "version": "0.1.0",
   "skills": [
     "../../skills/easytrader-cn-broker"

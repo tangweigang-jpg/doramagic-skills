@@ -1,6 +1,6 @@
 {
   "name": "tensortrade-rl-env",
-  "description": "Crystal skill compiled from finance-bp-130 (backtesting, factor-research on multi-market). Triggers: documentation, sphinx, portfolio, wallet, chart, plotly, environment, setup.",
+  "description": "Crystal skill compiled from finance-bp-130 (backtesting, factor-research on multi-market). Triggers: portfolio, wallet, ledger, exchange, multi-exchange, chart, plotly, visualization.",
   "version": "0.1.0",
   "skills": [
     "../../skills/tensortrade-rl-env"

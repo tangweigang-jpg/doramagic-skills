@@ -1,7 +1,7 @@
 ---
 name: lean-cloud-backtest
 description: |-
-  Crystal skill compiled from finance-bp-100 (backtesting, factor-research on multi-market). Triggers: C#, QuantBook, Python, custom data.
+  Crystal skill compiled from finance-bp-100 (backtesting, factor-research on multi-market). Triggers: C#, QuantBook, research environment, historical data, multi-asset, Python, Bollinger Bands, research.
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

@@ -1,7 +1,7 @@
 ---
 name: edgar-crawler
 description: |-
-  Crystal skill compiled from finance-bp-114 (data-sourcing on multi-market). Triggers: EDGAR, SEC filings.
+  Crystal skill compiled from finance-bp-114 (data-sourcing on multi-market). Triggers: EDGAR, SEC filings, 10-K extraction, annual report parsing.
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

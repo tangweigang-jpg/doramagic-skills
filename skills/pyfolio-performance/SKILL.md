@@ -1,7 +1,7 @@
 ---
 name: pyfolio-performance
 description: |-
-  Crystal skill compiled from finance-bp-106 (backtesting, factor-research on multi-market). Triggers: documentation, deploy, sphinx config, round trip, trade analysis, sector mapping, position tear sheet, single stock.
+  Crystal skill compiled from finance-bp-106 (backtesting, factor-research on multi-market). Triggers: publish, theme, round trip, trade analysis, tear sheet, sector mapping, transaction analysis, position tear sheet.
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

@@ -1,7 +1,7 @@
 ---
 name: backtrader-event-driven
 description: |-
-  Crystal skill compiled from finance-bp-086 (backtesting, factor-research on multi-market). Triggers: backtrader, SMA crossover, data printing.
+  Crystal skill compiled from finance-bp-086 (backtesting, factor-research on multi-market). Triggers: backtrader, SMA crossover, moving average, trading strategy, pyfolio analytics, data printing, OHLC logging, data verification.
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:

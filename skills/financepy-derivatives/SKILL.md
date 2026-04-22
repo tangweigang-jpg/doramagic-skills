@@ -1,7 +1,7 @@
 ---
 name: financepy-derivatives
 description: |-
-  Crystal skill compiled from finance-bp-101 (derivatives-pricing on global). Triggers: calendar, holiday, date, excel, date creation, add days, day count, year fraction.
+  Crystal skill compiled from finance-bp-101 (derivatives-pricing on global). Triggers: calendar, holiday, business days, settlement, trading calendar, date, excel, serial.
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:
