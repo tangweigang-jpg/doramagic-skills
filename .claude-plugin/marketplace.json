@@ -10,6 +10,426 @@
       "description": "A 股量化实验室：数据采集 + 因子研究 + 回测执行一站式（基于 zvt 框架）。31 UCs / 8 semantic locks / 47 anti-patterns / 424-class zvt component map.",
       "version": "0.1.0",
       "source": "./plugins/a-stock-quant-lab"
+    },
+    {
+      "name": "abs-cashflow-modeling",
+      "description": "Crystal skill compiled from finance-bp-076 (insurance-actuarial on global). Triggers: basic deal, ABS, ARM, adjustable rate, step-up, bond rate, swap, interest rate.",
+      "version": "0.1.0",
+      "source": "./plugins/abs-cashflow-modeling"
+    },
+    {
+      "name": "advanced-financial-ml",
+      "description": "Crystal skill compiled from finance-bp-115 (backtesting, factor-research on multi-market). Triggers: documentation, sphinx.",
+      "version": "0.1.0",
+      "source": "./plugins/advanced-financial-ml"
+    },
+    {
+      "name": "akshare-financial-data",
+      "description": "Crystal skill compiled from finance-bp-079 (data-sourcing on cn-astock). Triggers: documentation, sphinx.",
+      "version": "0.1.0",
+      "source": "./plugins/akshare-financial-data"
+    },
+    {
+      "name": "alphalens-factor-analysis",
+      "description": "Crystal skill compiled from finance-bp-120 (backtesting, factor-research on multi-market). Triggers: docs, deploy, sphinx, config, event, study, intraday, sector.",
+      "version": "0.1.0",
+      "source": "./plugins/alphalens-factor-analysis"
+    },
+    {
+      "name": "aml-data-generator",
+      "description": "Crystal skill compiled from finance-bp-060 (regtech-compliance on global). Triggers: convert logs, synthetic data, split accounts, bank ID, combine outputs, merge data, transaction graph, network generation.",
+      "version": "0.1.0",
+      "source": "./plugins/aml-data-generator"
+    },
+    {
+      "name": "arch-garch-volatility",
+      "description": "Crystal skill compiled from finance-bp-124 (derivatives-pricing on global). Triggers: bootstrap, sharpe ratio, model comparison, SPA test, cointegration, unit root, ADF test, ARX.",
+      "version": "0.1.0",
+      "source": "./plugins/arch-garch-volatility"
+    },
+    {
+      "name": "arcticdb-timeseries",
+      "description": "Crystal skill compiled from finance-bp-103 (data-sourcing on multi-market). Triggers: aws, s3, billion rows, large scale, concat, batch, equity, stock.",
+      "version": "0.1.0",
+      "source": "./plugins/arcticdb-timeseries"
+    },
+    {
+      "name": "backtrader-event-driven",
+      "description": "Crystal skill compiled from finance-bp-086 (backtesting, factor-research on multi-market). Triggers: backtrader, SMA crossover, data printing.",
+      "version": "0.1.0",
+      "source": "./plugins/backtrader-event-driven"
+    },
+    {
+      "name": "beancount-plaintext-ledger",
+      "description": "Crystal skill compiled from finance-bp-129 (accounting on global). Triggers: testing utilities, tempdir, unit test, validation.",
+      "version": "0.1.0",
+      "source": "./plugins/beancount-plaintext-ledger"
+    },
+    {
+      "name": "bt-portfolio-backtest",
+      "description": "Crystal skill compiled from finance-bp-125 (backtesting, factor-research on multi-market). Triggers: buy and hold, monthly rebalance, equal risk contribution, risk parity, fixed income, government bonds, inverse volatility, volatility weighting.",
+      "version": "0.1.0",
+      "source": "./plugins/bt-portfolio-backtest"
+    },
+    {
+      "name": "ccxt-crypto-api",
+      "description": "Crystal skill compiled from finance-bp-111 (crypto-trading on crypto). Triggers: lending, bot, arbitrage, spot trading, create order, cancel order, balance, watch balance.",
+      "version": "0.1.0",
+      "source": "./plugins/ccxt-crypto-api"
+    },
+    {
+      "name": "climate-esg-investing",
+      "description": "Crystal skill compiled from finance-bp-105 (macro-data on global). Triggers: sector composition, significant regression, factor correlation, correlation matrix, OLS regression, diagnostic tests, Fama-French model, factor model.",
+      "version": "0.1.0",
+      "source": "./plugins/climate-esg-investing"
+    },
+    {
+      "name": "credit-lgd-model",
+      "description": "Crystal skill compiled from finance-bp-112 (credit-risk on global). Triggers: documentation, sphinx.",
+      "version": "0.1.0",
+      "source": "./plugins/credit-lgd-model"
+    },
+    {
+      "name": "credit-scorecard",
+      "description": "Crystal skill compiled from finance-bp-050 (credit-risk on global). Triggers: optimal, supervised, decision tree, equal width, unsupervised, equal frequency, quantile, agglomerative.",
+      "version": "0.1.0",
+      "source": "./plugins/credit-scorecard"
+    },
+    {
+      "name": "credit-transition-matrix",
+      "description": "Crystal skill compiled from finance-bp-119 (credit-risk on global). Triggers: not-rated, NR adjustment, transition matrix, initialization, matrix exponent, generator, NR removal, summary statistics.",
+      "version": "0.1.0",
+      "source": "./plugins/credit-transition-matrix"
+    },
+    {
+      "name": "cryptofeed-ws-feeds",
+      "description": "Crystal skill compiled from finance-bp-110 (crypto-trading on crypto). Triggers: callback handler, ticker callback, ArcticDB, arctic storage, Bequant, HitBTC, Binance authenticated, account balance.",
+      "version": "0.1.0",
+      "source": "./plugins/cryptofeed-ws-feeds"
+    },
+    {
+      "name": "cuemacro-finmarket",
+      "description": "Crystal skill compiled from finance-bp-108 (portfolio-analytics on multi-market). Triggers: arcticdb, tick data storage, backtest, fx trading, market data, quandl, s3 storage, aws.",
+      "version": "0.1.0",
+      "source": "./plugins/cuemacro-finmarket"
+    },
+    {
+      "name": "czsc-chan-theory",
+      "description": "Crystal skill compiled from finance-bp-091 (backtesting, factor-research on cn-astock). Triggers: documentation, sphinx, benchmark, performance, visualization, chart, volatility, classification.",
+      "version": "0.1.0",
+      "source": "./plugins/czsc-chan-theory"
+    },
+    {
+      "name": "daily-stock-analysis",
+      "description": "Crystal skill compiled from finance-bp-004 (finance-analytics on unspecified). Triggers: 股票分析, 调度, API服务, 后端, LLM Agent, ReAct, 消息推送, Server酱3.",
+      "version": "0.1.0",
+      "source": "./plugins/daily-stock-analysis"
+    },
+    {
+      "name": "darts-forecasting",
+      "description": "Crystal skill compiled from finance-bp-102 (time-series-ml on multi-market). Triggers: sphinx documentation, package titles, sphinx config, documentation, quickstart, getting started, multivariate time series, multiple series.",
+      "version": "0.1.0",
+      "source": "./plugins/darts-forecasting"
+    },
+    {
+      "name": "eastmoney-api",
+      "description": "Crystal skill compiled from finance-bp-084 (data-sourcing on cn-astock). Triggers: start, server, application, fastapi, static, frontend, alert, notification.",
+      "version": "0.1.0",
+      "source": "./plugins/eastmoney-api"
+    },
+    {
+      "name": "easytrader-cn-broker",
+      "description": "Crystal skill compiled from finance-bp-094 (backtesting, factor-research on cn-astock). Triggers: server, api, xueqiu, trader, yh_client, balance, follower.",
+      "version": "0.1.0",
+      "source": "./plugins/easytrader-cn-broker"
+    },
+    {
+      "name": "economic-dashboard",
+      "description": "Crystal skill compiled from finance-bp-083 (macro-data on global). Triggers: backup, snapshot, vacuum, optimize, verify API keys, test credentials, refresh data, daily update.",
+      "version": "0.1.0",
+      "source": "./plugins/economic-dashboard"
+    },
+    {
+      "name": "edgar-crawler",
+      "description": "Crystal skill compiled from finance-bp-114 (data-sourcing on multi-market). Triggers: EDGAR, SEC filings.",
+      "version": "0.1.0",
+      "source": "./plugins/edgar-crawler"
+    },
+    {
+      "name": "empyrical-risk-metrics",
+      "description": "Crystal skill compiled from finance-bp-107 (backtesting, factor-research on multi-market). Triggers: sphinx configuration, documentation build, documentation deployment, automated deployment, sphinx extensions, numpydoc.",
+      "version": "0.1.0",
+      "source": "./plugins/empyrical-risk-metrics"
+    },
+    {
+      "name": "fava-beancount-viewer",
+      "description": "Crystal skill compiled from finance-bp-078 (accounting on global). Triggers: portfolio management, CLI, equivalent tickers, related securities, minimize gains, tax-efficient selling, asset allocation, portfolio breakdown.",
+      "version": "0.1.0",
+      "source": "./plugins/fava-beancount-viewer"
+    },
+    {
+      "name": "finance-kg-embedding",
+      "description": "Crystal skill compiled from finance-bp-080 (macro-data on global). Triggers: training, knowledge graph, dynamic graph, early stopping, overfitting prevention, evaluation, metrics.",
+      "version": "0.1.0",
+      "source": "./plugins/finance-kg-embedding"
+    },
+    {
+      "name": "financepy-derivatives",
+      "description": "Crystal skill compiled from finance-bp-101 (derivatives-pricing on global). Triggers: calendar, holiday, date, excel, date creation, add days, day count, year fraction.",
+      "version": "0.1.0",
+      "source": "./plugins/financepy-derivatives"
+    },
+    {
+      "name": "financial-ratios-toolkit",
+      "description": "Crystal skill compiled from finance-bp-118 (portfolio-analytics on multi-market). Triggers: financial analysis, overview, historical data, financial statements, bond, fixed income, portfolio, performance.",
+      "version": "0.1.0",
+      "source": "./plugins/financial-ratios-toolkit"
+    },
+    {
+      "name": "finrl-meta-envs",
+      "description": "Crystal skill compiled from finance-bp-116 (backtesting, factor-research on multi-market). Triggers: paper trading, PPO agent, portfolio optimization, Markowitz, ensemble, DRL, Alpaca demo, Brazilian stocks.",
+      "version": "0.1.0",
+      "source": "./plugins/finrl-meta-envs"
+    },
+    {
+      "name": "finrl-rl-trading",
+      "description": "Crystal skill compiled from finance-bp-061 (backtesting, factor-research on multi-market). Triggers: ensemble trading, multiple agents, graph neural network, portfolio optimization, paper trading, Alpaca API, Alpaca, EIIE.",
+      "version": "0.1.0",
+      "source": "./plugins/finrl-rl-trading"
+    },
+    {
+      "name": "finrobot-multi-agent",
+      "description": "Crystal skill compiled from finance-bp-074 (macro-data on global). Triggers: equity research, financial analysis report, annual report, financial report generation, market forecast, stock prediction, openbb, financial data agent.",
+      "version": "0.1.0",
+      "source": "./plugins/finrobot-multi-agent"
+    },
+    {
+      "name": "firesale-stress-test",
+      "description": "Crystal skill compiled from finance-bp-067 (regtech-compliance on global).",
+      "version": "0.1.0",
+      "source": "./plugins/firesale-stress-test"
+    },
+    {
+      "name": "freqtrade-crypto-bot",
+      "description": "Crystal skill compiled from finance-bp-085 (backtesting, factor-research on multi-market). Triggers: strategy analysis, backtesting template.",
+      "version": "0.1.0",
+      "source": "./plugins/freqtrade-crypto-bot"
+    },
+    {
+      "name": "gs-quant-pricing",
+      "description": "Crystal skill compiled from finance-bp-020 (finance-analytics on unspecified).",
+      "version": "0.1.0",
+      "source": "./plugins/gs-quant-pricing"
+    },
+    {
+      "name": "hummingbot-market-maker",
+      "description": "Crystal skill compiled from finance-bp-096 (crypto-trading on crypto). Triggers: funding rate, arbitrage, log prices, monitor, xrpl, ripple, download, order book.",
+      "version": "0.1.0",
+      "source": "./plugins/hummingbot-market-maker"
+    },
+    {
+      "name": "ifrs9-loss-engine",
+      "description": "Crystal skill compiled from finance-bp-062 (regtech-compliance on global). Triggers: ECL, Expected Credit Loss, amortization, loan, numpy-financial, LGD, Loss Given Default, API.",
+      "version": "0.1.0",
+      "source": "./plugins/ifrs9-loss-engine"
+    },
+    {
+      "name": "insurance-actuarial-python",
+      "description": "Crystal skill compiled from finance-bp-064 (insurance-actuarial on global). Triggers: SSA, singular spectrum analysis, stationary bootstrap, swap rates.",
+      "version": "0.1.0",
+      "source": "./plugins/insurance-actuarial-python"
+    },
+    {
+      "name": "insurance-loss-reserving",
+      "description": "Crystal skill compiled from finance-bp-063 (insurance-actuarial on global).",
+      "version": "0.1.0",
+      "source": "./plugins/insurance-loss-reserving"
+    },
+    {
+      "name": "lean-cloud-backtest",
+      "description": "Crystal skill compiled from finance-bp-100 (backtesting, factor-research on multi-market). Triggers: C#, QuantBook, Python, custom data.",
+      "version": "0.1.0",
+      "source": "./plugins/lean-cloud-backtest"
+    },
+    {
+      "name": "ledger-plaintext-accounting",
+      "description": "Crystal skill compiled from finance-bp-073 (accounting on global).",
+      "version": "0.1.0",
+      "source": "./plugins/ledger-plaintext-accounting"
+    },
+    {
+      "name": "lifelines-survival-analysis",
+      "description": "Crystal skill compiled from finance-bp-126 (insurance-actuarial on global). Triggers: cox residuals, martingale residual, custom parametric model, parametric regression, conversion rate, time-lagged, piecewise exponential, varying hazard.",
+      "version": "0.1.0",
+      "source": "./plugins/lifelines-survival-analysis"
+    },
+    {
+      "name": "macro-economic-model",
+      "description": "Crystal skill compiled from finance-bp-077 (macro-data on global). Triggers: ALM simulation, portfolio summary, EIOPA curve, forward rate projection, corporate bond, bond pricing, equity pricing, dividend modeling.",
+      "version": "0.1.0",
+      "source": "./plugins/macro-economic-model"
+    },
+    {
+      "name": "ml4t-book-notebooks",
+      "description": "Crystal skill compiled from finance-bp-121 (time-series-ml on multi-market).",
+      "version": "0.1.0",
+      "source": "./plugins/ml4t-book-notebooks"
+    },
+    {
+      "name": "nautilus-algo-trading",
+      "description": "Crystal skill compiled from finance-bp-098 (backtesting, factor-research on multi-market). Triggers: backtest, BacktestNode, BacktestEngine, TWAP, quickstart, first backtest, Databento, data catalog.",
+      "version": "0.1.0",
+      "source": "./plugins/nautilus-algo-trading"
+    },
+    {
+      "name": "openbb-terminal",
+      "description": "Crystal skill compiled from finance-bp-097 (data-sourcing on multi-market). Triggers: momentum trading, moving average crossover, Ethereum analysis, crypto trend, commodity ratio, copper gold ratio, forex forecasting, exchange rate prediction.",
+      "version": "0.1.0",
+      "source": "./plugins/openbb-terminal"
+    },
+    {
+      "name": "opensanctions-watchlist",
+      "description": "Crystal skill compiled from finance-bp-071 (regtech-compliance on global). Triggers: crawl, extract, wikidata, update, load, database, dedupe, xref.",
+      "version": "0.1.0",
+      "source": "./plugins/opensanctions-watchlist"
+    },
+    {
+      "name": "p2p-lending-data",
+      "description": "Crystal skill compiled from finance-bp-072 (credit-risk on global). Triggers: test setup, lending test utils, loan refund, loan closure, loan application, loan request, security deposit, loan collateral.",
+      "version": "0.1.0",
+      "source": "./plugins/p2p-lending-data"
+    },
+    {
+      "name": "pandas-ta-indicators",
+      "description": "Crystal skill compiled from finance-bp-122 (technical-analysis on multi-market). Triggers: documentation, sphinx, visualize, technical indicators.",
+      "version": "0.1.0",
+      "source": "./plugins/pandas-ta-indicators"
+    },
+    {
+      "name": "portfolio-optimization",
+      "description": "Crystal skill compiled from finance-bp-093 (portfolio-analytics on multi-market). Triggers: risk model comparison, covariance estimation methods, mean-variance optimization, minimum volatility portfolio, transaction cost optimization, portfolio rebalancing, Black-Litterman model, investor views integration.",
+      "version": "0.1.0",
+      "source": "./plugins/portfolio-optimization"
+    },
+    {
+      "name": "py-vollib-options-pricing",
+      "description": "Crystal skill compiled from finance-bp-127 (derivatives-pricing on global). Triggers: documentation, sphinx.",
+      "version": "0.1.0",
+      "source": "./plugins/py-vollib-options-pricing"
+    },
+    {
+      "name": "pyfolio-performance",
+      "description": "Crystal skill compiled from finance-bp-106 (backtesting, factor-research on multi-market). Triggers: documentation, deploy, sphinx config, round trip, trade analysis, sector mapping, position tear sheet, single stock.",
+      "version": "0.1.0",
+      "source": "./plugins/pyfolio-performance"
+    },
+    {
+      "name": "qlib-ai-quant",
+      "description": "Crystal skill compiled from finance-bp-087 (backtesting, factor-research on multi-market). Triggers: resample, frequency conversion, specific minute, multi-frequency, 15min, TFT, Temporal Fusion Transformer, Alpha158.",
+      "version": "0.1.0",
+      "source": "./plugins/qlib-ai-quant"
+    },
+    {
+      "name": "quantaxis-data-platform",
+      "description": "Crystal skill compiled from finance-bp-090 (backtesting, factor-research on cn-astock). Triggers: factor, moving average, tear sheet, factor analysis, pandas, polars, QARS, Rust backend.",
+      "version": "0.1.0",
+      "source": "./plugins/quantaxis-data-platform"
+    },
+    {
+      "name": "quantlib-derivatives",
+      "description": "Crystal skill compiled from finance-bp-123 (derivatives-pricing on global). Triggers: market element, observer pattern, American option, quanto option, basket option, spread option, CMS, constant maturity swap.",
+      "version": "0.1.0",
+      "source": "./plugins/quantlib-derivatives"
+    },
+    {
+      "name": "reactive-pricing-engine",
+      "description": "Crystal skill compiled from finance-bp-104 (finance-analytics on unspecified). Triggers: initial margin, SIMM, XVA, CVA, sensitivity, AD, market data, curves.",
+      "version": "0.1.0",
+      "source": "./plugins/reactive-pricing-engine"
+    },
+    {
+      "name": "robo-advisor-python",
+      "description": "Crystal skill compiled from finance-bp-066 (portfolio-analytics on multi-market).",
+      "version": "0.1.0",
+      "source": "./plugins/robo-advisor-python"
+    },
+    {
+      "name": "rotki-crypto-tracker",
+      "description": "Crystal skill compiled from finance-bp-095 (crypto-trading on crypto). Triggers: documentation, sphinx.",
+      "version": "0.1.0",
+      "source": "./plugins/rotki-crypto-tracker"
+    },
+    {
+      "name": "rqalpha-cn-backtest",
+      "description": "Crystal skill compiled from finance-bp-089 (backtesting, factor-research on cn-astock). Triggers: momentum rotation, index futures, documentation, sphinx.",
+      "version": "0.1.0",
+      "source": "./plugins/rqalpha-cn-backtest"
+    },
+    {
+      "name": "sec-edgar-tools",
+      "description": "Crystal skill compiled from finance-bp-070 (data-sourcing on multi-market). Triggers: sec filings, company lookup, financials, income statement, insider trading, form 4, 13f holdings, institutional investors.",
+      "version": "0.1.0",
+      "source": "./plugins/sec-edgar-tools"
+    },
+    {
+      "name": "stock-screener",
+      "description": "Crystal skill compiled from finance-bp-082 (finance-analytics on unspecified). Triggers: api, server, cli, twitter, migration, database, bulk, scan.",
+      "version": "0.1.0",
+      "source": "./plugins/stock-screener"
+    },
+    {
+      "name": "talib-technical-analysis",
+      "description": "Crystal skill compiled from finance-bp-109 (technical-analysis on multi-market). Triggers: documentation generation, html pages.",
+      "version": "0.1.0",
+      "source": "./plugins/talib-technical-analysis"
+    },
+    {
+      "name": "tensortrade-rl-env",
+      "description": "Crystal skill compiled from finance-bp-130 (backtesting, factor-research on multi-market). Triggers: documentation, sphinx, portfolio, wallet, chart, plotly, environment, setup.",
+      "version": "0.1.0",
+      "source": "./plugins/tensortrade-rl-env"
+    },
+    {
+      "name": "tqsdk-futures-api",
+      "description": "Crystal skill compiled from finance-bp-069 (backtesting, factor-research on cn-astock). Triggers: demo, quote, volatility, BS pricing.",
+      "version": "0.1.0",
+      "source": "./plugins/tqsdk-futures-api"
+    },
+    {
+      "name": "trading-agents-cn",
+      "description": "Crystal skill compiled from finance-bp-099 (backtesting, factor-research on cn-astock). Triggers: llm adapter, openai compatible, batch analysis, multiple stocks, cli, command line, configuration management, model settings.",
+      "version": "0.1.0",
+      "source": "./plugins/trading-agents-cn"
+    },
+    {
+      "name": "vectorbt-vectorized",
+      "description": "Crystal skill compiled from finance-bp-092 (backtesting, factor-research on multi-market). Triggers: api, documentation, navigation, mkdocs, bitcoin, BTC, MACD, hyperparameter.",
+      "version": "0.1.0",
+      "source": "./plugins/vectorbt-vectorized"
+    },
+    {
+      "name": "vnpy-futures-trading",
+      "description": "Crystal skill compiled from finance-bp-081 (backtesting, factor-research on cn-astock). Triggers: download index constituents, RQData, XTQuant, alpha factor research, Alpha101, lasso regression, alpha factor, LightGBM.",
+      "version": "0.1.0",
+      "source": "./plugins/vnpy-futures-trading"
+    },
+    {
+      "name": "xalpha-fund-tool",
+      "description": "Crystal skill compiled from finance-bp-068 (portfolio-analytics on multi-market). Triggers: A份额, C份额, E大, 且慢, 可转债, 期权定价, 长赢, 相关性.",
+      "version": "0.1.0",
+      "source": "./plugins/xalpha-fund-tool"
+    },
+    {
+      "name": "yfinance-market-data",
+      "description": "Crystal skill compiled from finance-bp-128 (data-sourcing on multi-market). Triggers: timezone, datetime, screen, filter, search, find ticker, earnings calendar, IPO.",
+      "version": "0.1.0",
+      "source": "./plugins/yfinance-market-data"
+    },
+    {
+      "name": "zipline-daily-backtest",
+      "description": "Crystal skill compiled from finance-bp-088 (backtesting, factor-research on multi-market). Triggers: deploy, documentation, tutorial, getting started, example, buy apple.",
+      "version": "0.1.0",
+      "source": "./plugins/zipline-daily-backtest"
     }
   ]
 }

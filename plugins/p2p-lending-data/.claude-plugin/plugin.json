@@ -1,0 +1,8 @@
+{
+  "name": "p2p-lending-data",
+  "description": "Crystal skill compiled from finance-bp-072 (credit-risk on global). Triggers: test setup, lending test utils, loan refund, loan closure, loan application, loan request, security deposit, loan collateral.",
+  "version": "0.1.0",
+  "skills": [
+    "../../skills/p2p-lending-data"
+  ]
+}

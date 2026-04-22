@@ -1,0 +1,8 @@
+{
+  "name": "credit-scorecard",
+  "description": "Crystal skill compiled from finance-bp-050 (credit-risk on global). Triggers: optimal, supervised, decision tree, equal width, unsupervised, equal frequency, quantile, agglomerative.",
+  "version": "0.1.0",
+  "skills": [
+    "../../skills/credit-scorecard"
+  ]
+}

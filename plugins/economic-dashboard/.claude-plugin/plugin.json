@@ -1,0 +1,8 @@
+{
+  "name": "economic-dashboard",
+  "description": "Crystal skill compiled from finance-bp-083 (macro-data on global). Triggers: backup, snapshot, vacuum, optimize, verify API keys, test credentials, refresh data, daily update.",
+  "version": "0.1.0",
+  "skills": [
+    "../../skills/economic-dashboard"
+  ]
+}

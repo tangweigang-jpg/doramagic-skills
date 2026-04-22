@@ -1,0 +1,8 @@
+{
+  "name": "robo-advisor-python",
+  "description": "Crystal skill compiled from finance-bp-066 (portfolio-analytics on multi-market).",
+  "version": "0.1.0",
+  "skills": [
+    "../../skills/robo-advisor-python"
+  ]
+}

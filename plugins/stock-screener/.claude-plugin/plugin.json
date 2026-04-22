@@ -1,0 +1,8 @@
+{
+  "name": "stock-screener",
+  "description": "Crystal skill compiled from finance-bp-082 (finance-analytics on unspecified). Triggers: api, server, cli, twitter, migration, database, bulk, scan.",
+  "version": "0.1.0",
+  "skills": [
+    "../../skills/stock-screener"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "insurance-loss-reserving",
+  "description": "Crystal skill compiled from finance-bp-063 (insurance-actuarial on global).",
+  "version": "0.1.0",
+  "skills": [
+    "../../skills/insurance-loss-reserving"
+  ]
+}

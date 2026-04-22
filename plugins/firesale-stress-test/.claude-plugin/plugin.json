@@ -1,0 +1,8 @@
+{
+  "name": "firesale-stress-test",
+  "description": "Crystal skill compiled from finance-bp-067 (regtech-compliance on global).",
+  "version": "0.1.0",
+  "skills": [
+    "../../skills/firesale-stress-test"
+  ]
+}

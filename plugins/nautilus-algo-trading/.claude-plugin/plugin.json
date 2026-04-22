@@ -1,0 +1,8 @@
+{
+  "name": "nautilus-algo-trading",
+  "description": "Crystal skill compiled from finance-bp-098 (backtesting, factor-research on multi-market). Triggers: backtest, BacktestNode, BacktestEngine, TWAP, quickstart, first backtest, Databento, data catalog.",
+  "version": "0.1.0",
+  "skills": [
+    "../../skills/nautilus-algo-trading"
+  ]
+}

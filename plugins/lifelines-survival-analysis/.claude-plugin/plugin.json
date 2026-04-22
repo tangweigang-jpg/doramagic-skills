@@ -1,0 +1,8 @@
+{
+  "name": "lifelines-survival-analysis",
+  "description": "Crystal skill compiled from finance-bp-126 (insurance-actuarial on global). Triggers: cox residuals, martingale residual, custom parametric model, parametric regression, conversion rate, time-lagged, piecewise exponential, varying hazard.",
+  "version": "0.1.0",
+  "skills": [
+    "../../skills/lifelines-survival-analysis"
+  ]
+}

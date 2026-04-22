@@ -1,0 +1,8 @@
+{
+  "name": "financial-ratios-toolkit",
+  "description": "Crystal skill compiled from finance-bp-118 (portfolio-analytics on multi-market). Triggers: financial analysis, overview, historical data, financial statements, bond, fixed income, portfolio, performance.",
+  "version": "0.1.0",
+  "skills": [
+    "../../skills/financial-ratios-toolkit"
+  ]
+}

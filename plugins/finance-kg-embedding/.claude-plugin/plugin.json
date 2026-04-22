@@ -1,0 +1,8 @@
+{
+  "name": "finance-kg-embedding",
+  "description": "Crystal skill compiled from finance-bp-080 (macro-data on global). Triggers: training, knowledge graph, dynamic graph, early stopping, overfitting prevention, evaluation, metrics.",
+  "version": "0.1.0",
+  "skills": [
+    "../../skills/finance-kg-embedding"
+  ]
+}

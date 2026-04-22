@@ -1,0 +1,8 @@
+{
+  "name": "py-vollib-options-pricing",
+  "description": "Crystal skill compiled from finance-bp-127 (derivatives-pricing on global). Triggers: documentation, sphinx.",
+  "version": "0.1.0",
+  "skills": [
+    "../../skills/py-vollib-options-pricing"
+  ]
+}

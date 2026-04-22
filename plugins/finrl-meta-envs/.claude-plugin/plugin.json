@@ -1,0 +1,8 @@
+{
+  "name": "finrl-meta-envs",
+  "description": "Crystal skill compiled from finance-bp-116 (backtesting, factor-research on multi-market). Triggers: paper trading, PPO agent, portfolio optimization, Markowitz, ensemble, DRL, Alpaca demo, Brazilian stocks.",
+  "version": "0.1.0",
+  "skills": [
+    "../../skills/finrl-meta-envs"
+  ]
+}

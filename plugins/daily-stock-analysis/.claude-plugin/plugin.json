@@ -1,0 +1,8 @@
+{
+  "name": "daily-stock-analysis",
+  "description": "Crystal skill compiled from finance-bp-004 (finance-analytics on unspecified). Triggers: 股票分析, 调度, API服务, 后端, LLM Agent, ReAct, 消息推送, Server酱3.",
+  "version": "0.1.0",
+  "skills": [
+    "../../skills/daily-stock-analysis"
+  ]
+}

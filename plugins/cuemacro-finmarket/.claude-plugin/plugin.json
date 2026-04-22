@@ -1,0 +1,8 @@
+{
+  "name": "cuemacro-finmarket",
+  "description": "Crystal skill compiled from finance-bp-108 (portfolio-analytics on multi-market). Triggers: arcticdb, tick data storage, backtest, fx trading, market data, quandl, s3 storage, aws.",
+  "version": "0.1.0",
+  "skills": [
+    "../../skills/cuemacro-finmarket"
+  ]
+}

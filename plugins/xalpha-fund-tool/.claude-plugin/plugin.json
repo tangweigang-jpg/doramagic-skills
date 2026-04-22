@@ -1,0 +1,8 @@
+{
+  "name": "xalpha-fund-tool",
+  "description": "Crystal skill compiled from finance-bp-068 (portfolio-analytics on multi-market). Triggers: A份额, C份额, E大, 且慢, 可转债, 期权定价, 长赢, 相关性.",
+  "version": "0.1.0",
+  "skills": [
+    "../../skills/xalpha-fund-tool"
+  ]
+}

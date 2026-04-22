@@ -1,0 +1,8 @@
+{
+  "name": "backtrader-event-driven",
+  "description": "Crystal skill compiled from finance-bp-086 (backtesting, factor-research on multi-market). Triggers: backtrader, SMA crossover, data printing.",
+  "version": "0.1.0",
+  "skills": [
+    "../../skills/backtrader-event-driven"
+  ]
+}

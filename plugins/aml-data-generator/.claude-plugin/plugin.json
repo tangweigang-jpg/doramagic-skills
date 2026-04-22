@@ -1,0 +1,8 @@
+{
+  "name": "aml-data-generator",
+  "description": "Crystal skill compiled from finance-bp-060 (regtech-compliance on global). Triggers: convert logs, synthetic data, split accounts, bank ID, combine outputs, merge data, transaction graph, network generation.",
+  "version": "0.1.0",
+  "skills": [
+    "../../skills/aml-data-generator"
+  ]
+}

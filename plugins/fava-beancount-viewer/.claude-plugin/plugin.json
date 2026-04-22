@@ -1,0 +1,8 @@
+{
+  "name": "fava-beancount-viewer",
+  "description": "Crystal skill compiled from finance-bp-078 (accounting on global). Triggers: portfolio management, CLI, equivalent tickers, related securities, minimize gains, tax-efficient selling, asset allocation, portfolio breakdown.",
+  "version": "0.1.0",
+  "skills": [
+    "../../skills/fava-beancount-viewer"
+  ]
+}

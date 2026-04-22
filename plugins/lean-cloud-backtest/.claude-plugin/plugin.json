@@ -1,0 +1,8 @@
+{
+  "name": "lean-cloud-backtest",
+  "description": "Crystal skill compiled from finance-bp-100 (backtesting, factor-research on multi-market). Triggers: C#, QuantBook, Python, custom data.",
+  "version": "0.1.0",
+  "skills": [
+    "../../skills/lean-cloud-backtest"
+  ]
+}

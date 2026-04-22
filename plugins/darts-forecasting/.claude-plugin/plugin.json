@@ -1,0 +1,8 @@
+{
+  "name": "darts-forecasting",
+  "description": "Crystal skill compiled from finance-bp-102 (time-series-ml on multi-market). Triggers: sphinx documentation, package titles, sphinx config, documentation, quickstart, getting started, multivariate time series, multiple series.",
+  "version": "0.1.0",
+  "skills": [
+    "../../skills/darts-forecasting"
+  ]
+}

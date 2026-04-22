@@ -1,0 +1,8 @@
+{
+  "name": "pandas-ta-indicators",
+  "description": "Crystal skill compiled from finance-bp-122 (technical-analysis on multi-market). Triggers: documentation, sphinx, visualize, technical indicators.",
+  "version": "0.1.0",
+  "skills": [
+    "../../skills/pandas-ta-indicators"
+  ]
+}

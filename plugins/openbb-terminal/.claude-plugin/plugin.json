@@ -1,0 +1,8 @@
+{
+  "name": "openbb-terminal",
+  "description": "Crystal skill compiled from finance-bp-097 (data-sourcing on multi-market). Triggers: momentum trading, moving average crossover, Ethereum analysis, crypto trend, commodity ratio, copper gold ratio, forex forecasting, exchange rate prediction.",
+  "version": "0.1.0",
+  "skills": [
+    "../../skills/openbb-terminal"
+  ]
+}

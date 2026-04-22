@@ -1,0 +1,8 @@
+{
+  "name": "freqtrade-crypto-bot",
+  "description": "Crystal skill compiled from finance-bp-085 (backtesting, factor-research on multi-market). Triggers: strategy analysis, backtesting template.",
+  "version": "0.1.0",
+  "skills": [
+    "../../skills/freqtrade-crypto-bot"
+  ]
+}

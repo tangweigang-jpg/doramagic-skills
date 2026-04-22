@@ -1,0 +1,8 @@
+{
+  "name": "quantlib-derivatives",
+  "description": "Crystal skill compiled from finance-bp-123 (derivatives-pricing on global). Triggers: market element, observer pattern, American option, quanto option, basket option, spread option, CMS, constant maturity swap.",
+  "version": "0.1.0",
+  "skills": [
+    "../../skills/quantlib-derivatives"
+  ]
+}

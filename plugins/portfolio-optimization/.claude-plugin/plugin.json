@@ -1,0 +1,8 @@
+{
+  "name": "portfolio-optimization",
+  "description": "Crystal skill compiled from finance-bp-093 (portfolio-analytics on multi-market). Triggers: risk model comparison, covariance estimation methods, mean-variance optimization, minimum volatility portfolio, transaction cost optimization, portfolio rebalancing, Black-Litterman model, investor views integration.",
+  "version": "0.1.0",
+  "skills": [
+    "../../skills/portfolio-optimization"
+  ]
+}

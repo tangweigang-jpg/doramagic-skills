@@ -1,0 +1,8 @@
+{
+  "name": "eastmoney-api",
+  "description": "Crystal skill compiled from finance-bp-084 (data-sourcing on cn-astock). Triggers: start, server, application, fastapi, static, frontend, alert, notification.",
+  "version": "0.1.0",
+  "skills": [
+    "../../skills/eastmoney-api"
+  ]
+}

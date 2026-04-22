@@ -1,0 +1,8 @@
+{
+  "name": "arcticdb-timeseries",
+  "description": "Crystal skill compiled from finance-bp-103 (data-sourcing on multi-market). Triggers: aws, s3, billion rows, large scale, concat, batch, equity, stock.",
+  "version": "0.1.0",
+  "skills": [
+    "../../skills/arcticdb-timeseries"
+  ]
+}

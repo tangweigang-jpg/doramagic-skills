@@ -1,0 +1,8 @@
+{
+  "name": "akshare-financial-data",
+  "description": "Crystal skill compiled from finance-bp-079 (data-sourcing on cn-astock). Triggers: documentation, sphinx.",
+  "version": "0.1.0",
+  "skills": [
+    "../../skills/akshare-financial-data"
+  ]
+}

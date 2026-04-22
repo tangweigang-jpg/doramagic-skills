@@ -1,0 +1,8 @@
+{
+  "name": "hummingbot-market-maker",
+  "description": "Crystal skill compiled from finance-bp-096 (crypto-trading on crypto). Triggers: funding rate, arbitrage, log prices, monitor, xrpl, ripple, download, order book.",
+  "version": "0.1.0",
+  "skills": [
+    "../../skills/hummingbot-market-maker"
+  ]
+}

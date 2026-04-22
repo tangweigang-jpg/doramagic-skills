@@ -1,0 +1,8 @@
+{
+  "name": "financepy-derivatives",
+  "description": "Crystal skill compiled from finance-bp-101 (derivatives-pricing on global). Triggers: calendar, holiday, date, excel, date creation, add days, day count, year fraction.",
+  "version": "0.1.0",
+  "skills": [
+    "../../skills/financepy-derivatives"
+  ]
+}

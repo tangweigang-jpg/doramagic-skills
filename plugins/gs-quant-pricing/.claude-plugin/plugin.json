@@ -1,0 +1,8 @@
+{
+  "name": "gs-quant-pricing",
+  "description": "Crystal skill compiled from finance-bp-020 (finance-analytics on unspecified).",
+  "version": "0.1.0",
+  "skills": [
+    "../../skills/gs-quant-pricing"
+  ]
+}

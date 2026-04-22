@@ -1,0 +1,8 @@
+{
+  "name": "advanced-financial-ml",
+  "description": "Crystal skill compiled from finance-bp-115 (backtesting, factor-research on multi-market). Triggers: documentation, sphinx.",
+  "version": "0.1.0",
+  "skills": [
+    "../../skills/advanced-financial-ml"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "name": "climate-esg-investing",
+  "description": "Crystal skill compiled from finance-bp-105 (macro-data on global). Triggers: sector composition, significant regression, factor correlation, correlation matrix, OLS regression, diagnostic tests, Fama-French model, factor model.",
+  "version": "0.1.0",
+  "skills": [
+    "../../skills/climate-esg-investing"
+  ]
+}

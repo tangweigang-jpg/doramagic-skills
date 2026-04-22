@@ -1,0 +1,8 @@
+{
+  "name": "zipline-daily-backtest",
+  "description": "Crystal skill compiled from finance-bp-088 (backtesting, factor-research on multi-market). Triggers: deploy, documentation, tutorial, getting started, example, buy apple.",
+  "version": "0.1.0",
+  "skills": [
+    "../../skills/zipline-daily-backtest"
+  ]
+}
