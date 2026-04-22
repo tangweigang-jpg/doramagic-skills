@@ -1,0 +1,8 @@
+{
+  "name": "a-stock-quant-lab",
+  "description": "A 股量化实验室：基于 zvt 框架的数据采集、因子研究、回测执行全流水线",
+  "version": "0.1.0",
+  "skills": [
+    "../../skills/a-stock-quant-lab"
+  ]
+}

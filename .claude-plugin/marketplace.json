@@ -1,0 +1,15 @@
+{
+  "name": "doramagic-skills",
+  "owner": {
+    "name": "Doramagic",
+    "homepage": "https://doramagic.ai"
+  },
+  "plugins": [
+    {
+      "name": "a-stock-quant-lab",
+      "description": "A 股量化实验室：数据采集 + 因子研究 + 回测执行一站式（基于 zvt 框架）。31 UCs / 8 semantic locks / 47 anti-patterns / 424-class zvt component map.",
+      "version": "0.1.0",
+      "source": "./plugins/a-stock-quant-lab"
+    }
+  ]
+}
