@@ -1,7 +1,7 @@
 ---
 name: reactive-pricing-engine
 description: |-
-  基于OTC衍生品组合的XVA估值与风险指标计算，支持CVA/DVA/FVA度量及敞口曲线生成；提供SIMM保证金敏感性分析，兼容多定价引擎配置。触发场景：(1) 用户要计算交易对手信用敞口并评估XVA成本；(2) 用户要对冲基金组合进行敏感性分析对比不同方法精度；(3) 用户要批量运行风险报告评估保证金要求。
+  基于OTC衍生品组合的XVA估值与风险指标计算，支持CVA/DVA/FVA度量及敞口曲线生成；提供SIMM保证金敏感性分析，兼容多定价引擎配置。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:
@@ -12,9 +12,9 @@ metadata:
   capability_activities: "finance-analytics"
   sop_version: "crystal-compilation-v6.1"
 ---
-# reactive-pricing-engine
+# XVA 定价引擎 (reactive-pricing-engine)
 
-> I help you build quant strategies on A-share with ZVT — from data fetch to backtest, one flow. Just tell me what you want; I'll write the code, you don't have to dig docs. (Heads up: ZVT natively supports A-share, HK, and crypto. US stocks — stockus_nasdaq_AAPL — are half-baked; don't bother for serious work.)
+> 基于OTC衍生品组合的XVA估值与风险指标计算，支持CVA/DVA/FVA度量及敞口曲线生成；提供SIMM保证金敏感性分析，兼容多定价引擎配置。
 
 ## Pipeline
 

@@ -1,7 +1,7 @@
 ---
 name: fava-beancount-viewer
 description: |-
-  提供基于Fava/Beancount的投资组合管理能力，支持税务亏损收割优化、资产配置分析与等价证券分组识别，辅助用户制定最优卖出策略。触发场景：(1) 用户要优化卖出顺序以减少资本利得税；(2) 用户要检查资产配置比例是否平衡；(3) 用户要识别账户中等价ETF（如VTI/VTSAX）以便管理税负。
+  提供基于Fava/Beancount的投资组合管理能力，支持税务亏损收割优化、资产配置分析与等价证券分组识别，辅助用户制定最优卖出策略。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:
@@ -12,9 +12,9 @@ metadata:
   capability_activities: "accounting"
   sop_version: "crystal-compilation-v6.1"
 ---
-# fava-beancount-viewer
+# Fava 账本查看 (fava-beancount-viewer)
 
-> I help you build quant strategies on A-share with ZVT — from data fetch to backtest, one flow. Just tell me what you want; I'll write the code, you don't have to dig docs. (Heads up: ZVT natively supports A-share, HK, and crypto. US stocks — stockus_nasdaq_AAPL — are half-baked; don't bother for serious work.)
+> 提供基于Fava/Beancount的投资组合管理能力，支持税务亏损收割优化、资产配置分析与等价证券分组识别，辅助用户制定最优卖出策略。
 
 ## Pipeline
 

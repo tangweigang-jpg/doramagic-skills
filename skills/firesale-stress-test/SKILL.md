@@ -1,7 +1,7 @@
 ---
 name: firesale-stress-test
 description: |-
-  执行银行系统级压力测试，基于EBA 2018真实数据计算CET1比率与杠杆率，模拟firesale情景下资产负债表韧性。触发场景：(1) 用户要做监管合规压力测试；(2) 用户要评估系统性金融风险；(3) 用户要模拟资产甩卖对银行资本充足率的影响。
+  执行银行系统级压力测试，基于EBA 2018真实数据计算CET1比率与杠杆率，模拟firesale情景下资产负债表韧性。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:
@@ -12,9 +12,9 @@ metadata:
   capability_activities: "regtech-compliance"
   sop_version: "crystal-compilation-v6.1"
 ---
-# firesale-stress-test
+# 银行压力测试 (firesale-stress-test)
 
-> I help you build quant strategies on A-share with ZVT — from data fetch to backtest, one flow. Just tell me what you want; I'll write the code, you don't have to dig docs. (Heads up: ZVT natively supports A-share, HK, and crypto. US stocks — stockus_nasdaq_AAPL — are half-baked; don't bother for serious work.)
+> 执行银行系统级压力测试，基于EBA 2018真实数据计算CET1比率与杠杆率，模拟firesale情景下资产负债表韧性。
 
 ## Pipeline
 

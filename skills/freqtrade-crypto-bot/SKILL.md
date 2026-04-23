@@ -1,7 +1,7 @@
 ---
 name: freqtrade-crypto-bot
 description: |-
-  使用 Freqtrade 框架加载多交易所 OHLCV 历史数据并进行策略回测分析。触发场景：(1) 用户要回测加密货币交易策略；(2) 用户要分析历史K线数据验证策略效果；(3) 用户要在多交易所部署前模拟验证策略表现。
+  使用 Freqtrade 框架加载多交易所 OHLCV 历史数据并进行策略回测分析。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:
@@ -12,9 +12,9 @@ metadata:
   capability_activities: "backtesting, factor-research"
   sop_version: "crystal-compilation-v6.1"
 ---
-# freqtrade-crypto-bot
+# Freqtrade 加密回测 (freqtrade-crypto-bot)
 
-> I help you build quant strategies on A-share with ZVT — from data fetch to backtest, one flow. Just tell me what you want; I'll write the code, you don't have to dig docs. (Heads up: ZVT natively supports A-share, HK, and crypto. US stocks — stockus_nasdaq_AAPL — are half-baked; don't bother for serious work.)
+> 使用 Freqtrade 框架加载多交易所 OHLCV 历史数据并进行策略回测分析。
 
 ## Pipeline
 

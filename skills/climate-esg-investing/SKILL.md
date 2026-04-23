@@ -1,7 +1,7 @@
 ---
 name: climate-esg-investing
 description: |-
-  使用Fama-French因子模型进行气候ESG投资分析，支持月度股价数据下载、因子相关性计算、OLS回归诊断及显著性筛选，帮助用户构建因子组合和风险评估。触发场景：(1) 用户要做Fama-French因子回归分析；(2) 用户要计算因子间相关性并检验多重共线性；(3) 用户要下载指数成分股月度数据并做显著性筛选。
+  使用Fama-French因子模型进行气候ESG投资分析，支持月度股价数据下载、因子相关性计算、OLS回归诊断及显著性筛选，帮助用户构建因子组合和风险评估。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:
@@ -12,9 +12,9 @@ metadata:
   capability_activities: "macro-data"
   sop_version: "crystal-compilation-v6.1"
 ---
-# climate-esg-investing
+# ESG 气候投资 (climate-esg-investing)
 
-> I help you build quant strategies on A-share with ZVT — from data fetch to backtest, one flow. Just tell me what you want; I'll write the code, you don't have to dig docs. (Heads up: ZVT natively supports A-share, HK, and crypto. US stocks — stockus_nasdaq_AAPL — are half-baked; don't bother for serious work.)
+> 使用Fama-French因子模型进行气候ESG投资分析，支持月度股价数据下载、因子相关性计算、OLS回归诊断及显著性筛选，帮助用户构建因子组合和风险评估。
 
 ## Pipeline
 

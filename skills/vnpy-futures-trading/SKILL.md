@@ -1,9 +1,7 @@
 ---
 name: vnpy-futures-trading
 description: |-
-  VeighNa（原vnpy）支持中国期货自动交易执行，集成日盘/夜盘交易时段管理，并提供CSI300成分股数据下载及Alpha101/LightGBM等因子研究工作流。
-  
-  触发场景：(1) 用户要做中国期货程序化自动交易；(2) 用户要下载CSI300成分股历史数据用于回测；(3) 用户要用Alpha101因子库做A股因子挖掘研究。
+  VeighNa（原vnpy）支持中国期货自动交易执行，集成日盘/夜盘交易时段管理，并提供CSI300成分股数据下载及Alpha101/LightGBM等因子研究工作流。。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:
@@ -14,9 +12,9 @@ metadata:
   capability_activities: "backtesting, factor-research"
   sop_version: "crystal-compilation-v6.1"
 ---
-# vnpy-futures-trading
+# VnPy 期货交易 (vnpy-futures-trading)
 
-> I help you build quant strategies on A-share with ZVT — from data fetch to backtest, one flow. Just tell me what you want; I'll write the code, you don't have to dig docs. (Heads up: ZVT natively supports A-share, HK, and crypto. US stocks — stockus_nasdaq_AAPL — are half-baked; don't bother for serious work.)
+> VeighNa（原vnpy）支持中国期货自动交易执行，集成日盘/夜盘交易时段管理，并提供CSI300成分股数据下载及Alpha101/LightGBM等因子研究工作流。
 
 ## Pipeline
 

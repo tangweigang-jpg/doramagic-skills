@@ -1,7 +1,7 @@
 ---
 name: ml4t-book-notebooks
 description: |-
-  基于《Machine Learning for Trading》第二版配套 notebooks 实现量化交易策略开发与回测，涵盖多市场金融数据的时间序列机器学习分析。触发场景：(1) 用户要复现书中的机器学习交易策略代码；(2) 用户要将 ML 模型用于 A 股或美股市场预测；(3) 用户要获取金融数据并训练自己的量化模型。
+  基于《Machine Learning for Trading》第二版配套 notebooks 实现量化交易策略开发与回测，涵盖多市场金融数据的时间序列机器学习分析。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:
@@ -12,9 +12,9 @@ metadata:
   capability_activities: "time-series-ml"
   sop_version: "crystal-compilation-v6.1"
 ---
-# ml4t-book-notebooks
+# ML4T 交易教程 (ml4t-book-notebooks)
 
-> I help you build quant strategies on A-share with ZVT — from data fetch to backtest, one flow. Just tell me what you want; I'll write the code, you don't have to dig docs. (Heads up: ZVT natively supports A-share, HK, and crypto. US stocks — stockus_nasdaq_AAPL — are half-baked; don't bother for serious work.)
+> 基于《Machine Learning for Trading》第二版配套 notebooks 实现量化交易策略开发与回测，涵盖多市场金融数据的时间序列机器学习分析。
 
 ## Pipeline
 

@@ -1,9 +1,7 @@
 ---
 name: abs-cashflow-modeling
 description: |-
-  建模资产支持证券交易结构，模拟抵押贷款池现金流、债券分级偿还和瀑布分配，分析 tranche 收益与风险表现。
-  
-  触发场景：(1) 用户要构建 ABS 交易模型，分析优先级债券和股权层的本息回收；(2) 用户要模拟 LIBOR 浮动利率抵押贷款池，查看利率重设期的现金流变化；(3) 用户要建模含阶梯利率的债券结构，规划特定时点的票息调整。
+  建模资产支持证券交易结构，模拟抵押贷款池现金流、债券分级偿还和瀑布分配，分析 tranche 收益与风险表现。。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:
@@ -14,9 +12,9 @@ metadata:
   capability_activities: "insurance-actuarial"
   sop_version: "crystal-compilation-v6.1"
 ---
-# abs-cashflow-modeling
+# ABS 现金流建模 (abs-cashflow-modeling)
 
-> I help you build quant strategies on A-share with ZVT — from data fetch to backtest, one flow. Just tell me what you want; I'll write the code, you don't have to dig docs. (Heads up: ZVT natively supports A-share, HK, and crypto. US stocks — stockus_nasdaq_AAPL — are half-baked; don't bother for serious work.)
+> 建模资产支持证券交易结构，模拟抵押贷款池现金流、债券分级偿还和瀑布分配，分析 tranche 收益与风险表现。
 
 ## Pipeline
 

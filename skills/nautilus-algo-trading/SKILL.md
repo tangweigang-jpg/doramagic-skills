@@ -1,9 +1,7 @@
 ---
 name: nautilus-algo-trading
 description: |-
-  使用 NautilusTrader 配置驱动的 BacktestNode 运行高性能多市场回测，支持 Parquet 数据目录和外部 CSV 数据导入，策略可直接过渡到实盘交易。
-  
-  触发场景：(1) 用户要基于配置快速运行可复现的回测流程；(2) 用户要对 TWAP 等执行算法进行细粒度回测控制；(3) 用户要找到最小示例跑通第一个 EMA 策略回测。
+  使用 NautilusTrader 配置驱动的 BacktestNode 运行高性能多市场回测，支持 Parquet 数据目录和外部 CSV 数据导入，策略可直接过渡到实盘交易。。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:
@@ -14,9 +12,9 @@ metadata:
   capability_activities: "backtesting, factor-research"
   sop_version: "crystal-compilation-v6.1"
 ---
-# nautilus-algo-trading
+# Nautilus 算法回测 (nautilus-algo-trading)
 
-> I help you build quant strategies on A-share with ZVT — from data fetch to backtest, one flow. Just tell me what you want; I'll write the code, you don't have to dig docs. (Heads up: ZVT natively supports A-share, HK, and crypto. US stocks — stockus_nasdaq_AAPL — are half-baked; don't bother for serious work.)
+> 使用 NautilusTrader 配置驱动的 BacktestNode 运行高性能多市场回测，支持 Parquet 数据目录和外部 CSV 数据导入，策略可直接过渡到实盘交易。
 
 ## Pipeline
 

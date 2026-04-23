@@ -1,7 +1,7 @@
 ---
 name: eastmoney-api
 description: |-
-  为 VAlpha 量化终端用户提供 A 股市场数据获取、多数据源自动切换与熔断保护，支持 Tushare/Akshare 链路 fallback，并根据积分额度自动配置请求频率限制。触发场景：(1) 用户要获取 A 股实时行情或历史 K 线数据；(2) 用户要做盘前盘后量化分析或运行回测任务；(3) 用户要设置持仓预警或监控自选股异动。
+  为 VAlpha 量化终端用户提供 A 股市场数据获取、多数据源自动切换与熔断保护，支持 Tushare/Akshare 链路 fallback，并根据积分额度自动配置请求频率限制。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:
@@ -12,9 +12,9 @@ metadata:
   capability_activities: "data-sourcing"
   sop_version: "crystal-compilation-v6.1"
 ---
-# eastmoney-api
+# 东方财富接口 (eastmoney-api)
 
-> I help you build quant strategies on A-share with ZVT — from data fetch to backtest, one flow. Just tell me what you want; I'll write the code, you don't have to dig docs. (Heads up: ZVT natively supports A-share, HK, and crypto. US stocks — stockus_nasdaq_AAPL — are half-baked; don't bother for serious work.)
+> 为 VAlpha 量化终端用户提供 A 股市场数据获取、多数据源自动切换与熔断保护，支持 Tushare/Akshare 链路 fallback，并根据积分额度自动配置请求频率限制。
 
 ## Pipeline
 

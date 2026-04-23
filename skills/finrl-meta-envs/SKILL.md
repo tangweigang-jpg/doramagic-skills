@@ -1,9 +1,7 @@
 ---
 name: finrl-meta-envs
 description: |-
-  提供多市场金融强化学习环境，支持PPO/DQN等DRL算法回测、Markowitz组合优化与实时模拟交易，适配Alpaca等券商接口。
-  
-  触发场景：(1) 用户要训练PPO强化学习模型做量化交易并在历史数据上回测；(2) 用户要对多只股票或资产做组合优化、平衡收益与风险；(3) 用户要连接Alpaca等券商API做模拟实盘验证策略效果。
+  提供多市场金融强化学习环境，支持PPO/DQN等DRL算法回测、Markowitz组合优化与实时模拟交易，适配Alpaca等券商接口。。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:
@@ -14,9 +12,9 @@ metadata:
   capability_activities: "backtesting, factor-research"
   sop_version: "crystal-compilation-v6.1"
 ---
-# finrl-meta-envs
+# FinRL 强化环境 (finrl-meta-envs)
 
-> I help you build quant strategies on A-share with ZVT — from data fetch to backtest, one flow. Just tell me what you want; I'll write the code, you don't have to dig docs. (Heads up: ZVT natively supports A-share, HK, and crypto. US stocks — stockus_nasdaq_AAPL — are half-baked; don't bother for serious work.)
+> 提供多市场金融强化学习环境，支持PPO/DQN等DRL算法回测、Markowitz组合优化与实时模拟交易，适配Alpaca等券商接口。
 
 ## Pipeline
 

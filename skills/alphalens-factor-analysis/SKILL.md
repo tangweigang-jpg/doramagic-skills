@@ -1,9 +1,7 @@
 ---
 name: alphalens-factor-analysis
 description: |-
-  分析alpha因子的预测能力与前向收益特征，生成分组收益、IC、换手率等报告，辅助量化策略的因子研究与事件分析。
-  
-  触发场景：(1) 用户要分析某个因子是否有效，想看IC序列、分组收益和换手率曲线；(2) 用户要做事件研究，想看特定事件（如价格突破）发生后的前向收益分布；(3) 用户要用 Alphalens 生成因子分析的可视化报告。
+  分析alpha因子的预测能力与前向收益特征，生成分组收益、IC、换手率等报告，辅助量化策略的因子研究与事件分析。。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:
@@ -14,9 +12,9 @@ metadata:
   capability_activities: "backtesting, factor-research"
   sop_version: "crystal-compilation-v6.1"
 ---
-# alphalens-factor-analysis
+# Alphalens 因子分析 (alphalens-factor-analysis)
 
-> I help you build quant strategies on A-share with ZVT — from data fetch to backtest, one flow. Just tell me what you want; I'll write the code, you don't have to dig docs. (Heads up: ZVT natively supports A-share, HK, and crypto. US stocks — stockus_nasdaq_AAPL — are half-baked; don't bother for serious work.)
+> 分析alpha因子的预测能力与前向收益特征，生成分组收益、IC、换手率等报告，辅助量化策略的因子研究与事件分析。
 
 ## Pipeline
 

@@ -1,9 +1,7 @@
 ---
 name: financial-ratios-toolkit
 description: |-
-  提供多市场财务分析能力，涵盖历史数据获取、财务报表解析、财务比率计算、固定收益分析、投资组合绩效评估和股票基本面筛选等核心功能。
-  
-  触发场景：(1) 用户要做多只股票的基本面分析或财务指标对比；(2) 用户要获取历史价格数据和财务报表进行量化建模；(3) 用户要分析债券估值或筛选符合特定条件的投资标的。
+  提供多市场财务分析能力，涵盖历史数据获取、财务报表解析、财务比率计算、固定收益分析、投资组合绩效评估和股票基本面筛选等核心功能。。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:
@@ -14,9 +12,9 @@ metadata:
   capability_activities: "portfolio-analytics"
   sop_version: "crystal-compilation-v6.1"
 ---
-# financial-ratios-toolkit
+# 财务比率工具 (financial-ratios-toolkit)
 
-> I help you build quant strategies on A-share with ZVT — from data fetch to backtest, one flow. Just tell me what you want; I'll write the code, you don't have to dig docs. (Heads up: ZVT natively supports A-share, HK, and crypto. US stocks — stockus_nasdaq_AAPL — are half-baked; don't bother for serious work.)
+> 提供多市场财务分析能力，涵盖历史数据获取、财务报表解析、财务比率计算、固定收益分析、投资组合绩效评估和股票基本面筛选等核心功能。
 
 ## Pipeline
 

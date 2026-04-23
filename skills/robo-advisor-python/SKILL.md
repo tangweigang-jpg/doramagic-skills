@@ -1,9 +1,7 @@
 ---
 name: robo-advisor-python
 description: |-
-  自动化投资组合再平衡与交易执行，遵循先卖后买原则，支持多市场资产配置，智能计算最低交易规模及税费。
-  
-  触发场景：(1) 用户要设置投资组合自动再平衡策略；(2) 用户要计算大规模调仓的交易成本和赎回费用；(3) 用户要按照优先级执行组合调整并规避税费风险。
+  自动化投资组合再平衡与交易执行，遵循先卖后买原则，支持多市场资产配置，智能计算最低交易规模及税费。。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:
@@ -14,9 +12,9 @@ metadata:
   capability_activities: "portfolio-analytics"
   sop_version: "crystal-compilation-v6.1"
 ---
-# robo-advisor-python
+# 智能投顾 (robo-advisor-python)
 
-> I help you build quant strategies on A-share with ZVT — from data fetch to backtest, one flow. Just tell me what you want; I'll write the code, you don't have to dig docs. (Heads up: ZVT natively supports A-share, HK, and crypto. US stocks — stockus_nasdaq_AAPL — are half-baked; don't bother for serious work.)
+> 自动化投资组合再平衡与交易执行，遵循先卖后买原则，支持多市场资产配置，智能计算最低交易规模及税费。
 
 ## Pipeline
 

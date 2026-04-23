@@ -1,7 +1,7 @@
 ---
 name: akshare-financial-data
 description: |-
-  获取中国 A 股市场实时行情、历史 K 线、财务报表、基金期货等金融数据，支持股票、债券、期权等多品种数据查询。触发场景：(1) 用户要获取某只股票的日线、周线历史数据；(2) 用户要查询股票实时行情和报价；(3) 用户要批量下载多只A股的历史行情进行回测分析。
+  获取中国 A 股市场实时行情、历史 K 线、财务报表、基金期货等金融数据，支持股票、债券、期权等多品种数据查询。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:
@@ -12,9 +12,9 @@ metadata:
   capability_activities: "data-sourcing"
   sop_version: "crystal-compilation-v6.1"
 ---
-# akshare-financial-data
+# AkShare 金融数据 (akshare-financial-data)
 
-> I help you build quant strategies on A-share with ZVT — from data fetch to backtest, one flow. Just tell me what you want; I'll write the code, you don't have to dig docs. (Heads up: ZVT natively supports A-share, HK, and crypto. US stocks — stockus_nasdaq_AAPL — are half-baked; don't bother for serious work.)
+> 获取中国 A 股市场实时行情、历史 K 线、财务报表、基金期货等金融数据，支持股票、债券、期权等多品种数据查询。
 
 ## Pipeline
 

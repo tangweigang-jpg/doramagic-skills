@@ -1,7 +1,7 @@
 ---
 name: ifrs9-loss-engine
 description: |-
-  计算IFRS 9预期信用损失（ECL），支持Vasicek单因子前瞻性调整、Kaplan-Meier生存分析计算PD及贷款摊销计划生成，满足Basel III减值合规要求。触发场景：(1) 用户要计算贷款减值准备并生成IFRS 9合规报告；(2) 用户要生成贷款摊销时间表或分析还款结构；(3) 用户要进行前瞻性PD调整，校准Vasicek模型和Basel rho相关性参数。
+  计算IFRS 9预期信用损失（ECL），支持Vasicek单因子前瞻性调整、Kaplan-Meier生存分析计算PD及贷款摊销计划生成，满足Basel III减值合规要求。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:
@@ -12,9 +12,9 @@ metadata:
   capability_activities: "regtech-compliance"
   sop_version: "crystal-compilation-v6.1"
 ---
-# ifrs9-loss-engine
+# IFRS 9 损失引擎 (ifrs9-loss-engine)
 
-> I help you build quant strategies on A-share with ZVT — from data fetch to backtest, one flow. Just tell me what you want; I'll write the code, you don't have to dig docs. (Heads up: ZVT natively supports A-share, HK, and crypto. US stocks — stockus_nasdaq_AAPL — are half-baked; don't bother for serious work.)
+> 计算IFRS 9预期信用损失（ECL），支持Vasicek单因子前瞻性调整、Kaplan-Meier生存分析计算PD及贷款摊销计划生成，满足Basel III减值合规要求。
 
 ## Pipeline
 

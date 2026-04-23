@@ -1,7 +1,7 @@
 ---
 name: lifelines-survival-analysis
 description: |-
-  基于 lifelines 库提供生存分析与 Cox 比例风险建模能力，支持残差诊断、参数化回归模型自定义、时滞转化率分析及比例风险假设检验。触发场景：(1) 用户要做客户流失或贷款违约的时间预测建模；(2) 用户要检验 Cox 模型是否符合比例风险假设并可视化残差；(3) 用户要构建自定义hazard函数的保险精算或信用风险模型。
+  基于 lifelines 库提供生存分析与 Cox 比例风险建模能力，支持残差诊断、参数化回归模型自定义、时滞转化率分析及比例风险假设检验。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:
@@ -12,9 +12,9 @@ metadata:
   capability_activities: "insurance-actuarial"
   sop_version: "crystal-compilation-v6.1"
 ---
-# lifelines-survival-analysis
+# 生存分析建模 (lifelines-survival-analysis)
 
-> I help you build quant strategies on A-share with ZVT — from data fetch to backtest, one flow. Just tell me what you want; I'll write the code, you don't have to dig docs. (Heads up: ZVT natively supports A-share, HK, and crypto. US stocks — stockus_nasdaq_AAPL — are half-baked; don't bother for serious work.)
+> 基于 lifelines 库提供生存分析与 Cox 比例风险建模能力，支持残差诊断、参数化回归模型自定义、时滞转化率分析及比例风险假设检验。
 
 ## Pipeline
 

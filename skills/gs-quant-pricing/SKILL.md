@@ -1,7 +1,7 @@
 ---
 name: gs-quant-pricing
 description: |-
-  提供年化波动率、指数加权移动平均（EMA）和指数加权标准差等量化金融指标的专业计算能力，支持维度枚举到字符串的灵活覆盖，适用于金融时间序列分析与资产定价建模。触发场景：(1) 用户要计算某资产的历史年化波动率并评估风险；(2) 用户要用 EMA 或指数加权方式平滑价格数据捕捉趋势；(3) 用户要对多维度金融数据执行标准化统计分析并生成报告。
+  提供年化波动率、指数加权移动平均（EMA）和指数加权标准差等量化金融指标的专业计算能力，支持维度枚举到字符串的灵活覆盖，适用于金融时间序列分析与资产定价建模。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:
@@ -12,9 +12,9 @@ metadata:
   capability_activities: "finance-analytics"
   sop_version: "crystal-compilation-v6.1"
 ---
-# gs-quant-pricing
+# GS Quant 风险定价 (gs-quant-pricing)
 
-> I help you build quant strategies on A-share with ZVT — from data fetch to backtest, one flow. Just tell me what you want; I'll write the code, you don't have to dig docs. (Heads up: ZVT natively supports A-share, HK, and crypto. US stocks — stockus_nasdaq_AAPL — are half-baked; don't bother for serious work.)
+> 提供年化波动率、指数加权移动平均（EMA）和指数加权标准差等量化金融指标的专业计算能力，支持维度枚举到字符串的灵活覆盖，适用于金融时间序列分析与资产定价建模。
 
 ## Pipeline
 

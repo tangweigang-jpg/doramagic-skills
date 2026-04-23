@@ -1,7 +1,7 @@
 ---
 name: p2p-lending-data
 description: |-
-  验证 Frappe Lending 贷款模块核心流程，包括贷款申请创建、放款计划生成、还款处理及结清退款的自动化测试能力。触发场景：(1) 用户要测试贷款申请流程能否正确创建草稿贷款并配置利率；(2) 用户要验证放款后还款计划生成及宽限期利息计算；(3) 用户要测试共同贷款伙伴配置下的分成逻辑。
+  验证 Frappe Lending 贷款模块核心流程，包括贷款申请创建、放款计划生成、还款处理及结清退款的自动化测试能力。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:
@@ -12,9 +12,9 @@ metadata:
   capability_activities: "credit-risk"
   sop_version: "crystal-compilation-v6.1"
 ---
-# p2p-lending-data
+# P2P 贷款测试 (p2p-lending-data)
 
-> I help you build quant strategies on A-share with ZVT — from data fetch to backtest, one flow. Just tell me what you want; I'll write the code, you don't have to dig docs. (Heads up: ZVT natively supports A-share, HK, and crypto. US stocks — stockus_nasdaq_AAPL — are half-baked; don't bother for serious work.)
+> 验证 Frappe Lending 贷款模块核心流程，包括贷款申请创建、放款计划生成、还款处理及结清退款的自动化测试能力。
 
 ## Pipeline
 

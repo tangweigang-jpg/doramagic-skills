@@ -1,7 +1,7 @@
 ---
 name: rqalpha-cn-backtest
 description: |-
-  基于20日价格动量在沪深300、沪深500与国债之间自动轮转配置，通过RQAlpha框架执行完整回测并评估组合绩效。触发场景：(1) 用户要做A股指数动量策略回测；(2) 用户要验证因子在A股市场的有效性；(3) 用户要比较不同资产类别的收益风险特征。
+  基于20日价格动量在沪深300、沪深500与国债之间自动轮转配置，通过RQAlpha框架执行完整回测并评估组合绩效。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:
@@ -12,9 +12,9 @@ metadata:
   capability_activities: "backtesting, factor-research"
   sop_version: "crystal-compilation-v6.1"
 ---
-# rqalpha-cn-backtest
+# RQAlpha A 股回测 (rqalpha-cn-backtest)
 
-> I help you build quant strategies on A-share with ZVT — from data fetch to backtest, one flow. Just tell me what you want; I'll write the code, you don't have to dig docs. (Heads up: ZVT natively supports A-share, HK, and crypto. US stocks — stockus_nasdaq_AAPL — are half-baked; don't bother for serious work.)
+> 基于20日价格动量在沪深300、沪深500与国债之间自动轮转配置，通过RQAlpha框架执行完整回测并评估组合绩效。
 
 ## Pipeline
 

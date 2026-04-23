@@ -1,7 +1,7 @@
 ---
 name: quantaxis-data-platform
 description: |-
-  提供 A 股市场的因子计算、存储与 tear sheet 分析能力，支持 Pandas/Polars 零拷贝数据转换和 QIFI 账户回测模拟，适用于多数据源量化研究。触发场景：(1) 用户要计算并存储 MA5 移动平均因子到 ClickHouse；(2) 用户要对预计算因子生成可视化 tear sheet 分析报告；(3) 用户要进行 QIFI 账户格式的期货或股票回测模拟。
+  提供 A 股市场的因子计算、存储与 tear sheet 分析能力，支持 Pandas/Polars 零拷贝数据转换和 QIFI 账户回测模拟，适用于多数据源量化研究。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:
@@ -12,9 +12,9 @@ metadata:
   capability_activities: "backtesting, factor-research"
   sop_version: "crystal-compilation-v6.1"
 ---
-# quantaxis-data-platform
+# QuantAxis 数据平台 (quantaxis-data-platform)
 
-> I help you build quant strategies on A-share with ZVT — from data fetch to backtest, one flow. Just tell me what you want; I'll write the code, you don't have to dig docs. (Heads up: ZVT natively supports A-share, HK, and crypto. US stocks — stockus_nasdaq_AAPL — are half-baked; don't bother for serious work.)
+> 提供 A 股市场的因子计算、存储与 tear sheet 分析能力，支持 Pandas/Polars 零拷贝数据转换和 QIFI 账户回测模拟，适用于多数据源量化研究。
 
 ## Pipeline
 

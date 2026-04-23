@@ -1,7 +1,7 @@
 ---
 name: arch-garch-volatility
 description: |-
-  用 GARCH 族模型进行波动率建模与预测，支持夏普比率统计推断和 SPA 模型比较测试，应用于全球市场风险管理。触发场景：(1) 用户要做波动率建模和预测；(2) 用户要对风险调整收益指标做统计推断；(3) 用户要比选预测模型并验证超额收益。
+  用 GARCH 族模型进行波动率建模与预测，支持夏普比率统计推断和 SPA 模型比较测试，应用于全球市场风险管理。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:
@@ -12,9 +12,9 @@ metadata:
   capability_activities: "derivatives-pricing"
   sop_version: "crystal-compilation-v6.1"
 ---
-# arch-garch-volatility
+# GARCH 波动率模型 (arch-garch-volatility)
 
-> I help you build quant strategies on A-share with ZVT — from data fetch to backtest, one flow. Just tell me what you want; I'll write the code, you don't have to dig docs. (Heads up: ZVT natively supports A-share, HK, and crypto. US stocks — stockus_nasdaq_AAPL — are half-baked; don't bother for serious work.)
+> 用 GARCH 族模型进行波动率建模与预测，支持夏普比率统计推断和 SPA 模型比较测试，应用于全球市场风险管理。
 
 ## Pipeline
 

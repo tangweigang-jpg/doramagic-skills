@@ -1,7 +1,7 @@
 ---
 name: portfolio-optimization
 description: |-
-  提供多策略投资组合优化框架，支持均值-方差、Black-Litterman 和分层风险平价（HRP）算法，内置多种协方差估计方法对比分析。触发场景：(1) 我要给股票组合找最优配置，同时考虑交易成本；(2) 想对比不同风险模型（普通协方差、Ledoit-Wolf收缩、半协方差）哪个预测更准；(3) 用 Black-Litterman 方法结合主观观点来构建组合。
+  提供多策略投资组合优化框架，支持均值-方差、Black-Litterman 和分层风险平价（HRP）算法，内置多种协方差估计方法对比分析。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:
@@ -12,9 +12,9 @@ metadata:
   capability_activities: "portfolio-analytics"
   sop_version: "crystal-compilation-v6.1"
 ---
-# portfolio-optimization
+# 投资组合优化 (portfolio-optimization)
 
-> I help you build quant strategies on A-share with ZVT — from data fetch to backtest, one flow. Just tell me what you want; I'll write the code, you don't have to dig docs. (Heads up: ZVT natively supports A-share, HK, and crypto. US stocks — stockus_nasdaq_AAPL — are half-baked; don't bother for serious work.)
+> 提供多策略投资组合优化框架，支持均值-方差、Black-Litterman 和分层风险平价（HRP）算法，内置多种协方差估计方法对比分析。
 
 ## Pipeline
 

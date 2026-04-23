@@ -1,7 +1,7 @@
 ---
 name: credit-transition-matrix
 description: |-
-  处理信用评级转移矩阵，支持Not-Rated状态重分配、年度与月度矩阵转换、状态空间定义及数据集表征。触发场景：(1) 用户要清理或重分配转移矩阵中的NR状态用于下游风险计算；(2) 用户要将年度转移矩阵通过生成器转换为月度或季度矩阵用于期限匹配；(3) 用户要初始化、验证或汇总信用评级转移数据集进行监管报告。
+  处理信用评级转移矩阵，支持Not-Rated状态重分配、年度与月度矩阵转换、状态空间定义及数据集表征。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:
@@ -12,9 +12,9 @@ metadata:
   capability_activities: "credit-risk"
   sop_version: "crystal-compilation-v6.1"
 ---
-# credit-transition-matrix
+# 信用转移矩阵 (credit-transition-matrix)
 
-> I help you build quant strategies on A-share with ZVT — from data fetch to backtest, one flow. Just tell me what you want; I'll write the code, you don't have to dig docs. (Heads up: ZVT natively supports A-share, HK, and crypto. US stocks — stockus_nasdaq_AAPL — are half-baked; don't bother for serious work.)
+> 处理信用评级转移矩阵，支持Not-Rated状态重分配、年度与月度矩阵转换、状态空间定义及数据集表征。
 
 ## Pipeline
 

@@ -1,7 +1,7 @@
 ---
 name: finrobot-multi-agent
 description: |-
-  多智能体金融分析平台，支持股票研究、市场预测、财报解读与量化回测策略构建，覆盖全球市场数据分析。触发场景：(1) 用户要获取某只股票的研究报告；(2) 用户要用AI预测市场走势；(3) 用户要做股票的量化回测。
+  多智能体金融分析平台，支持股票研究、市场预测、财报解读与量化回测策略构建，覆盖全球市场数据分析。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:
@@ -12,9 +12,9 @@ metadata:
   capability_activities: "macro-data"
   sop_version: "crystal-compilation-v6.1"
 ---
-# finrobot-multi-agent
+# FinRobot 多智能体 (finrobot-multi-agent)
 
-> I help you build quant strategies on A-share with ZVT — from data fetch to backtest, one flow. Just tell me what you want; I'll write the code, you don't have to dig docs. (Heads up: ZVT natively supports A-share, HK, and crypto. US stocks — stockus_nasdaq_AAPL — are half-baked; don't bother for serious work.)
+> 多智能体金融分析平台，支持股票研究、市场预测、财报解读与量化回测策略构建，覆盖全球市场数据分析。
 
 ## Pipeline
 

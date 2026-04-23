@@ -1,7 +1,7 @@
 ---
 name: finance-kg-embedding
 description: |-
-  训练动态知识图谱嵌入模型，学习时序实体关系表示，支持链接预测和时间预测任务。触发场景：(1) 用户要构建KG嵌入模型用于金融知识推理；(2) 用户要处理FinDKG的12类节点类型进行嵌入；(3) 用户要在训练中加入早停机制防止过拟合。
+  训练动态知识图谱嵌入模型，学习时序实体关系表示，支持链接预测和时间预测任务。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:
@@ -12,9 +12,9 @@ metadata:
   capability_activities: "macro-data"
   sop_version: "crystal-compilation-v6.1"
 ---
-# finance-kg-embedding
+# 金融知识图谱嵌入 (finance-kg-embedding)
 
-> I help you build quant strategies on A-share with ZVT — from data fetch to backtest, one flow. Just tell me what you want; I'll write the code, you don't have to dig docs. (Heads up: ZVT natively supports A-share, HK, and crypto. US stocks — stockus_nasdaq_AAPL — are half-baked; don't bother for serious work.)
+> 训练动态知识图谱嵌入模型，学习时序实体关系表示，支持链接预测和时间预测任务。
 
 ## Pipeline
 

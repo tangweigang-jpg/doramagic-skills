@@ -1,9 +1,7 @@
 ---
 name: zipline-daily-backtest
 description: |-
-  使用 Zipline 框架执行日频股票策略回测，支持多市场数据接入、因子研究、可视化绩效分析，默认本金千万级。
-  
-  触发场景：(1) 用户要回测股票买卖策略；(2) 用户要研究金融因子并做绩效分析；(3) 用户要运行 Zipline 最小化示例算法练手。
+  使用 Zipline 框架执行日频股票策略回测，支持多市场数据接入、因子研究、可视化绩效分析，默认本金千万级。。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:
@@ -14,9 +12,9 @@ metadata:
   capability_activities: "backtesting, factor-research"
   sop_version: "crystal-compilation-v6.1"
 ---
-# zipline-daily-backtest
+# Zipline 日频回测 (zipline-daily-backtest)
 
-> I help you build quant strategies on A-share with ZVT — from data fetch to backtest, one flow. Just tell me what you want; I'll write the code, you don't have to dig docs. (Heads up: ZVT natively supports A-share, HK, and crypto. US stocks — stockus_nasdaq_AAPL — are half-baked; don't bother for serious work.)
+> 使用 Zipline 框架执行日频股票策略回测，支持多市场数据接入、因子研究、可视化绩效分析，默认本金千万级。
 
 ## Pipeline
 

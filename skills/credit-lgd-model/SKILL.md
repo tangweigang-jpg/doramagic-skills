@@ -1,7 +1,7 @@
 ---
 name: credit-lgd-model
 description: |-
-  构建并训练 LGD（违约损失率）机器学习模型，支持基于历史违约数据的信用风险量化评估与预测。触发场景：(1) 用户要训练LGD模型评估违约损失率；(2) 用户要用历史信贷数据预测信用风险；(3) 用户要建立违约概率与损失率量化模型。
+  构建并训练 LGD（违约损失率）机器学习模型，支持基于历史违约数据的信用风险量化评估与预测。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:
@@ -12,9 +12,9 @@ metadata:
   capability_activities: "credit-risk"
   sop_version: "crystal-compilation-v6.1"
 ---
-# credit-lgd-model
+# 信用违约损失模型 (credit-lgd-model)
 
-> I help you build quant strategies on A-share with ZVT — from data fetch to backtest, one flow. Just tell me what you want; I'll write the code, you don't have to dig docs. (Heads up: ZVT natively supports A-share, HK, and crypto. US stocks — stockus_nasdaq_AAPL — are half-baked; don't bother for serious work.)
+> 构建并训练 LGD（违约损失率）机器学习模型，支持基于历史违约数据的信用风险量化评估与预测。
 
 ## Pipeline
 

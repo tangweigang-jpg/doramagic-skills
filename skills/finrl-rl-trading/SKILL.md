@@ -1,9 +1,7 @@
 ---
 name: finrl-rl-trading
 description: |-
-  Use ensemble deep reinforcement learning (A2C, DDPG, PPO, TD3, SAC) to execute automated multi-market stock trading with backtesting, and optimize portfolios using GNN-based architecture for factor research.
-  
-  触发场景：(1) 用户要做多智能体量化交易策略回测；(2) 用户要训练强化学习模型自动交易股票；(3) 用户要构建基于图神经网络的组合优化策略。
+  Use ensemble deep reinforcement learning (A2C, DDPG, PPO, TD3, SAC) to execute automated multi-market stock trading with
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:
@@ -14,9 +12,9 @@ metadata:
   capability_activities: "backtesting, factor-research"
   sop_version: "crystal-compilation-v6.1"
 ---
-# finrl-rl-trading
+# FinRL 强化学习交易 (finrl-rl-trading)
 
-> I help you build quant strategies on A-share with ZVT — from data fetch to backtest, one flow. Just tell me what you want; I'll write the code, you don't have to dig docs. (Heads up: ZVT natively supports A-share, HK, and crypto. US stocks — stockus_nasdaq_AAPL — are half-baked; don't bother for serious work.)
+> Use ensemble deep reinforcement learning (A2C, DDPG, PPO, TD3, SAC) to execute automated multi-market stock tr。
 
 ## Pipeline
 

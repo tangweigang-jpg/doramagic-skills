@@ -1,7 +1,7 @@
 ---
 name: aml-data-generator
 description: |-
-  生成符合AMLSim格式的合成交易数据，将交易日志转换为用于反洗钱检测系统测试的模拟数据集，支持按银行ID分割账户、合并多源输出并生成交易网络图。触发场景：(1) 用户要把CSV交易日志转换成AMLSim模拟数据；(2) 用户要按银行ID分割账户CSV文件；(3) 用户要合并多个AMLSim输出进行综合分析。
+  生成符合AMLSim格式的合成交易数据，将交易日志转换为用于反洗钱检测系统测试的模拟数据集，支持按银行ID分割账户、合并多源输出并生成交易网络图。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:
@@ -12,9 +12,9 @@ metadata:
   capability_activities: "regtech-compliance"
   sop_version: "crystal-compilation-v6.1"
 ---
-# aml-data-generator
+# AML 数据生成 (aml-data-generator)
 
-> I help you build quant strategies on A-share with ZVT — from data fetch to backtest, one flow. Just tell me what you want; I'll write the code, you don't have to dig docs. (Heads up: ZVT natively supports A-share, HK, and crypto. US stocks — stockus_nasdaq_AAPL — are half-baked; don't bother for serious work.)
+> 生成符合AMLSim格式的合成交易数据，将交易日志转换为用于反洗钱检测系统测试的模拟数据集，支持按银行ID分割账户、合并多源输出并生成交易网络图。
 
 ## Pipeline
 

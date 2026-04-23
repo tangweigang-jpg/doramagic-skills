@@ -1,7 +1,7 @@
 ---
 name: beancount-plaintext-ledger
 description: |-
-  Beancount 纯文本复式记账框架，支持导入银行对账单和交易数据，自动生成资产负债表和损益表等财务报表。触发场景：(1) 用户要用纯文本格式管理个人或企业财务账本；(2) 用户要导入银行对账单和交易数据到复式记账系统；(3) 用户要生成财务报表、财务分析和投资组合报告。
+  Beancount 纯文本复式记账框架，支持导入银行对账单和交易数据，自动生成资产负债表和损益表等财务报表。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:
@@ -12,9 +12,9 @@ metadata:
   capability_activities: "accounting"
   sop_version: "crystal-compilation-v6.1"
 ---
-# beancount-plaintext-ledger
+# Beancount 纯文本账本 (beancount-plaintext-ledger)
 
-> I help you build quant strategies on A-share with ZVT — from data fetch to backtest, one flow. Just tell me what you want; I'll write the code, you don't have to dig docs. (Heads up: ZVT natively supports A-share, HK, and crypto. US stocks — stockus_nasdaq_AAPL — are half-baked; don't bother for serious work.)
+> Beancount 纯文本复式记账框架，支持导入银行对账单和交易数据，自动生成资产负债表和损益表等财务报表。
 
 ## Pipeline
 

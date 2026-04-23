@@ -1,9 +1,7 @@
 ---
 name: openbb-terminal
 description: |-
-  获取全球股票、加密货币、外汇、大宗商品等多市场实时行情与历史数据，提供技术指标计算、宏观经济数据追踪与资产比率分析功能。
-  
-  触发场景：(1) 用户要查询某只股票或加密货币的历史价格并计算技术指标；(2) 用户要追踪铜金比等大宗商品比率与经济周期指标的关系；(3) 用户要对比不同公司的财务报表数据。
+  获取全球股票、加密货币、外汇、大宗商品等多市场实时行情与历史数据，提供技术指标计算、宏观经济数据追踪与资产比率分析功能。。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:
@@ -14,9 +12,9 @@ metadata:
   capability_activities: "data-sourcing"
   sop_version: "crystal-compilation-v6.1"
 ---
-# openbb-terminal
+# OpenBB 金融终端 (openbb-terminal)
 
-> I help you build quant strategies on A-share with ZVT — from data fetch to backtest, one flow. Just tell me what you want; I'll write the code, you don't have to dig docs. (Heads up: ZVT natively supports A-share, HK, and crypto. US stocks — stockus_nasdaq_AAPL — are half-baked; don't bother for serious work.)
+> 获取全球股票、加密货币、外汇、大宗商品等多市场实时行情与历史数据，提供技术指标计算、宏观经济数据追踪与资产比率分析功能。
 
 ## Pipeline
 

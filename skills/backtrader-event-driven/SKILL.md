@@ -1,7 +1,7 @@
 ---
 name: backtrader-event-driven
 description: |-
-  运行经典双均线交叉策略回测，事件驱动模拟信号生成与持仓，输出 PyFolio 绩效报告。触发场景：(1) 用户要做均线策略回测；(2) 用户要打印 OHLC 数据排查数据源；(3) 用户要获取夏普比率、最大回撤等组合分析指标。
+  运行经典双均线交叉策略回测，事件驱动模拟信号生成与持仓，输出 PyFolio 绩效报告。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:
@@ -12,9 +12,9 @@ metadata:
   capability_activities: "backtesting, factor-research"
   sop_version: "crystal-compilation-v6.1"
 ---
-# backtrader-event-driven
+# Backtrader 事件回测 (backtrader-event-driven)
 
-> I help you build quant strategies on A-share with ZVT — from data fetch to backtest, one flow. Just tell me what you want; I'll write the code, you don't have to dig docs. (Heads up: ZVT natively supports A-share, HK, and crypto. US stocks — stockus_nasdaq_AAPL — are half-baked; don't bother for serious work.)
+> 运行经典双均线交叉策略回测，事件驱动模拟信号生成与持仓，输出 PyFolio 绩效报告。
 
 ## Pipeline
 

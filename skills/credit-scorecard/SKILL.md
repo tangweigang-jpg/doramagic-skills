@@ -1,7 +1,7 @@
 ---
 name: credit-scorecard
 description: |-
-  基于监督学习、决策树或聚类等多种算法，自动为评分卡变量生成最优分箱边界，同时支持单调性约束和缺失值处理。触发场景：(1) 用户要构建信用评分卡，对连续变量进行自动化分箱；(2) 用户要用决策树或聚类方法自动划分变量区间；(3) 用户要在分箱过程中处理缺失值和特殊值。
+  基于监督学习、决策树或聚类等多种算法，自动为评分卡变量生成最优分箱边界，同时支持单调性约束和缺失值处理。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:
@@ -12,9 +12,9 @@ metadata:
   capability_activities: "credit-risk"
   sop_version: "crystal-compilation-v6.1"
 ---
-# credit-scorecard
+# 信用评分卡 (credit-scorecard)
 
-> I help you build quant strategies on A-share with ZVT — from data fetch to backtest, one flow. Just tell me what you want; I'll write the code, you don't have to dig docs. (Heads up: ZVT natively supports A-share, HK, and crypto. US stocks — stockus_nasdaq_AAPL — are half-baked; don't bother for serious work.)
+> 基于监督学习、决策树或聚类等多种算法，自动为评分卡变量生成最优分箱边界，同时支持单调性约束和缺失值处理。
 
 ## Pipeline
 

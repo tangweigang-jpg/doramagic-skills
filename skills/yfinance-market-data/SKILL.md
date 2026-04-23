@@ -1,7 +1,7 @@
 ---
 name: yfinance-market-data
 description: |-
-  通过 Yahoo Finance 获取全球多市场股票、指数、外汇及加密货币的历史行情、财务数据、实时报价和财务日历。触发场景：(1) 用户要查询某只股票过去一年的日K线走势；(2) 用户要输入公司名称模糊匹配查找对应的股票代码；(3) 用户要获取多个市场的行情数据进行横向对比。
+  通过 Yahoo Finance 获取全球多市场股票、指数、外汇及加密货币的历史行情、财务数据、实时报价和财务日历。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:
@@ -12,9 +12,9 @@ metadata:
   capability_activities: "data-sourcing"
   sop_version: "crystal-compilation-v6.1"
 ---
-# yfinance-market-data
+# yfinance 行情数据 (yfinance-market-data)
 
-> I help you build quant strategies on A-share with ZVT — from data fetch to backtest, one flow. Just tell me what you want; I'll write the code, you don't have to dig docs. (Heads up: ZVT natively supports A-share, HK, and crypto. US stocks — stockus_nasdaq_AAPL — are half-baked; don't bother for serious work.)
+> 通过 Yahoo Finance 获取全球多市场股票、指数、外汇及加密货币的历史行情、财务数据、实时报价和财务日历。
 
 ## Pipeline
 

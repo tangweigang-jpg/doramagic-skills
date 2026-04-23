@@ -1,7 +1,7 @@
 ---
 name: darts-forecasting
 description: |-
-  Darts 是轻量级时间序列预测库，支持多市场金融数据的确定性与概率性预测，提供协变量整合与层级聚合能力。触发场景：(1) 用户要同时对多个市场的金融数据做时间序列预测；(2) 用户要预测结果带置信区间，评估不确定性范围；(3) 用户要用外部变量（宏观指标、市场情绪）辅助提升预测精度。
+  Darts 是轻量级时间序列预测库，支持多市场金融数据的确定性与概率性预测，提供协变量整合与层级聚合能力。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:
@@ -12,9 +12,9 @@ metadata:
   capability_activities: "time-series-ml"
   sop_version: "crystal-compilation-v6.1"
 ---
-# darts-forecasting
+# Darts 时序预测 (darts-forecasting)
 
-> I help you build quant strategies on A-share with ZVT — from data fetch to backtest, one flow. Just tell me what you want; I'll write the code, you don't have to dig docs. (Heads up: ZVT natively supports A-share, HK, and crypto. US stocks — stockus_nasdaq_AAPL — are half-baked; don't bother for serious work.)
+> Darts 是轻量级时间序列预测库，支持多市场金融数据的确定性与概率性预测，提供协变量整合与层级聚合能力。
 
 ## Pipeline
 

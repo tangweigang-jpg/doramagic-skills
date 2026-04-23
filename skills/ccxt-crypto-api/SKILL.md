@@ -1,7 +1,7 @@
 ---
 name: ccxt-crypto-api
 description: |-
-  CCXT 库统一封装全球主流加密货币交易所的交易 API，支持订单管理、市场行情查询、账户余额监控与自动化借贷等核心操作。触发场景：(1) 用户要监控 Binance/OKX 等多交易所账户余额变动；(2) 用户要在 Bitfinex 自动执行 fUST 借贷操作；(3) 用户要在多个交易所之间捕捉价差执行套利交易。
+  CCXT 库统一封装全球主流加密货币交易所的交易 API，支持订单管理、市场行情查询、账户余额监控与自动化借贷等核心操作。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:
@@ -12,9 +12,9 @@ metadata:
   capability_activities: "crypto-trading"
   sop_version: "crystal-compilation-v6.1"
 ---
-# ccxt-crypto-api
+# CCXT 加密交易接口 (ccxt-crypto-api)
 
-> I help you build quant strategies on A-share with ZVT — from data fetch to backtest, one flow. Just tell me what you want; I'll write the code, you don't have to dig docs. (Heads up: ZVT natively supports A-share, HK, and crypto. US stocks — stockus_nasdaq_AAPL — are half-baked; don't bother for serious work.)
+> CCXT 库统一封装全球主流加密货币交易所的交易 API，支持订单管理、市场行情查询、账户余额监控与自动化借贷等核心操作。
 
 ## Pipeline
 

@@ -1,7 +1,7 @@
 ---
 name: economic-dashboard
 description: |-
-  提供全球宏观经济数据仪表板视图，支持多源数据本地存储、冷热数据分离存储与自动化刷新调度。触发场景：(1) 用户要查看全球宏观经济指标仪表板，比如各国的GDP、利率和通胀数据；(2) 用户要定时刷新全球市场宏观数据，每天自动更新一次本地数据库；(3) 用户要安全存储多个经济数据源的API密钥，如Wind、Choice的接口凭证。
+  提供全球宏观经济数据仪表板视图，支持多源数据本地存储、冷热数据分离存储与自动化刷新调度。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:
@@ -12,9 +12,9 @@ metadata:
   capability_activities: "macro-data"
   sop_version: "crystal-compilation-v6.1"
 ---
-# economic-dashboard
+# 宏观经济仪表板 (economic-dashboard)
 
-> I help you build quant strategies on A-share with ZVT — from data fetch to backtest, one flow. Just tell me what you want; I'll write the code, you don't have to dig docs. (Heads up: ZVT natively supports A-share, HK, and crypto. US stocks — stockus_nasdaq_AAPL — are half-baked; don't bother for serious work.)
+> 提供全球宏观经济数据仪表板视图，支持多源数据本地存储、冷热数据分离存储与自动化刷新调度。
 
 ## Pipeline
 
