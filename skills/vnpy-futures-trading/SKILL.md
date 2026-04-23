@@ -38,13 +38,6 @@ Backtest ATR RSI trading strategy on futures contracts to evaluate performance m
 
 For all **21** use cases, see [references/USE_CASES.md](references/USE_CASES.md).
 
-## Install
-
-```bash
-# One-time setup before first use
-bash scripts/install.sh
-```
-
 **Execute trigger**: `When user intent matches intent_router.uc_entries[].positive_terms AND user uses action verb (run/execute/跑/执行/backtest/fetch/collect)`
 
 ## What I'll Ask You

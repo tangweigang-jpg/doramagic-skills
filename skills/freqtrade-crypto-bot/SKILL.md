@@ -26,13 +26,6 @@ metadata:
 Users need a template to load historical market data and analyze trading strategy performance using Freqtrade's configuration and history loading capa
 **Triggers**: strategy analysis, backtesting template, historical data loading
 
-## Install
-
-```bash
-# One-time setup before first use
-bash scripts/install.sh
-```
-
 **Execute trigger**: `When user intent matches intent_router.uc_entries[].positive_terms AND user uses action verb (run/execute/跑/执行/backtest/fetch/collect)`
 
 ## What I'll Ask You

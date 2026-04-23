@@ -26,13 +26,6 @@ metadata:
 How to configure and generate project documentation using Sphinx autodoc and extensions for API documentation coverage
 **Triggers**: documentation, sphinx, autodoc
 
-## Install
-
-```bash
-# One-time setup before first use
-bash scripts/install.sh
-```
-
 **Execute trigger**: `When user intent matches intent_router.uc_entries[].positive_terms AND user uses action verb (run/execute/跑/执行/backtest/fetch/collect)`
 
 ## What I'll Ask You

@@ -30,13 +30,6 @@ Provides reusable testing utilities for beancount test scripts including tempora
 Unit tests that validate the correctness of test utility functions including temporary directory cleanup and test file generation for beancount test s
 **Triggers**: unit test, validation, test utilities
 
-## Install
-
-```bash
-# One-time setup before first use
-bash scripts/install.sh
-```
-
 **Execute trigger**: `When user intent matches intent_router.uc_entries[].positive_terms AND user uses action verb (run/execute/跑/执行/backtest/fetch/collect)`
 
 ## What I'll Ask You

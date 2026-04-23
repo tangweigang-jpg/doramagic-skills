@@ -30,13 +30,6 @@ Decomposes time series data into interpretable components (trend, seasonality, n
 Applies stationary bootstrap resampling method to Italian swap rate data for statistical inference, enabling confidence interval estimation and hypoth
 **Triggers**: stationary bootstrap, swap rates, resampling
 
-## Install
-
-```bash
-# One-time setup before first use
-bash scripts/install.sh
-```
-
 **Execute trigger**: `When user intent matches intent_router.uc_entries[].positive_terms AND user uses action verb (run/execute/跑/执行/backtest/fetch/collect)`
 
 ## What I'll Ask You

@@ -26,13 +26,6 @@ metadata:
 Configures automated documentation generation for the py_vollib options pricing library, enabling consistent API documentation, code examples, and cov
 **Triggers**: documentation, sphinx, api docs
 
-## Install
-
-```bash
-# One-time setup before first use
-bash scripts/install.sh
-```
-
 **Execute trigger**: `When user intent matches intent_router.uc_entries[].positive_terms AND user uses action verb (run/execute/跑/执行/backtest/fetch/collect)`
 
 ## What I'll Ask You

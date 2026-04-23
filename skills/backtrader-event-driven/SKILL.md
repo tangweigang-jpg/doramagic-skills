@@ -30,13 +30,6 @@ Implements a classic dual moving average crossover trading strategy using backtr
 Provides a minimal backtrader strategy that logs and prints OHLC (Open, High, Low, Close) data in CSV format for debugging and verifying data feed int
 **Triggers**: backtrader, data printing, OHLC logging
 
-## Install
-
-```bash
-# One-time setup before first use
-bash scripts/install.sh
-```
-
 **Execute trigger**: `When user intent matches intent_router.uc_entries[].positive_terms AND user uses action verb (run/execute/跑/执行/backtest/fetch/collect)`
 
 ## What I'll Ask You

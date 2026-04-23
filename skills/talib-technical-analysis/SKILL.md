@@ -26,13 +26,6 @@ metadata:
 Converts TA-Lib markdown documentation into styled HTML pages for web publishing, and generates Pygments syntax highlighting CSS for code examples in
 **Triggers**: documentation generation, html pages, pygments stylesheet
 
-## Install
-
-```bash
-# One-time setup before first use
-bash scripts/install.sh
-```
-
 **Execute trigger**: `When user intent matches intent_router.uc_entries[].positive_terms AND user uses action verb (run/execute/跑/执行/backtest/fetch/collect)`
 
 ## What I'll Ask You

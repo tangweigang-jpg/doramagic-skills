@@ -30,13 +30,6 @@ Implements a momentum-based rotation strategy between equity indices (CSI 300, C
 Configuration file for building rqalpha project documentation using Sphinx, setting up autodoc, autosummary, and other documentation extensions
 **Triggers**: documentation, sphinx, configuration
 
-## Install
-
-```bash
-# One-time setup before first use
-bash scripts/install.sh
-```
-
 **Execute trigger**: `When user intent matches intent_router.uc_entries[].positive_terms AND user uses action verb (run/execute/跑/执行/backtest/fetch/collect)`
 
 ## What I'll Ask You

@@ -36,13 +36,6 @@ Provides an interactive tutorial for new Zipline users to learn the platform's c
 Demonstrates a minimal Zipline algorithm that places consistent buy orders for a single stock and records price data for later analysis, serving as a
 **Triggers**: example, buy apple, simple order
 
-## Install
-
-```bash
-# One-time setup before first use
-bash scripts/install.sh
-```
-
 **Execute trigger**: `When user intent matches intent_router.uc_entries[].positive_terms AND user uses action verb (run/execute/跑/执行/backtest/fetch/collect)`
 
 ## What I'll Ask You

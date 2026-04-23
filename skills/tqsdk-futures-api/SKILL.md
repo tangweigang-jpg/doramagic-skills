@@ -32,13 +32,6 @@ Demonstrates basic TqSdk library usage by connecting to a simulated trading acco
 Analyzes time-dependent volatility patterns in CSI 300 index to extend the standard Black-Scholes option pricing model for improved accuracy
 **Triggers**: volatility, BS pricing, option
 
-## Install
-
-```bash
-# One-time setup before first use
-bash scripts/install.sh
-```
-
 **Execute trigger**: `When user intent matches intent_router.uc_entries[].positive_terms AND user uses action verb (run/execute/跑/执行/backtest/fetch/collect)`
 
 ## What I'll Ask You

@@ -30,13 +30,6 @@ Configures the Sphinx documentation builder for the Technical Analysis Library, 
 Explores and visualizes various technical analysis indicators (Bollinger Bands, Keltner Channel, Donchian Channel, MACD) on historical price data to u
 **Triggers**: visualize, technical indicators, charting
 
-## Install
-
-```bash
-# One-time setup before first use
-bash scripts/install.sh
-```
-
 **Execute trigger**: `When user intent matches intent_router.uc_entries[].positive_terms AND user uses action verb (run/execute/跑/执行/backtest/fetch/collect)`
 
 ## What I'll Ask You
