@@ -1,7 +1,8 @@
 ---
 name: qlib-ai-quant
 description: |-
-  Qlib 是微软开源的 AI 量化研究框架，支持多市场数据的多频率重采样与特征工程，助力因子挖掘与模型训练。触发场景：(1) 用户要做分钟转日线的频率转换；(2) 用户要用 Alpha158 因子库构建特征；(3) 用户要同时用日频和分钟频数据训练 TFT 模型。
+  基于微软 qlib 的 AI 量化平台：覆盖预测模型、因子挖掘（Alpha158/TFT）、
+  组合优化、多频回测。支持 A 股 + 美股 + 港股多市场。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:
@@ -12,9 +13,9 @@ metadata:
   capability_activities: "backtesting, factor-research"
   sop_version: "crystal-compilation-v6.1"
 ---
-# qlib-ai-quant
+# Qlib AI 量化 (qlib-ai-quant)
 
-> I help you build quant strategies on A-share with ZVT — from data fetch to backtest, one flow. Just tell me what you want; I'll write the code, you don't have to dig docs. (Heads up: ZVT natively supports A-share, HK, and crypto. US stocks — stockus_nasdaq_AAPL — are half-baked; don't bother for serious work.)
+> 用微软 qlib 做 AI 驱动的量化策略——预测模型、组合优化、Alpha158/TFT 特征工程，一套跑通。
 
 ## Pipeline
 

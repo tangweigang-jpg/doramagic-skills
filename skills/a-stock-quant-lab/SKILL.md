@@ -1,7 +1,8 @@
 ---
 name: a-stock-quant-lab
-description: |
-  A 股量化实验室：数据采集 + 因子研究 + 回测执行一站式（基于 zvt 框架）。覆盖 31 个场景：机构持仓追踪、财报采集、指数成分、MACD/MA/量能择时等。触发：A股回测、量化策略、因子研究、选股、zvt、跟基金持仓、机构持仓、A-share backtest, quant strategy。仅限中国 A 股（US/HK/crypto 不支持）。
+description: |-
+  A 股量化实验室：基于 zvt 框架的数据采集 + 因子研究 + 回测执行一站式。
+  覆盖 31 个场景——机构持仓、财报、指数成分、MACD/MA/量能择时。仅限中国 A 股。
 license: MIT-0
 compatibility: Python 3.12+, uv package manager. Network access to eastmoney / joinquant / baostock / akshare for data fetch.
 metadata:
@@ -21,7 +22,7 @@ metadata:
 ---
 # A 股量化实验室 (a-stock-quant-lab)
 
-> 说出你要什么——"跟机构持仓"、"MACD 回测 2023 年"、"基于 SZ50 做因子研究"，我直接写代码跑起来，不用你翻 zvt 文档。底层是 zvt 框架，覆盖 A 股 / 港股 / 数字货币；**美股不建议用**（zvt 美股数据质量一般）。
+> 说出"跟机构持仓"或"MACD 回测"——我基于 zvt 直接写代码跑起来，不用你翻文档。 美股数据质量一般，不推荐。
 
 ## Pipeline
 

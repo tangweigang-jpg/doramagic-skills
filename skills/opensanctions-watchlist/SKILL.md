@@ -1,7 +1,8 @@
 ---
 name: opensanctions-watchlist
 description: |-
-  自动化爬取、清洗、加载全球制裁名单与实体数据，支持 Wikidata 更新审查、实体交叉引用去重和归档版本管理。触发场景：(1) 用户要查询和分析制裁名单数据；(2) 用户要对目标实体进行去重和交叉匹配；(3) 用户要批量加载或更新外部制裁数据到本地数据库。
+  OpenSanctions 黑名单合规筛查：国际制裁名单、PEP（政要）、高风险人物数据的
+  抓取、去重、匹配与版本归档。适用于 KYC 和 AML 尽调。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:
@@ -12,9 +13,9 @@ metadata:
   capability_activities: "regtech-compliance"
   sop_version: "crystal-compilation-v6.1"
 ---
-# opensanctions-watchlist
+# 制裁名单筛查 (opensanctions-watchlist)
 
-> I help you build quant strategies on A-share with ZVT — from data fetch to backtest, one flow. Just tell me what you want; I'll write the code, you don't have to dig docs. (Heads up: ZVT natively supports A-share, HK, and crypto. US stocks — stockus_nasdaq_AAPL — are half-baked; don't bother for serious work.)
+> 国际制裁名单 + PEP（政要）+ 高风险人物实时筛查——合规 KYC/AML 场景必备。
 
 ## Pipeline
 

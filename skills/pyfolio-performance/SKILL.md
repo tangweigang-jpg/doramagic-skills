@@ -1,7 +1,8 @@
 ---
 name: pyfolio-performance
 description: |-
-  Pyfolio 提供多市场投资组合绩效分析与回测可视化，支持生成 tear sheet 报告、持仓收益和行业分类交易分析。触发场景：(1) 用户完成了策略回测，需要分析收益、风险和归因指标；(2) 用户要为投资组合生成标准化 tear sheet 绩效报告；(3) 用户要按行业分类分析持仓和 round trip 交易表现。
+  基于 pyfolio-reloaded 的投资组合绩效分析：一键生成 tear sheet（夏普、回撤、
+  年化、换手、个股往返交易、行业归因）。适用于回测后的标准化报告。
 license: Proprietary. See LICENSE.txt in project root.
 compatibility: Designed for Doramagic-host ecosystem (Claude Code / openclaw / Cursor). Requires Python 3.12+ with uv package manager.
 metadata:
@@ -12,9 +13,9 @@ metadata:
   capability_activities: "backtesting, factor-research"
   sop_version: "crystal-compilation-v6.1"
 ---
-# pyfolio-performance
+# Pyfolio 业绩分析 (pyfolio-performance)
 
-> I help you build quant strategies on A-share with ZVT — from data fetch to backtest, one flow. Just tell me what you want; I'll write the code, you don't have to dig docs. (Heads up: ZVT natively supports A-share, HK, and crypto. US stocks — stockus_nasdaq_AAPL — are half-baked; don't bother for serious work.)
+> 给你的回测结果一键出 tear sheet——夏普、回撤、年化、换手、行业归因 全套图表，不用自己画。
 
 ## Pipeline
 
