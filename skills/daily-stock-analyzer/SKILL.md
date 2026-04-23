@@ -1,5 +1,5 @@
 ---
-name: daily-stock-analysis
+name: daily-stock-analyzer
 description: |-
   基于 Qlib 的 A 股自选股智能分析系统，集成 LLM Agent ReAct 推理引擎和技术指标择时模块（MA 多头排列、乖离率阈值严进策略），自动生成每日 buy/hold/sell 指令并推送至微信。触发场景：(1) 用户要查询自选股当天的 AI 交易信号和涨跌预测；(2) 用户要获取符合 MA 多头排列且乖离率低于 5% 的可买入股票列表；(3) 用户要在收盘后自动接收个股的买卖建议和持仓诊断报告。
 license: Proprietary. See LICENSE.txt in project root.
@@ -12,7 +12,7 @@ metadata:
   capability_activities: "finance-analytics"
   sop_version: "crystal-compilation-v6.1"
 ---
-# daily-stock-analysis
+# daily-stock-analyzer
 
 > I help you build quant strategies on A-share with ZVT — from data fetch to backtest, one flow. Just tell me what you want; I'll write the code, you don't have to dig docs. (Heads up: ZVT natively supports A-share, HK, and crypto. US stocks — stockus_nasdaq_AAPL — are half-baked; don't bother for serious work.)
 
